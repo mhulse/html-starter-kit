@@ -94,7 +94,8 @@
 embed,
 iframe,
 img,
-object {
+object,
+video {
   max-width: 100%;
 }
 
@@ -138,4 +139,11 @@ audio {
 }
 .mm.tv {
   padding-bottom: 75%;
+}
+
+pre {
+  font-family: monospace, serif;
+  word-wrap: normal;
+  overflow: auto;
+  white-space: pre;
 }

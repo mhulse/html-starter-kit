@@ -61,11 +61,13 @@
 	white-space: -hp-pre-wrap;
 	word-wrap: break-word;
 }
+
 // Responsive helpers:
 embed,
 iframe,
 img,
-object { max-width: 100%; }
+object,
+video { max-width: 100%; }
 img { height: auto; }
 audio,
 video {
@@ -99,4 +101,10 @@ audio { width: 100%; }
 	
 	&.tv { padding-bottom: 75%; } // 4:3 = (3 / 4 = .75) x 100
 	
+}
+pre {
+	font-family: monospace, serif;
+	word-wrap: normal;
+	overflow: auto;
+	white-space: pre;
 }
