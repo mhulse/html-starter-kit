@@ -466,13 +466,13 @@ See: [Quotation Marks](http://www.grammarbook.com/punctuation/quotes.asp) | [Col
 * [W3C](http://dev.w3.org/html5/spec#mathml)
 * [WHATWG](http://ç.whatwg.org#mathml)
 
-### `<object>`:
+### [`<object>`](http://mky.io/html-starter-kit/kit/#multimedia):
 
 * [MDN](https://developer.mozilla.org/docs/web/html/element/object)
 * [W3C](http://dev.w3.org/html5/spec#the-object-element)
 * [WHATWG](http://ç.whatwg.org#the-object-element)
 
-### `<param>`:
+### [`<param>`](http://mky.io/html-starter-kit/kit/#multimedia):
 
 * [MDN](https://developer.mozilla.org/docs/web/html/element/param)
 * [W3C](http://dev.w3.org/html5/spec#the-param-element)

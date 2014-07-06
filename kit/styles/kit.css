@@ -11,11 +11,6 @@
  */
 
 
-img {
-  max-width: 100%;
-  height: auto;
-}
-
 #container {
   margin: 0 auto;
   max-width: 960px;
@@ -94,4 +89,50 @@ img {
   white-space: -moz-pre-wrap;
   white-space: -hp-pre-wrap;
   word-wrap: break-word;
+}
+
+embed,
+iframe,
+img,
+object {
+  max-width: 100%;
+  height: auto;
+}
+
+audio,
+video {
+  vertical-align: middle;
+  display: block;
+}
+
+audio {
+  width: 100%;
+}
+
+.mm {
+  height: 0;
+  padding-bottom: 56.25%;
+  position: relative;
+  overflow: hidden;
+}
+.mm iframe,
+.mm object,
+.mm embed,
+.mm video {
+  border: 0;
+  width: 100% !important;
+  height: 100% !important;
+  max-width: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.mm.theatre {
+  padding-bottom: 59.171597633136%;
+}
+.mm.slide {
+  padding-bottom: 66.666666666667%;
+}
+.mm.tv {
+  padding-bottom: 75%;
 }
