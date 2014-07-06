@@ -1,0 +1,28 @@
+{
+  "title": "HTML Roots",
+  "name": "roots",
+  "description": "HTML starting point.",
+  "version": "0.1.0",
+  "homepage": "https://github.com/mhulse/html-roots",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/mhulse/html-roots.git"
+  },
+  "author": {
+    "name": "Micky Hulse",
+    "url": "http://mky.io"
+  },
+  "dependencies": {
+    "grunt": "~0",
+    "grunt-contrib-clean": "~0",
+    "grunt-contrib-concat": "~0",
+    "grunt-contrib-copy": "~0",
+    "grunt-contrib-jshint": "~0",
+    "grunt-contrib-sass": "~0",
+    "grunt-contrib-watch": "~0",
+    "grunt-preprocess": "~4"
+  },
+  "scripts": {
+    "default": "grunt"
+  }
+}
