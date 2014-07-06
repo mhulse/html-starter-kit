@@ -151,7 +151,7 @@ module.exports = function(grunt) {
 				
 				files : {
 					
-					'../<%= pkg.name %>/css/<%= pkg.name %>.css' : './files/styles/<%= pkg.name %>.scss',
+					'../<%= pkg.name %>/styles/<%= pkg.name %>.css' : './files/styles/<%= pkg.name %>.scss',
 					
 				},
 				
@@ -211,6 +211,7 @@ module.exports = function(grunt) {
 				cwd : './files/',
 				src : [
 					'images/**/*',
+					'media/**/*',
 				],
 				dest : '../<%= pkg.name %>/',
 				

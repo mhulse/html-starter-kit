@@ -28,8 +28,7 @@ h1:empty {
   display: none;
 }
 
-hr,
-.hr {
+hr, .hr, .hr1, .hr2, .hr3, .hr4, .hr5, .hr6 {
   border: 0;
   border-top: 1px solid #000;
   height: 0;
@@ -41,12 +40,7 @@ hr,
   box-sizing: content-box;
 }
 
-.sh1,
-.sh2,
-.sh3,
-.sh4,
-.sh5,
-.sh6 {
+.sh1, .sh2, .sh3, .sh4, .sh5, .sh6 {
   font-weight: normal;
 }
 
