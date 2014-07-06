@@ -1,8 +1,6 @@
-# HTML Roots
+# HTML starter kit
 
-A variety of HTML(5) markup examples; used as a starting point styling themes.
-
-For a complete list of HTML elements, see: [MDN](https://developer.mozilla.org/en-US/): [HTML element reference](https://developer.mozilla.org/en-US/docs/web/html/element)
+**A variety of HTML(5) markup examples (plus a few extras).**
 
 Click linked headings to jump to the relevant/related demo page sections:
 
@@ -827,3 +825,7 @@ See: [Quotation Marks](http://www.grammarbook.com/punctuation/quotes.asp) | [Col
 * [MDN](https://developer.mozilla.org/docs/web/html/element/summary)
 * [W3C](http://dev.w3.org/html5/spec#the-summary-element)
 * [WHATWG](http://ç.whatwg.org#the-summary-element)
+
+---
+
+For a complete list of HTML elements, see: [MDN](https://developer.mozilla.org/en-US/): [HTML element reference](https://developer.mozilla.org/en-US/docs/web/html/element)
