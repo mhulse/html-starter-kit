@@ -10,11 +10,11 @@ Click or scan:
 
 [![qr code](http://chart.apis.google.com/chart?cht=qr&chl=https://github.com/mhulse/html-starter-kit/&chs=240x240)](http://mhulse.github.com/html-starter-kit/kit/)
 
-**Source:** [/kit/index.html](https://raw.githubusercontent.com/mhulse/html-starter-kit/gh-pages/kit/index.html)
+**Source code:** [/kit/index.html](https://raw.githubusercontent.com/mhulse/html-starter-kit/gh-pages/kit/index.html)
 
 ## Markup
 
-Click linked headings to jump to the relevant/related demo page sections:
+Click linked headings to jump to the relevant/related [demo page](http://mky.io/html-starter-kit/kit/) sections:
 
 ## `<!doctype html>`
 
