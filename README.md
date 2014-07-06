@@ -840,6 +840,10 @@ See: [Quotation Marks](http://www.grammarbook.com/punctuation/quotes.asp) | [Col
 
 For a complete list of HTML elements, see: [MDN](https://developer.mozilla.org/en-US/): [HTML element reference](https://developer.mozilla.org/en-US/docs/web/html/element)
 
+## Links
+
+* [HTML dummies!](Copy and paste starting points for HTML documents.)
+
 ---
 
 #### LEGAL
