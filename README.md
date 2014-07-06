@@ -1,6 +1,18 @@
 # HTML starter kit
 
+<a href="http://gruntjs.com/" title="Built with Grunt"><img src="https://cdn.gruntjs.com/builtwith.png" alt="Built with Grunt" align="right"></a>
+
 **A variety of real-world HTML(5) markup examples (plus a few extras).**
+
+## Demo
+
+Click or scan:
+
+[![qr code](http://chart.apis.google.com/chart?cht=qr&chl=https://github.com/mhulse/html-starter-kit/&chs=240x240)](http://mhulse.github.com/html-starter-kit/kit/)
+
+**Source:** [jquery.bigglesworth.js](https://raw.github.com/mhulse/html-starter-kit/gh-pages/bigglesworth/jquery.bigglesworth.js) | [jquery.bigglesworth.min.js](https://raw.github.com/mhulse/html-starter-kit/gh-pages/bigglesworth/jquery.bigglesworth.min.js)
+
+## Markup
 
 Click linked headings to jump to the relevant/related demo page sections:
 
