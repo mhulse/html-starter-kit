@@ -18,8 +18,8 @@ Click linked headings to jump to the relevant/related [demo page](http://mky.io/
 
 ## `<!doctype html>`
 
-* [Introduction to HTML5](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5/Introduction_to_HTML5#Declaring_that_the_document_contains_HTML5_mark-up_with_the_HTML5_doctype)
 * [Dive Into HTML5: The Doctype](http://diveintohtml5.info/semantics.html#the-doctype)
+* [MDN: Introduction to HTML5](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5/Introduction_to_HTML5#Declaring_that_the_document_contains_HTML5_mark-up_with_the_HTML5_doctype)
 * [W3C](http://dev.w3.org/html5/spec#the-doctype)
 * [WHATWG](http://whatwg.org/C#the-doctype)
 
