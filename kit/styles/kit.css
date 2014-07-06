@@ -96,6 +96,9 @@ iframe,
 img,
 object {
   max-width: 100%;
+}
+
+img {
   height: auto;
 }
 
