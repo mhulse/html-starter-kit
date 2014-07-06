@@ -1,12 +1,12 @@
 {
-  "title": "HTML Roots",
-  "name": "roots",
-  "description": "HTML starting point.",
+  "title": "HTML starter kit",
+  "name": "kit",
+  "description": "A variety of HTML(5) markup examples (plus a few extras).",
   "version": "0.1.0",
-  "homepage": "https://github.com/mhulse/html-roots",
+  "homepage": "https://github.com/mhulse/html-starter-kit",
   "repository": {
     "type": "git",
-    "url": "git://github.com/mhulse/html-roots.git"
+    "url": "git://github.com/mhulse/html-starter-kit.git"
   },
   "author": {
     "name": "Micky Hulse",
