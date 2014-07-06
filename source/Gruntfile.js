@@ -151,7 +151,7 @@ module.exports = function(grunt) {
 				
 				files : {
 					
-					'../<%= pkg.name %>/styles/<%= pkg.name %>.css' : './files/styles/*.scss',
+					'../<%= pkg.name %>/styles/demo.css' : './files/styles/demo.scss',
 					
 				},
 				
