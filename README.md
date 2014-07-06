@@ -10,7 +10,7 @@ Click or scan:
 
 [![qr code](http://chart.apis.google.com/chart?cht=qr&chl=https://github.com/mhulse/html-starter-kit/&chs=240x240)](http://mhulse.github.com/html-starter-kit/kit/)
 
-**Source:** [jquery.bigglesworth.js](https://raw.github.com/mhulse/html-starter-kit/gh-pages/bigglesworth/jquery.bigglesworth.js) | [jquery.bigglesworth.min.js](https://raw.github.com/mhulse/html-starter-kit/gh-pages/bigglesworth/jquery.bigglesworth.min.js)
+**Source:** [/kit/index.html](https://raw.githubusercontent.com/mhulse/html-starter-kit/gh-pages/kit/index.html)
 
 ## Markup
 
