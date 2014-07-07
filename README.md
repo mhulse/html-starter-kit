@@ -81,7 +81,7 @@ Click linked headings to jump to the relevant/related [demo page](http://mhulse.
 
 * [MDN](https://developer.mozilla.org/docs/web/html/element/body) | [W3C](http://dev.w3.org/html5/spec#the-body-element) | [WHATWG](http://whatwg.org/C#the-body-element)
 
-#### `<section>` <img width="16" align="absmiddle" src="https://cloud.githubusercontent.com/assets/218624/3490802/e3faace4-057c-11e4-856e-734cf921205f.png">
+#### [`<section>`](http://mhulse.github.io/html-starter-kit/kit/#section) <img width="16" align="absmiddle" src="https://cloud.githubusercontent.com/assets/218624/3490802/e3faace4-057c-11e4-856e-734cf921205f.png">
 
 * [MDN](https://developer.mozilla.org/docs/web/html/element/section) | [W3C](http://dev.w3.org/html5/spec#the-section-element) | [WHATWG](http://whatwg.org/C#the-section-element)
 
@@ -89,11 +89,11 @@ Click linked headings to jump to the relevant/related [demo page](http://mhulse.
 
 * [MDN](https://developer.mozilla.org/docs/web/html/element/nav) | [W3C](http://dev.w3.org/html5/spec#the-nav-element) | [WHATWG](http://whatwg.org/C#the-nav-element)
 
-#### `<article>` <img width="16" align="absmiddle" src="https://cloud.githubusercontent.com/assets/218624/3490802/e3faace4-057c-11e4-856e-734cf921205f.png">
+#### [`<article>`](http://mhulse.github.io/html-starter-kit/kit/#article) <img width="16" align="absmiddle" src="https://cloud.githubusercontent.com/assets/218624/3490802/e3faace4-057c-11e4-856e-734cf921205f.png">
 
 * [MDN](https://developer.mozilla.org/docs/web/html/element/article) | [W3C](http://dev.w3.org/html5/spec#the-article-element) | [WHATWG](http://whatwg.org/C#the-article-element)
 
-#### `<aside>` <img width="16" align="absmiddle" src="https://cloud.githubusercontent.com/assets/218624/3490802/e3faace4-057c-11e4-856e-734cf921205f.png">
+#### [`<aside>`](http://mhulse.github.io/html-starter-kit/kit/#aside) <img width="16" align="absmiddle" src="https://cloud.githubusercontent.com/assets/218624/3490802/e3faace4-057c-11e4-856e-734cf921205f.png">
 
 * [MDN](https://developer.mozilla.org/docs/web/html/element/aside) | [W3C](http://dev.w3.org/html5/spec#the-aside-element) | [WHATWG](http://whatwg.org/C#the-aside-element)
 
@@ -114,11 +114,11 @@ Click linked headings to jump to the relevant/related [demo page](http://mhulse.
 * [Google Groups: Object Oriented CSS: Headings question: Basic concept/usage?](https://groups.google.com/d/topic/object-oriented-css/GE1uzU2Bu48/discussion)
 * [Stubbornella: Don’t Style Headings Using HTML5 Sections](http://www.stubbornella.org/content/2011/09/06/style-headings-using-html5-sections/)
 
-#### `<header>` <img width="16" align="absmiddle" src="https://cloud.githubusercontent.com/assets/218624/3490802/e3faace4-057c-11e4-856e-734cf921205f.png">
+#### [`<header>`](http://mhulse.github.io/html-starter-kit/kit/#header) <img width="16" align="absmiddle" src="https://cloud.githubusercontent.com/assets/218624/3490802/e3faace4-057c-11e4-856e-734cf921205f.png">
 
 * [MDN](https://developer.mozilla.org/docs/web/html/element/header) | [W3C](http://dev.w3.org/html5/spec#the-header-element) | [WHATWG](http://whatwg.org/C#the-header-element)
 
-#### `<footer>` <img width="16" align="absmiddle" src="https://cloud.githubusercontent.com/assets/218624/3490802/e3faace4-057c-11e4-856e-734cf921205f.png">
+#### [`<footer>`](http://mhulse.github.io/html-starter-kit/kit/#footer) <img width="16" align="absmiddle" src="https://cloud.githubusercontent.com/assets/218624/3490802/e3faace4-057c-11e4-856e-734cf921205f.png">
 
 * [MDN](https://developer.mozilla.org/docs/web/html/element/footer) | [W3C](http://dev.w3.org/html5/spec#the-footer-element) | [WHATWG](http://whatwg.org/C#the-footer-element)
 
@@ -126,7 +126,7 @@ Click linked headings to jump to the relevant/related [demo page](http://mhulse.
 
 * [MDN](https://developer.mozilla.org/docs/web/html/element/address) | [W3C](http://dev.w3.org/html5/spec#the-address-element) | [WHATWG](http://whatwg.org/C#the-address-element)
 
-#### `<main>` <img width="16" align="absmiddle" src="https://cloud.githubusercontent.com/assets/218624/3490802/e3faace4-057c-11e4-856e-734cf921205f.png">
+#### [`<main>`](http://mhulse.github.io/html-starter-kit/kit/#main) <img width="16" align="absmiddle" src="https://cloud.githubusercontent.com/assets/218624/3490802/e3faace4-057c-11e4-856e-734cf921205f.png">
 
 * [MDN](https://developer.mozilla.org/docs/web/html/element/main) | [W3C](http://dev.w3.org/html5/spec#the-main-element) | [WHATWG](http://whatwg.org/C#the-main-element)
 
@@ -179,7 +179,7 @@ See: [Quotation Marks](http://www.grammarbook.com/punctuation/quotes.asp) | [Col
 
 * [MDN](https://developer.mozilla.org/docs/web/html/element/ul) | [W3C](http://dev.w3.org/html5/spec#the-ul-element) | [WHATWG](http://whatwg.org/C#the-ul-element)
 
-#### `<li>`
+#### [`<li>`](http://mhulse.github.io/html-starter-kit/kit/#ol-li)
 
 * [MDN](https://developer.mozilla.org/docs/web/html/element/li) | [W3C](http://dev.w3.org/html5/spec#the-li-element) | [WHATWG](http://whatwg.org/C#the-li-element)
 
@@ -204,7 +204,7 @@ See: [Quotation Marks](http://www.grammarbook.com/punctuation/quotes.asp) | [Col
 
 * [MDN](https://developer.mozilla.org/docs/web/html/element/figcaption) | [W3C](http://dev.w3.org/html5/spec#the-figcaption-element) | [WHATWG](http://whatwg.org/C#the-figcaption-element)
 
-#### `<div>`
+#### [`<div>`](http://mhulse.github.io/html-starter-kit/kit/#div)
 
 * [MDN](https://developer.mozilla.org/docs/web/html/element/div) | [W3C](http://dev.w3.org/html5/spec#the-div-element) | [WHATWG](http://whatwg.org/C#the-div-element)
 
@@ -336,11 +336,11 @@ See: [Quotation Marks](http://www.grammarbook.com/punctuation/quotes.asp) | [Col
 
 * [MDN](https://developer.mozilla.org/docs/web/html/element/bdo) | [W3C](http://dev.w3.org/html5/spec#the-bdo-element) | [WHATWG](http://whatwg.org/C#the-bdo-element)
 
-#### `<span>`
+#### [`<span>`](http://mhulse.github.io/html-starter-kit/kit/#span)
 
 * [MDN](https://developer.mozilla.org/docs/web/html/element/span) | [W3C](http://dev.w3.org/html5/spec#the-span-element) | [WHATWG](http://whatwg.org/C#the-span-element)
 
-#### `<br>`
+#### [`<br>`](http://mhulse.github.io/html-starter-kit/kit/#br)
 
 * [MDN](https://developer.mozilla.org/docs/web/html/element/br) | [W3C](http://dev.w3.org/html5/spec#the-br-element) | [WHATWG](http://whatwg.org/C#the-br-element)
 
@@ -363,11 +363,11 @@ See: [Quotation Marks](http://www.grammarbook.com/punctuation/quotes.asp) | [Col
 
 ### EMBEDED CONTENT
 
-#### `<img>`
+#### [`<img>`](http://mhulse.github.io/html-starter-kit/kit/#img)
 
 * [MDN](https://developer.mozilla.org/docs/web/html/element/img) | [W3C](http://dev.w3.org/html5/spec#the-img-element) | [WHATWG](http://whatwg.org/C#the-img-element)
 
-#### [`<iframe>`](http://mhulse.github.io/html-starter-kit/kit/#multimedia)
+#### [`<iframe>`](http://mhulse.github.io/html-starter-kit/kit/#iframe)
 
 * [MDN](https://developer.mozilla.org/docs/web/html/element/iframe) | [W3C](http://dev.w3.org/html5/spec#the-iframe-element) | [WHATWG](http://whatwg.org/C#the-iframe-element)
 
@@ -375,20 +375,20 @@ See: [Quotation Marks](http://www.grammarbook.com/punctuation/quotes.asp) | [Col
 
 * [MDN](https://developer.mozilla.org/docs/web/html/element/embed) | [W3C](http://dev.w3.org/html5/spec#the-embed-element) | [WHATWG](http://whatwg.org/C#the-embed-element)
 
-#### [`<object>`](http://mhulse.github.io/html-starter-kit/kit/#multimedia)
+#### [`<object>`](http://mhulse.github.io/html-starter-kit/kit/#object)
 
 * [MDN](https://developer.mozilla.org/docs/web/html/element/object) | [W3C](http://dev.w3.org/html5/spec#the-object-element) | [WHATWG](http://whatwg.org/C#the-object-element)
 
-#### [`<param>`](http://mhulse.github.io/html-starter-kit/kit/#multimedia)
+#### [`<param>`](http://mhulse.github.io/html-starter-kit/kit/#object)
 
 * [MDN](https://developer.mozilla.org/docs/web/html/element/param) | [W3C](http://dev.w3.org/html5/spec#the-param-element) | [WHATWG](http://whatwg.org/C#the-param-element)
 
-#### [`<video>`](http://mhulse.github.io/html-starter-kit/kit/#multimedia) <img width="16" align="absmiddle" src="https://cloud.githubusercontent.com/assets/218624/3490802/e3faace4-057c-11e4-856e-734cf921205f.png">
+#### [`<video>`](http://mhulse.github.io/html-starter-kit/kit/#video) <img width="16" align="absmiddle" src="https://cloud.githubusercontent.com/assets/218624/3490802/e3faace4-057c-11e4-856e-734cf921205f.png">
 
 * [Can I use...: Video element](http://caniuse.com/#feat=video)
 * [MDN](https://developer.mozilla.org/docs/web/html/element/video) | [W3C](http://dev.w3.org/html5/spec#video) | [WHATWG](http://whatwg.org/C#video)
 
-#### [`<audio>`](http://mhulse.github.io/html-starter-kit/kit/#multimedia) <img width="16" align="absmiddle" src="https://cloud.githubusercontent.com/assets/218624/3490802/e3faace4-057c-11e4-856e-734cf921205f.png">
+#### [`<audio>`](http://mhulse.github.io/html-starter-kit/kit/#audio) <img width="16" align="absmiddle" src="https://cloud.githubusercontent.com/assets/218624/3490802/e3faace4-057c-11e4-856e-734cf921205f.png">
 
 * [HTML5 Doctor: Native Audio in the browser](http://html5doctor.com/native-audio-in-the-browser/)
 * [Can I use...: Audio element](http://caniuse.com/#feat=audio)
