@@ -6,8 +6,8 @@
 
 ## Links
 
-* [MDN: TML element reference](https://developer.mozilla.org/en-US/docs/web/html/element)
-* [HTML5 element list](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5/HTML5_element_list)
+* [MDN: HTML element reference](https://developer.mozilla.org/en-US/docs/web/html/element)
+* [MDN: HTML5 element list](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5/HTML5_element_list)
 * [HTML dummies! Copy and paste starting points for HTML documents.](https://github.com/mhulse/html-dummies)
 
 ## Demo
@@ -679,6 +679,8 @@ See: [Quotation Marks](http://www.grammarbook.com/punctuation/quotes.asp) | [Col
 #### `<menu>` <img width="16" align="absmiddle" src="https://cloud.githubusercontent.com/assets/218624/3490802/e3faace4-057c-11e4-856e-734cf921205f.png">
 
 * [MDN](https://developer.mozilla.org/docs/web/html/element/menu) | [W3C](http://dev.w3.org/html5/spec#the-menu-element) | [WHATWG](http://whatwg.org/C#the-menu-element)
+
+<small>**Note:** The symbol <img width="16" align="absmiddle" src="https://cloud.githubusercontent.com/assets/218624/3490802/e3faace4-057c-11e4-856e-734cf921205f.png"> indicates that the element has been added in HTML5.</small>
 
 ---
 
