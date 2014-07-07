@@ -6,9 +6,9 @@
 
 ## Links
 
-* [MDN](https://developer.mozilla.org/en-US/) [HTML element reference](https://developer.mozilla.org/en-US/docs/web/html/element)
+* [MDN: TML element reference](https://developer.mozilla.org/en-US/docs/web/html/element)
 * [HTML5 element list](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5/HTML5_element_list)
-* [HTML dummies!](Copy and paste starting points for HTML documents.)
+* [HTML dummies! Copy and paste starting points for HTML documents.](https://github.com/mhulse/html-dummies)
 
 ## Demo
 
@@ -230,7 +230,7 @@ See: [Quotation Marks](http://www.grammarbook.com/punctuation/quotes.asp) | [Col
 #### [`<s>`](http://mhulse.github.io/html-starter-kit/kit/#s)
 
 * [Stack Overflow: CSS strikethrough different color from text?](http://stackoverflow.com/a/10876429/922323)
-* [MDN](https://developer.mozilla.org/docs/web/css/text-decoration-color)
+* [MDN: text-decoration-color](https://developer.mozilla.org/docs/web/css/text-decoration-color)
 * [MDN](https://developer.mozilla.org/docs/web/html/element/s) | [W3C](http://dev.w3.org/html5/spec#the-s-element) | [WHATWG](http://whatwg.org/C#the-s-element)
 
 #### [`<cite>`](http://mhulse.github.io/html-starter-kit/kit/#cite)
