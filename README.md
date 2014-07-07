@@ -329,7 +329,7 @@ See: [Quotation Marks](http://www.grammarbook.com/punctuation/quotes.asp) | [Col
 
 #### [`<bdi>`](http://mhulse.github.io/html-starter-kit/kit/#bdi) <img width="16" align="absmiddle" src="https://cloud.githubusercontent.com/assets/218624/3490802/e3faace4-057c-11e4-856e-734cf921205f.png">
 
-* [](http://stackoverflow.com/a/8546564/922323)
+* [Stack Overflow: Ways to simulate the yet unimplemented <bdi> HTML tag?](http://stackoverflow.com/a/8546564/922323)
 * [MDN](https://developer.mozilla.org/docs/web/html/element/bdi) | [W3C](http://dev.w3.org/html5/spec#the-rp-element) | [WHATWG](http://whatwg.org/C#the-rp-element)
 
 #### [`<bdo>`](http://mhulse.github.io/html-starter-kit/kit/#bdo)
