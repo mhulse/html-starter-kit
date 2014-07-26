@@ -23,6 +23,7 @@
     "grunt-preprocess": "~4"
   },
   "scripts": {
-    "default": "grunt"
+    "default": "grunt",
+    "watch": "grunt watch"
   }
 }
