@@ -43,8 +43,11 @@ function empty() {
 # Pre-installation options:
 function menu() {
 	
+	echo "Enter path to an empty installation directory from current location."
+	echo "This script will create path if it does not already exist."$'\n'
+	
 	# Prompt the user for feedback:
-	read -p "Path to empty installation directory (Q to quit): " input
+	read -p "Enter installation directory path (Q to quit): " input
 	
 	# Check the user’s input:
 	case $input in
