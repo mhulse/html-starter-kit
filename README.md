@@ -109,7 +109,7 @@ Click linked headings to jump to the relevant/related [demo page](http://mhulse.
 
 > The first bit is the element/tag. The `<h*>` takes care of semantics, accessibility and SEO.
 
-> The second bit is the class. The `.h*` takes care of visual semantics and typographical hierarchy. 
+> The second bit is the class. The `.h*` takes care of visual semantics and typographical hierarchy.
 
 * [CSS Wizardry: Pragmatic, practical font sizing in CSS](http://csswizardry.com/2012/02/pragmatic-practical-font-sizing-in-css/)
 * [Stack Overflow: Why use `.h1` instead of actual `h1`?](http://stackoverflow.com/questions/19099401/why-use-h1-instead-of-actual-h1/)
@@ -686,14 +686,8 @@ See: [Quotation Marks](http://www.grammarbook.com/punctuation/quotes.asp) | [Col
 
 ---
 
-#### LEGAL
+[<img width="32" height="32" align="right" src="http://mirrors.creativecommons.org/presskit/icons/zero.png" title="CC0 1.0 Universal (CC0 1.0)">](https://creativecommons.org/publicdomain/zero/1.0/)
 
-Copyright © 2014 [Micky Hulse](http://mky.io)
-
-Licensed under the Apache License, Version 2.0 (the “License”); you may not use this work except in compliance with the License. You may obtain a copy of the License in the LICENSE file, or at:
-
-[http://www.apache.org/licenses/LICENSE-2.0](http://www.apache.org/licenses/LICENSE-2.0)
-
-Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an “AS IS” BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License.
+To the extent possible under law, [@mhulse](https://github.com/mhulse) has waived all copyright and related or neighboring rights to this work.
 
 <img width="20" height="20" align="absmiddle" src="https://github.global.ssl.fastly.net/images/icons/emoji/octocat.png" alt=":octocat:" title=":octocat:" class="emoji">
