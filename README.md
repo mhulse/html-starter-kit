@@ -1,14 +1,18 @@
-# HTML starter kit
-
-<a href="http://gruntjs.com/" title="Built with Grunt"><img src="https://cdn.gruntjs.com/builtwith.png" alt="Built with Grunt" align="right"></a>
+# [HTML Starter Kit](https://github.com/mhulse/html-starter-kit)
 
 **A variety of real-world HTML(5) markup examples (plus a few extras).**
+
+Useful as a “kit” page; use the html found in [index.html](index.html) as a starting point for your them’s base styles. Add custom elements to this document as you see fit.
+
+## Installation
+
+
 
 ## Links
 
 * [MDN: HTML element reference](https://developer.mozilla.org/en-US/docs/web/html/element)
 * [MDN: HTML5 element list](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5/HTML5_element_list)
-* [HTML dummies! Copy and paste starting points for HTML documents.](https://github.com/mhulse/html-dummies)
+* [HTML dummies! Copy and paste starting points for HTML documents.](https://github.com/mhulse/html-dummies) (shameless plug)
 
 ## Demo
 
