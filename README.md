@@ -2,25 +2,23 @@
 
 **A variety of real-world HTML(5) markup examples (plus a few extras).**
 
-Useful as a “kit” page; use the html found in [index.html](index.html) as a starting point for your them’s base styles. Add custom elements to this document as you see fit.
+**Useful as a “kit” page.** Use the html found in [`index.html`](index.html) as a starting point for your them’s base styles. Add custom elements to this document as you see fit. Check out the [un-styled demo page](http://mhulse.github.io/html-starter-kit/).
 
 ## Installation
 
+For unix/linux users:
 
+```shell
+bash <(curl -sL https://git.io/vrIwo)
+```
+
+Otherwise, [download the zip](https://github.com/mhulse/html-starter-kit/tarball/gh-pages) and move [`index.html`](index.html), [`images/`](images/), [`media/`](media/) and [`styles/`](styles/) to a location of your choosing.
 
 ## Links
 
 * [MDN: HTML element reference](https://developer.mozilla.org/en-US/docs/web/html/element)
 * [MDN: HTML5 element list](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5/HTML5_element_list)
 * [HTML dummies! Copy and paste starting points for HTML documents.](https://github.com/mhulse/html-dummies) (shameless plug)
-
-## Demo
-
-Click or scan:
-
-[![qr code](http://chart.apis.google.com/chart?cht=qr&chl=https://github.com/mhulse/html-starter-kit/&chs=240x240)](http://mhulse.github.com/html-starter-kit/kit/)
-
-**Source code:** [/kit/index.html](https://raw.githubusercontent.com/mhulse/html-starter-kit/gh-pages/kit/index.html)
 
 ## Markup
 
