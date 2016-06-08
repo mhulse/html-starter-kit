@@ -2,7 +2,7 @@
 
 **A variety of real-world HTML(5) markup examples (plus a few extras).**
 
-**Useful as a “kit” page.** Use the html found in [`index.html`](index.html) as a starting point for your them’s base styles. Add custom elements to this document as you see fit. Check out the [un-styled demo page](http://mhulse.github.io/html-starter-kit/).
+**Useful as a “kit” page.** Use the html found in [`index.html`](index.html) as a starting point for your theme’s base styles. Add custom elements to this document as you see fit. Check out the [un-styled demo page](http://mhulse.github.io/html-starter-kit/).
 
 ## Installation
 
@@ -12,7 +12,11 @@ For unix/linux users:
 bash <(curl -sL https://git.io/vrIwo)
 ```
 
+The above command will download all of the relevant files in this repo into a folder of your choosing. This is the quickest way to get this code into your project.
+
 Otherwise, [download the zip](https://github.com/mhulse/html-starter-kit/tarball/gh-pages) and move [`index.html`](index.html), [`images/`](images/), [`media/`](media/) and [`styles/`](styles/) to a location of your choosing.
+
+If you don’t need all of the code, feel free to pick and choose the bits and pieces you need by browsing through this repo and downloading or copy/pasting the parts that are relevant to your project.
 
 ## Links
 
