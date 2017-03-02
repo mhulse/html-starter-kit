@@ -14,7 +14,7 @@ bash <(curl -sL https://git.io/vrIwo)
 
 The above command will download all of the relevant files in this repo into a folder of your choosing. This is the quickest way to get this code into your project.
 
-Otherwise, [download the zip](https://github.com/mhulse/html-starter-kit/tarball/gh-pages) and move [`index.html`](index.html), [`images/`](images/), [`media/`](media/) and [`styles/`](styles/) to a location of your choosing.
+Otherwise, [download the zip](https://github.com/mhulse/html-starter-kit/tarball/gh-pages) and move [`index.html`](index.html), [`media/`](media/) and [`styles/`](styles/) to a location of your choosing.
 
 If you don’t need all of the code, feel free to pick and choose the bits and pieces you need by browsing through this repo and downloading or copy/pasting the parts that are relevant to your project.
 
