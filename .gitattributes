@@ -1,3 +1,10 @@
 # https://github.com/mhulse/gh-boiler/issues/42
 
 * text=auto
+
+*.mp3 binary
+*.ogg binary
+*.mp4 binary
+*.ogv binary
+*.webm binary
+*.swf binary

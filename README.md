@@ -2,7 +2,7 @@
 
 **A variety of real-world HTML(5) markup examples (plus a few extras).**
 
-**Useful as a “kit” page.** Use the html found in [`index.html`](index.html) as a starting point for your theme’s base styles. Add custom elements to this document as you see fit. Check out the [un-styled demo page](http://mhulse.github.io/html-starter-kit/).
+**Useful as a “kit” page.** Use the html found in [`index.html`](index.html) as a starting point for your theme’s base styles. Add custom elements to this document as you see fit. Check out the [un-styled demo page](http://mhulse.github.io/html-starter-kit/kit/).
 
 ## Installation
 
@@ -14,7 +14,7 @@ bash <(curl -sL https://git.io/vrIwo)
 
 The above command will download all of the relevant files in this repo into a folder of your choosing. This is the quickest way to get this code into your project.
 
-Otherwise, [download the zip](https://github.com/mhulse/html-starter-kit/tarball/gh-pages) and move [`index.html`](index.html), [`media/`](media/) and [`styles/`](styles/) to a location of your choosing.
+Otherwise, [download the zip](https://github.com/mhulse/html-starter-kit/tarball/gh-pages) and move [`kit/`](kit/) to a location of your choosing.
 
 If you don’t need all of the code, feel free to pick and choose the bits and pieces you need by browsing through this repo and downloading or copy/pasting the parts that are relevant to your project.
 
@@ -26,7 +26,7 @@ If you don’t need all of the code, feel free to pick and choose the bits and p
 
 ## Markup
 
-Click linked headings to jump to the relevant/related [demo page](http://mhulse.github.io/html-starter-kit/) sections:
+Click linked headings to jump to the relevant/related [demo page](http://mhulse.github.io/html-starter-kit/kit/) sections:
 
 ### DTD:
 
@@ -87,27 +87,27 @@ Click linked headings to jump to the relevant/related [demo page](http://mhulse.
 
 * [MDN](https://developer.mozilla.org/docs/web/html/element/body) | [W3C](http://dev.w3.org/html5/spec#the-body-element) | [WHATWG](http://whatwg.org/C#the-body-element)
 
-#### [`<section>`](http://mhulse.github.io/html-starter-kit/#section) <img width="16" align="absmiddle" src="https://cloud.githubusercontent.com/assets/218624/3490802/e3faace4-057c-11e4-856e-734cf921205f.png">
+#### [`<section>`](http://mhulse.github.io/html-starter-kit/kit/#section) <img width="16" align="absmiddle" src="https://cloud.githubusercontent.com/assets/218624/3490802/e3faace4-057c-11e4-856e-734cf921205f.png">
 
 * [MDN](https://developer.mozilla.org/docs/web/html/element/section) | [W3C](http://dev.w3.org/html5/spec#the-section-element) | [WHATWG](http://whatwg.org/C#the-section-element)
 
-#### [`<nav>`](http://mhulse.github.io/html-starter-kit/#nav) <img width="16" align="absmiddle" src="https://cloud.githubusercontent.com/assets/218624/3490802/e3faace4-057c-11e4-856e-734cf921205f.png">
+#### [`<nav>`](http://mhulse.github.io/html-starter-kit/kit/#nav) <img width="16" align="absmiddle" src="https://cloud.githubusercontent.com/assets/218624/3490802/e3faace4-057c-11e4-856e-734cf921205f.png">
 
 * [MDN](https://developer.mozilla.org/docs/web/html/element/nav) | [W3C](http://dev.w3.org/html5/spec#the-nav-element) | [WHATWG](http://whatwg.org/C#the-nav-element)
 
-#### [`<article>`](http://mhulse.github.io/html-starter-kit/#article) <img width="16" align="absmiddle" src="https://cloud.githubusercontent.com/assets/218624/3490802/e3faace4-057c-11e4-856e-734cf921205f.png">
+#### [`<article>`](http://mhulse.github.io/html-starter-kit/kit/#article) <img width="16" align="absmiddle" src="https://cloud.githubusercontent.com/assets/218624/3490802/e3faace4-057c-11e4-856e-734cf921205f.png">
 
 * [MDN](https://developer.mozilla.org/docs/web/html/element/article) | [W3C](http://dev.w3.org/html5/spec#the-article-element) | [WHATWG](http://whatwg.org/C#the-article-element)
 
-#### [`<aside>`](http://mhulse.github.io/html-starter-kit/#aside) <img width="16" align="absmiddle" src="https://cloud.githubusercontent.com/assets/218624/3490802/e3faace4-057c-11e4-856e-734cf921205f.png">
+#### [`<aside>`](http://mhulse.github.io/html-starter-kit/kit/#aside) <img width="16" align="absmiddle" src="https://cloud.githubusercontent.com/assets/218624/3490802/e3faace4-057c-11e4-856e-734cf921205f.png">
 
 * [MDN](https://developer.mozilla.org/docs/web/html/element/aside) | [W3C](http://dev.w3.org/html5/spec#the-aside-element) | [WHATWG](http://whatwg.org/C#the-aside-element)
 
-#### [`<h*>`](http://mhulse.github.io/html-starter-kit/#h1-h6)
+#### [`<h*>`](http://mhulse.github.io/html-starter-kit/kit/#h1-h6)
 
 * [MDN](https://developer.mozilla.org/docs/web/html/element/heading_elements) | [W3C](http://dev.w3.org/html5/spec#the-h1,-h2,-h3,-h4,-h5,-and-h6-elements) | [WHATWG](http://whatwg.org/C#the-h1,-h2,-h3,-h4,-h5,-and-h6-elements)
 
-##### [`.sh*`](http://mhulse.github.io/html-starter-kit/#sh1-sh6)
+##### [`.sh*`](http://mhulse.github.io/html-starter-kit/kit/#sh1-sh6)
 
 > The usefulness of the `.h*` classes comes into play when the size of the typography in the design does not correlate with the semantically appropriate heading levels. By splitting the problem in two, we can cleanly solve for both.
 
@@ -120,42 +120,42 @@ Click linked headings to jump to the relevant/related [demo page](http://mhulse.
 * [Google Groups: Object Oriented CSS: Headings question: Basic concept/usage?](https://groups.google.com/d/topic/object-oriented-css/GE1uzU2Bu48/discussion)
 * [Stubbornella: Don’t Style Headings Using HTML5 Sections](http://www.stubbornella.org/content/2011/09/06/style-headings-using-html5-sections/)
 
-#### [`<header>`](http://mhulse.github.io/html-starter-kit/#header) <img width="16" align="absmiddle" src="https://cloud.githubusercontent.com/assets/218624/3490802/e3faace4-057c-11e4-856e-734cf921205f.png">
+#### [`<header>`](http://mhulse.github.io/html-starter-kit/kit/#header) <img width="16" align="absmiddle" src="https://cloud.githubusercontent.com/assets/218624/3490802/e3faace4-057c-11e4-856e-734cf921205f.png">
 
 * [MDN](https://developer.mozilla.org/docs/web/html/element/header) | [W3C](http://dev.w3.org/html5/spec#the-header-element) | [WHATWG](http://whatwg.org/C#the-header-element)
 
-#### [`<footer>`](http://mhulse.github.io/html-starter-kit/#footer) <img width="16" align="absmiddle" src="https://cloud.githubusercontent.com/assets/218624/3490802/e3faace4-057c-11e4-856e-734cf921205f.png">
+#### [`<footer>`](http://mhulse.github.io/html-starter-kit/kit/#footer) <img width="16" align="absmiddle" src="https://cloud.githubusercontent.com/assets/218624/3490802/e3faace4-057c-11e4-856e-734cf921205f.png">
 
 * [MDN](https://developer.mozilla.org/docs/web/html/element/footer) | [W3C](http://dev.w3.org/html5/spec#the-footer-element) | [WHATWG](http://whatwg.org/C#the-footer-element)
 
-#### [`<address>`](http://mhulse.github.io/html-starter-kit/#address)
+#### [`<address>`](http://mhulse.github.io/html-starter-kit/kit/#address)
 
 * [MDN](https://developer.mozilla.org/docs/web/html/element/address) | [W3C](http://dev.w3.org/html5/spec#the-address-element) | [WHATWG](http://whatwg.org/C#the-address-element)
 
-#### [`<main>`](http://mhulse.github.io/html-starter-kit/#main) <img width="16" align="absmiddle" src="https://cloud.githubusercontent.com/assets/218624/3490802/e3faace4-057c-11e4-856e-734cf921205f.png">
+#### [`<main>`](http://mhulse.github.io/html-starter-kit/kit/#main) <img width="16" align="absmiddle" src="https://cloud.githubusercontent.com/assets/218624/3490802/e3faace4-057c-11e4-856e-734cf921205f.png">
 
 * [MDN](https://developer.mozilla.org/docs/web/html/element/main) | [W3C](http://dev.w3.org/html5/spec#the-main-element) | [WHATWG](http://whatwg.org/C#the-main-element)
 
 ### GROUPING CONTENT
 
-#### [`<p>`](http://mhulse.github.io/html-starter-kit/#p)
+#### [`<p>`](http://mhulse.github.io/html-starter-kit/kit/#p)
 
 * [MDN](https://developer.mozilla.org/docs/web/html/element/p) | [W3C](http://dev.w3.org/html5/spec#the-p-element) | [WHATWG](http://whatwg.org/C#the-p-element)
 
-#### [`<hr>`](http://mhulse.github.io/html-starter-kit/#hr)
+#### [`<hr>`](http://mhulse.github.io/html-starter-kit/kit/#hr)
 
 * [HTML5 Boilerplate: `<hr>`](https://github.com/h5bp/html5-boilerplate/blob/b378ce239dfb017e32fbeacc5ab0346258b089e2/css/main.css#L42-L53)
 * [Twitter Bootstrap `<hr>`](https://github.com/twitter/bootstrap/blob/070c125ceceb2a164773f51226950350445160ee/docs/assets/css/bootstrap.css#L876-L881)
 * [Max Design: Styling the HR element](http://www.maxdesign.com.au/articles/hr/)
 * [MDN](https://developer.mozilla.org/docs/web/html/element/hr) | [W3C](http://dev.w3.org/html5/spec#the-hr-element) | [WHATWG](http://whatwg.org/C#the-hr-element)
 
-#### [`<pre>`](http://mhulse.github.io/html-starter-kit/#pre)
+#### [`<pre>`](http://mhulse.github.io/html-starter-kit/kit/#pre)
 
 * [Perishable Press: Wrapping Long URLs and Text Content with CSS](http://perishablepress.com/wrapping-content/)
 * [Perishable Press: Perfect Pre Tags](http://perishablepress.com/perfect-pre-tags/)
 * [MDN](https://developer.mozilla.org/docs/web/html/element/pre) | [W3C](http://dev.w3.org/html5/spec#the-pre-element) | [WHATWG](http://whatwg.org/C#the-pre-element)
 
-#### [`<blockquote>`](http://mhulse.github.io/html-starter-kit/#blockquote)
+#### [`<blockquote>`](http://mhulse.github.io/html-starter-kit/kit/#blockquote)
 
 * [HTML5 Doctor: Quoting and citing with `<blockquote>`, `<q>`, `<cite>`, and the cite attribute](http://html5doctor.com/blockquote-q-cite/)
 * [Hanging Quotation Marks](http://www.markinns.com/articles/full/hanging_quotation_marks)
@@ -177,180 +177,180 @@ Click linked headings to jump to the relevant/related [demo page](http://mhulse.
 
 See: [Quotation Marks](http://www.grammarbook.com/punctuation/quotes.asp) | [Colons](http://www.grammarbook.com/punctuation/colons.asp)
 
-#### [`<ol>`](http://mhulse.github.io/html-starter-kit/#ol-li)
+#### [`<ol>`](http://mhulse.github.io/html-starter-kit/kit/#ol-li)
 
 * [MDN](https://developer.mozilla.org/docs/web/html/element/ol) | [W3C](http://dev.w3.org/html5/spec#the-ol-element) | [WHATWG](http://whatwg.org/C#the-ol-element)
 
-#### [`<ul>`](http://mhulse.github.io/html-starter-kit/#ul-li)
+#### [`<ul>`](http://mhulse.github.io/html-starter-kit/kit/#ul-li)
 
 * [MDN](https://developer.mozilla.org/docs/web/html/element/ul) | [W3C](http://dev.w3.org/html5/spec#the-ul-element) | [WHATWG](http://whatwg.org/C#the-ul-element)
 
-#### [`<li>`](http://mhulse.github.io/html-starter-kit/#ol-li)
+#### [`<li>`](http://mhulse.github.io/html-starter-kit/kit/#ol-li)
 
 * [MDN](https://developer.mozilla.org/docs/web/html/element/li) | [W3C](http://dev.w3.org/html5/spec#the-li-element) | [WHATWG](http://whatwg.org/C#the-li-element)
 
-#### [`<dl>`](http://mhulse.github.io/html-starter-kit/#dl-dt-dd)
+#### [`<dl>`](http://mhulse.github.io/html-starter-kit/kit/#dl-dt-dd)
 
 * [Max Design: Definition lists – misused or misunderstood?](http://www.maxdesign.com.au/articles/definition/)
 * [MDN](https://developer.mozilla.org/docs/web/html/element/dl) | [W3C](http://dev.w3.org/html5/spec#the-dl-element) | [WHATWG](http://whatwg.org/C#the-dl-element)
 
-#### [`<dt>`](http://mhulse.github.io/html-starter-kit/#dl-dt-dd)
+#### [`<dt>`](http://mhulse.github.io/html-starter-kit/kit/#dl-dt-dd)
 
 * [MDN](https://developer.mozilla.org/docs/web/html/element/dt) | [W3C](http://dev.w3.org/html5/spec#the-dt-element) | [WHATWG](http://whatwg.org/C#the-dt-element)
 
-#### [`<dd>`](http://mhulse.github.io/html-starter-kit/#dl-dt-dd)
+#### [`<dd>`](http://mhulse.github.io/html-starter-kit/kit/#dl-dt-dd)
 
 * [MDN](https://developer.mozilla.org/docs/web/html/element/dd) | [W3C](http://dev.w3.org/html5/spec#the-dd-element) | [WHATWG](http://whatwg.org/C#the-dd-element)
 
-#### [`<figure>`](http://mhulse.github.io/html-starter-kit/#figure-figcaption) <img width="16" align="absmiddle" src="https://cloud.githubusercontent.com/assets/218624/3490802/e3faace4-057c-11e4-856e-734cf921205f.png">
+#### [`<figure>`](http://mhulse.github.io/html-starter-kit/kit/#figure-figcaption) <img width="16" align="absmiddle" src="https://cloud.githubusercontent.com/assets/218624/3490802/e3faace4-057c-11e4-856e-734cf921205f.png">
 
 * [MDN](https://developer.mozilla.org/docs/web/html/element/figure) | [W3C](http://dev.w3.org/html5/spec#the-figure-element) | [WHATWG](http://whatwg.org/C#the-figure-element)
 
-#### [`<figcaption>`](http://mhulse.github.io/html-starter-kit/#figure-figcaption) <img width="16" align="absmiddle" src="https://cloud.githubusercontent.com/assets/218624/3490802/e3faace4-057c-11e4-856e-734cf921205f.png">
+#### [`<figcaption>`](http://mhulse.github.io/html-starter-kit/kit/#figure-figcaption) <img width="16" align="absmiddle" src="https://cloud.githubusercontent.com/assets/218624/3490802/e3faace4-057c-11e4-856e-734cf921205f.png">
 
 * [MDN](https://developer.mozilla.org/docs/web/html/element/figcaption) | [W3C](http://dev.w3.org/html5/spec#the-figcaption-element) | [WHATWG](http://whatwg.org/C#the-figcaption-element)
 
-#### [`<div>`](http://mhulse.github.io/html-starter-kit/#div)
+#### [`<div>`](http://mhulse.github.io/html-starter-kit/kit/#div)
 
 * [MDN](https://developer.mozilla.org/docs/web/html/element/div) | [W3C](http://dev.w3.org/html5/spec#the-div-element) | [WHATWG](http://whatwg.org/C#the-div-element)
 
 ### TEXT-LEVEL SEMANTICS
 
-#### [`<a>`](http://mhulse.github.io/html-starter-kit/#a)
+#### [`<a>`](http://mhulse.github.io/html-starter-kit/kit/#a)
 
 * [Camen Design: Under the Hood #2: Internal / External Links, the CSS3 Way](http://camendesign.com/code/uth2_css3-hyperlinks)
 * [MDN](https://developer.mozilla.org/docs/web/html/element/a) | [W3C](http://dev.w3.org/html5/spec#the-a-element) | [WHATWG](http://whatwg.org/C#the-a-element)
 
-#### [`<em>`](http://mhulse.github.io/html-starter-kit/#em-i)
+#### [`<em>`](http://mhulse.github.io/html-starter-kit/kit/#em-i)
 
 * [MDN](https://developer.mozilla.org/docs/web/html/element/em) | [W3C](http://dev.w3.org/html5/spec#the-em-element) | [WHATWG](http://whatwg.org/C#the-em-element)
 
-#### [`<strong>`](http://mhulse.github.io/html-starter-kit/#strong-b)
+#### [`<strong>`](http://mhulse.github.io/html-starter-kit/kit/#strong-b)
 
 * [MDN](https://developer.mozilla.org/docs/web/html/element/strong) | [W3C](http://dev.w3.org/html5/spec#the-strong-element) | [WHATWG](http://whatwg.org/C#the-strong-element)
 
-#### [`<small>`](http://mhulse.github.io/html-starter-kit/#small)
+#### [`<small>`](http://mhulse.github.io/html-starter-kit/kit/#small)
 
 * [MDN](https://developer.mozilla.org/docs/web/html/element/small) | [W3C](http://dev.w3.org/html5/spec#the-small-element) | [WHATWG](http://whatwg.org/C#the-small-element)
 
-#### [`<s>`](http://mhulse.github.io/html-starter-kit/#s)
+#### [`<s>`](http://mhulse.github.io/html-starter-kit/kit/#s)
 
 * [Stack Overflow: CSS strikethrough different color from text?](http://stackoverflow.com/a/10876429/922323)
 * [MDN: text-decoration-color](https://developer.mozilla.org/docs/web/css/text-decoration-color)
 * [MDN](https://developer.mozilla.org/docs/web/html/element/s) | [W3C](http://dev.w3.org/html5/spec#the-s-element) | [WHATWG](http://whatwg.org/C#the-s-element)
 
-#### [`<cite>`](http://mhulse.github.io/html-starter-kit/#cite)
+#### [`<cite>`](http://mhulse.github.io/html-starter-kit/kit/#cite)
 
 * [HTML5 Doctor: Quoting and citing with `<blockquote>`, `<q>`, `<cite>`, and the cite attribute ](http://html5doctor.com/blockquote-q-cite/)
 * [MDN](https://developer.mozilla.org/docs/web/html/element/cite) | [W3C](http://dev.w3.org/html5/spec#the-cite-element) | [WHATWG](http://whatwg.org/C#the-cite-element)
 
-#### [`<q>`](http://mhulse.github.io/html-starter-kit/#q)
+#### [`<q>`](http://mhulse.github.io/html-starter-kit/kit/#q)
 
 * [HTML5 Doctor: Quoting and citing with `<blockquote>`, `<q>`, `<cite>`, and the cite attribute](http://html5doctor.com/blockquote-q-cite/)
 * [A List Apart: Long Live the Q Tag](http://alistapart.com/article/qtag)
 * [html-5.com: HTML `<q>` Tag for Short Quotes](http://www.html-5.com/tags/q-tag/index.html)
 * [MDN](https://developer.mozilla.org/docs/web/html/element/q) | [W3C](http://dev.w3.org/html5/spec#the-q-element) | [WHATWG](http://whatwg.org/C#the-q-element)
 
-#### [`<dfn>`](http://mhulse.github.io/html-starter-kit/#dfn)
+#### [`<dfn>`](http://mhulse.github.io/html-starter-kit/kit/#dfn)
 
 * [Camen Design: Me, Myself and I — or: Abbreviations, Definitions & Citations Revisited](http://camendesign.com/code/abbr_redux)
 * [MDN](https://developer.mozilla.org/docs/web/html/element/dfn) | [W3C](http://dev.w3.org/html5/spec#the-dfn-element) | [WHATWG](http://whatwg.org/C#the-dfn-element)
 
-#### [`<abbr>`](http://mhulse.github.io/html-starter-kit/#abbr)
+#### [`<abbr>`](http://mhulse.github.io/html-starter-kit/kit/#abbr)
 
 * [Max Design: Styling abbreviations and acronyms](http://www.maxdesign.com.au/articles/abbreviations/)
 * [HTML5 Doctor: The abbr element](http://html5doctor.com/the-abbr-element/)
 * [Camen Design: Me, Myself and I — or: Abbreviations, Definitions & Citations Revisited](http://camendesign.com/code/abbr_redux)
 * [MDN](https://developer.mozilla.org/docs/web/html/element/abbr) | [W3C](http://dev.w3.org/html5/spec#the-abbr-element) | [WHATWG](http://whatwg.org/C#the-abbr-element)
 
-#### [`<data>`](http://mhulse.github.io/html-starter-kit/#data) <img width="16" align="absmiddle" src="https://cloud.githubusercontent.com/assets/218624/3490802/e3faace4-057c-11e4-856e-734cf921205f.png">
+#### [`<data>`](http://mhulse.github.io/html-starter-kit/kit/#data) <img width="16" align="absmiddle" src="https://cloud.githubusercontent.com/assets/218624/3490802/e3faace4-057c-11e4-856e-734cf921205f.png">
 
 * [Quackit.com: HTML 5 `<data>` Tag](http://www.quackit.com/html_5/tags/html_data_tag.cfm)
 * [MDN](https://developer.mozilla.org/docs/web/html/element/data) | [W3C](http://dev.w3.org/html5/spec#the-data-element) | [WHATWG](http://whatwg.org/C#the-data-element)
 
-#### [`<time>`](http://mhulse.github.io/html-starter-kit/#time) <img width="16" align="absmiddle" src="https://cloud.githubusercontent.com/assets/218624/3490802/e3faace4-057c-11e4-856e-734cf921205f.png">
+#### [`<time>`](http://mhulse.github.io/html-starter-kit/kit/#time) <img width="16" align="absmiddle" src="https://cloud.githubusercontent.com/assets/218624/3490802/e3faace4-057c-11e4-856e-734cf921205f.png">
 
 * [HTML5 Doctor: The time element (and microformats)](http://html5doctor.com/the-time-element/)
 * [Webmonkey: The HTML5 Time Element Is Back and Better Than Ever](http://www.webmonkey.com/2012/02/the-html5-time-element-is-back-and-better-than-ever/)
 * [MDN](https://developer.mozilla.org/docs/web/html/element/time) | [W3C](http://dev.w3.org/html5/spec#the-time-element) | [WHATWG](http://whatwg.org/C#the-time-element)
 
-#### [`<code>`](http://mhulse.github.io/html-starter-kit/#code)
+#### [`<code>`](http://mhulse.github.io/html-starter-kit/kit/#code)
 
 * [Perishable Press: Wrapping Long URLs and Text Content with CSS](http://perishablepress.com/wrapping-content/)
 * [MDN](https://developer.mozilla.org/docs/web/html/element/code) | [W3C](http://dev.w3.org/html5/spec#the-code-element) | [WHATWG](http://whatwg.org/C#the-code-element)
 
-#### [`<var>`](http://mhulse.github.io/html-starter-kit/#var)
+#### [`<var>`](http://mhulse.github.io/html-starter-kit/kit/#var)
 
 * [MDN](https://developer.mozilla.org/docs/web/html/element/var) | [W3C](http://dev.w3.org/html5/spec#the-var-element) | [WHATWG](http://whatwg.org/C#the-var-element)
 
-#### [`<samp>`](http://mhulse.github.io/html-starter-kit/#samp)
+#### [`<samp>`](http://mhulse.github.io/html-starter-kit/kit/#samp)
 
 * [MDN](https://developer.mozilla.org/docs/web/html/element/samp) | [W3C](http://dev.w3.org/html5/spec#the-samp-element) | [WHATWG](http://whatwg.org/C#the-samp-element)
 
-#### [`<kbd>`](http://mhulse.github.io/html-starter-kit/#kbd)
+#### [`<kbd>`](http://mhulse.github.io/html-starter-kit/kit/#kbd)
 
 * [Meta Super User: CSS for the new `<kbd>` style](http://meta.superuser.com/questions/4788/css-for-the-new-kbd-style)
 * [MDN](https://developer.mozilla.org/docs/web/html/element/kbd) | [W3C](http://dev.w3.org/html5/spec#the-kbd-element) | [WHATWG](http://whatwg.org/C#the-kbd-element)
 
-#### [`<sub>`](http://mhulse.github.io/html-starter-kit/#sub-sup)
+#### [`<sub>`](http://mhulse.github.io/html-starter-kit/kit/#sub-sup)
 
 * [GitHub Gist: CSS for <sup> and <sub>](https://gist.github.com/unruthless/413930)
 * [MDN](https://developer.mozilla.org/docs/web/html/element/sub) | [W3C](http://dev.w3.org/html5/spec#the-sub-and-sup-elements) | [WHATWG](http://whatwg.org/C#the-sub-and-sup-elements)
 
-#### [`<sup>`](http://mhulse.github.io/html-starter-kit/#sub-sup)
+#### [`<sup>`](http://mhulse.github.io/html-starter-kit/kit/#sub-sup)
 
 * [MDN](https://developer.mozilla.org/docs/web/html/element/sup) | [W3C](http://dev.w3.org/html5/spec#the-sub-and-sup-elements) | [WHATWG](http://whatwg.org/C#the-sub-and-sup-elements)
 
-#### [`<i>`](http://mhulse.github.io/html-starter-kit/#em-i)
+#### [`<i>`](http://mhulse.github.io/html-starter-kit/kit/#em-i)
 
 * [MDN](https://developer.mozilla.org/docs/web/html/element/i) | [W3C](http://dev.w3.org/html5/spec#the-i-element) | [WHATWG](http://whatwg.org/C#the-i-element)
 
-#### [`<b>`](http://mhulse.github.io/html-starter-kit/#strong-b)
+#### [`<b>`](http://mhulse.github.io/html-starter-kit/kit/#strong-b)
 
 * [MDN](https://developer.mozilla.org/docs/web/html/element/b) | [W3C](http://dev.w3.org/html5/spec#the-b-element) | [WHATWG](http://whatwg.org/C#the-b-element)
 
-#### [`<u>`](http://mhulse.github.io/html-starter-kit/#u)
+#### [`<u>`](http://mhulse.github.io/html-starter-kit/kit/#u)
 
 * [HTML5 Doctor: The return of the u element](http://html5doctor.com/u-element/)
 * [MDN](https://developer.mozilla.org/docs/web/html/element/u) | [W3C](http://dev.w3.org/html5/spec#the-u-element) | [WHATWG](http://whatwg.org/C#the-u-element)
 
-#### [`<mark>`](http://mhulse.github.io/html-starter-kit/#mark) <img width="16" align="absmiddle" src="https://cloud.githubusercontent.com/assets/218624/3490802/e3faace4-057c-11e4-856e-734cf921205f.png">
+#### [`<mark>`](http://mhulse.github.io/html-starter-kit/kit/#mark) <img width="16" align="absmiddle" src="https://cloud.githubusercontent.com/assets/218624/3490802/e3faace4-057c-11e4-856e-734cf921205f.png">
 
 * [HTML5 Doctor: Draw attention with mark](http://html5doctor.com/draw-attention-with-mark/)
 * [MDN](https://developer.mozilla.org/docs/web/html/element/mark) | [W3C](http://dev.w3.org/html5/spec#the-mark-element) | [WHATWG](http://whatwg.org/C#the-mark-element)
 
-#### [`<ruby>`](http://mhulse.github.io/html-starter-kit/#ruby-rp-rt) <img width="16" align="absmiddle" src="https://cloud.githubusercontent.com/assets/218624/3490802/e3faace4-057c-11e4-856e-734cf921205f.png">
+#### [`<ruby>`](http://mhulse.github.io/html-starter-kit/kit/#ruby-rp-rt) <img width="16" align="absmiddle" src="https://cloud.githubusercontent.com/assets/218624/3490802/e3faace4-057c-11e4-856e-734cf921205f.png">
 
 * [HTML5 Doctor: The ruby element and her hawt friends, rt and rp](http://html5doctor.com/ruby-rt-rp-element/)
 * [Can I use...: Ruby annotation](http://caniuse.com/#feat=ruby)
 * [MDN](https://developer.mozilla.org/docs/web/html/element/ruby) | [W3C](http://dev.w3.org/html5/spec#the-ruby-element) | [WHATWG](http://whatwg.org/C#the-ruby-element)
 
-#### [`<rt>`](http://mhulse.github.io/html-starter-kit/#ruby-rp-rt) <img width="16" align="absmiddle" src="https://cloud.githubusercontent.com/assets/218624/3490802/e3faace4-057c-11e4-856e-734cf921205f.png">
+#### [`<rt>`](http://mhulse.github.io/html-starter-kit/kit/#ruby-rp-rt) <img width="16" align="absmiddle" src="https://cloud.githubusercontent.com/assets/218624/3490802/e3faace4-057c-11e4-856e-734cf921205f.png">
 
 * [MDN](https://developer.mozilla.org/docs/web/html/element/rt) | [W3C](http://dev.w3.org/html5/spec#the-rt-element) | [WHATWG](http://whatwg.org/C#the-rt-element)
 
-#### [`<rp>`](http://mhulse.github.io/html-starter-kit/#ruby-rp-rt) <img width="16" align="absmiddle" src="https://cloud.githubusercontent.com/assets/218624/3490802/e3faace4-057c-11e4-856e-734cf921205f.png">
+#### [`<rp>`](http://mhulse.github.io/html-starter-kit/kit/#ruby-rp-rt) <img width="16" align="absmiddle" src="https://cloud.githubusercontent.com/assets/218624/3490802/e3faace4-057c-11e4-856e-734cf921205f.png">
 
 * [MDN](https://developer.mozilla.org/docs/web/html/element/rp) | [W3C](http://dev.w3.org/html5/spec#the-rp-element) | [WHATWG](http://whatwg.org/C#the-rp-element)
 
-#### [`<bdi>`](http://mhulse.github.io/html-starter-kit/#bdi) <img width="16" align="absmiddle" src="https://cloud.githubusercontent.com/assets/218624/3490802/e3faace4-057c-11e4-856e-734cf921205f.png">
+#### [`<bdi>`](http://mhulse.github.io/html-starter-kit/kit/#bdi) <img width="16" align="absmiddle" src="https://cloud.githubusercontent.com/assets/218624/3490802/e3faace4-057c-11e4-856e-734cf921205f.png">
 
 * [Stack Overflow: Ways to simulate the yet unimplemented <bdi> HTML tag?](http://stackoverflow.com/a/8546564/922323)
 * [MDN](https://developer.mozilla.org/docs/web/html/element/bdi) | [W3C](http://dev.w3.org/html5/spec#the-rp-element) | [WHATWG](http://whatwg.org/C#the-rp-element)
 
-#### [`<bdo>`](http://mhulse.github.io/html-starter-kit/#bdo)
+#### [`<bdo>`](http://mhulse.github.io/html-starter-kit/kit/#bdo)
 
 * [MDN](https://developer.mozilla.org/docs/web/html/element/bdo) | [W3C](http://dev.w3.org/html5/spec#the-bdo-element) | [WHATWG](http://whatwg.org/C#the-bdo-element)
 
-#### [`<span>`](http://mhulse.github.io/html-starter-kit/#span)
+#### [`<span>`](http://mhulse.github.io/html-starter-kit/kit/#span)
 
 * [MDN](https://developer.mozilla.org/docs/web/html/element/span) | [W3C](http://dev.w3.org/html5/spec#the-span-element) | [WHATWG](http://whatwg.org/C#the-span-element)
 
-#### [`<br>`](http://mhulse.github.io/html-starter-kit/#br)
+#### [`<br>`](http://mhulse.github.io/html-starter-kit/kit/#br)
 
 * [MDN](https://developer.mozilla.org/docs/web/html/element/br) | [W3C](http://dev.w3.org/html5/spec#the-br-element) | [WHATWG](http://whatwg.org/C#the-br-element)
 
-#### [`<wbr>`](http://mhulse.github.io/html-starter-kit/#wbr) <img width="16" align="absmiddle" src="https://cloud.githubusercontent.com/assets/218624/3490802/e3faace4-057c-11e4-856e-734cf921205f.png">
+#### [`<wbr>`](http://mhulse.github.io/html-starter-kit/kit/#wbr) <img width="16" align="absmiddle" src="https://cloud.githubusercontent.com/assets/218624/3490802/e3faace4-057c-11e4-856e-734cf921205f.png">
 
 * [QuirksMode.org: The wbr tag](http://www.quirksmode.org/oddsandends/wbr.html)
 * [Gojomo: Cross-browser invisible word-break in HTML/CSS](http://gojomo.blogspot.com/2005/03/cross-browser-invisible-word-break-in.html)
@@ -359,21 +359,21 @@ See: [Quotation Marks](http://www.grammarbook.com/punctuation/quotes.asp) | [Col
 
 ### EDITS
 
-#### [`<ins>`](http://mhulse.github.io/html-starter-kit/#del-ins)
+#### [`<ins>`](http://mhulse.github.io/html-starter-kit/kit/#del-ins)
 
 * [MDN](https://developer.mozilla.org/docs/web/html/element/ins) | [W3C](http://dev.w3.org/html5/spec#the-ins-element) | [WHATWG](http://whatwg.org/C#the-ins-element)
 
-#### [`<del>`](http://mhulse.github.io/html-starter-kit/#del-ins)
+#### [`<del>`](http://mhulse.github.io/html-starter-kit/kit/#del-ins)
 
 * [MDN](https://developer.mozilla.org/docs/web/html/element/del) | [W3C](http://dev.w3.org/html5/spec#the-del-element) | [WHATWG](http://whatwg.org/C#the-del-element)
 
 ### EMBEDED CONTENT
 
-#### [`<img>`](http://mhulse.github.io/html-starter-kit/#img)
+#### [`<img>`](http://mhulse.github.io/html-starter-kit/kit/#img)
 
 * [MDN](https://developer.mozilla.org/docs/web/html/element/img) | [W3C](http://dev.w3.org/html5/spec#the-img-element) | [WHATWG](http://whatwg.org/C#the-img-element)
 
-#### [`<iframe>`](http://mhulse.github.io/html-starter-kit/#iframe)
+#### [`<iframe>`](http://mhulse.github.io/html-starter-kit/kit/#iframe)
 
 * [MDN](https://developer.mozilla.org/docs/web/html/element/iframe) | [W3C](http://dev.w3.org/html5/spec#the-iframe-element) | [WHATWG](http://whatwg.org/C#the-iframe-element)
 
@@ -381,20 +381,20 @@ See: [Quotation Marks](http://www.grammarbook.com/punctuation/quotes.asp) | [Col
 
 * [MDN](https://developer.mozilla.org/docs/web/html/element/embed) | [W3C](http://dev.w3.org/html5/spec#the-embed-element) | [WHATWG](http://whatwg.org/C#the-embed-element)
 
-#### [`<object>`](http://mhulse.github.io/html-starter-kit/#object)
+#### [`<object>`](http://mhulse.github.io/html-starter-kit/kit/#object)
 
 * [MDN](https://developer.mozilla.org/docs/web/html/element/object) | [W3C](http://dev.w3.org/html5/spec#the-object-element) | [WHATWG](http://whatwg.org/C#the-object-element)
 
-#### [`<param>`](http://mhulse.github.io/html-starter-kit/#object)
+#### [`<param>`](http://mhulse.github.io/html-starter-kit/kit/#object)
 
 * [MDN](https://developer.mozilla.org/docs/web/html/element/param) | [W3C](http://dev.w3.org/html5/spec#the-param-element) | [WHATWG](http://whatwg.org/C#the-param-element)
 
-#### [`<video>`](http://mhulse.github.io/html-starter-kit/#video) <img width="16" align="absmiddle" src="https://cloud.githubusercontent.com/assets/218624/3490802/e3faace4-057c-11e4-856e-734cf921205f.png">
+#### [`<video>`](http://mhulse.github.io/html-starter-kit/kit/#video) <img width="16" align="absmiddle" src="https://cloud.githubusercontent.com/assets/218624/3490802/e3faace4-057c-11e4-856e-734cf921205f.png">
 
 * [Can I use...: Video element](http://caniuse.com/#feat=video)
 * [MDN](https://developer.mozilla.org/docs/web/html/element/video) | [W3C](http://dev.w3.org/html5/spec#video) | [WHATWG](http://whatwg.org/C#video)
 
-#### [`<audio>`](http://mhulse.github.io/html-starter-kit/#audio) <img width="16" align="absmiddle" src="https://cloud.githubusercontent.com/assets/218624/3490802/e3faace4-057c-11e4-856e-734cf921205f.png">
+#### [`<audio>`](http://mhulse.github.io/html-starter-kit/kit/#audio) <img width="16" align="absmiddle" src="https://cloud.githubusercontent.com/assets/218624/3490802/e3faace4-057c-11e4-856e-734cf921205f.png">
 
 * [HTML5 Doctor: Native Audio in the browser](http://html5doctor.com/native-audio-in-the-browser/)
 * [Can I use...: Audio element](http://caniuse.com/#feat=audio)
@@ -432,67 +432,67 @@ See: [Quotation Marks](http://www.grammarbook.com/punctuation/quotes.asp) | [Col
 
 ### TABULAR DATA
 
-#### [`<table>`](http://mhulse.github.io/html-starter-kit/#table-children)
+#### [`<table>`](http://mhulse.github.io/html-starter-kit/kit/#table-children)
 
 * [Vanseo Design: How To Add Non-Textual Elements To A Baseline Grid](http://www.vanseodesign.com/web-design/baseline-grid-non-textual/)
 * [MDN](https://developer.mozilla.org/docs/web/html/element/table) | [W3C](http://dev.w3.org/html5/spec#the-table-element) | [WHATWG](http://whatwg.org/C#the-table-element)
 
-#### [`<caption>`](http://mhulse.github.io/html-starter-kit/#table-children)
+#### [`<caption>`](http://mhulse.github.io/html-starter-kit/kit/#table-children)
 
 * [MDN](https://developer.mozilla.org/docs/web/html/element/caption) | [W3C](http://dev.w3.org/html5/spec#the-caption-element) | [WHATWG](http://whatwg.org/C#the-caption-element)
 
-#### [`<colgroup>`](http://mhulse.github.io/html-starter-kit/#table-children)
+#### [`<colgroup>`](http://mhulse.github.io/html-starter-kit/kit/#table-children)
 
 * [MDN](https://developer.mozilla.org/docs/web/html/element/colgroup) | [W3C](http://dev.w3.org/html5/spec#the-colgroup-element) | [WHATWG](http://whatwg.org/C#the-colgroup-element)
 
-#### [`<col>`](http://mhulse.github.io/html-starter-kit/#table-children)
+#### [`<col>`](http://mhulse.github.io/html-starter-kit/kit/#table-children)
 
 * [MDN](https://developer.mozilla.org/docs/web/html/element/col) | [W3C](http://dev.w3.org/html5/spec#the-col-element) | [WHATWG](http://whatwg.org/C#the-col-element)
 
-#### [`<tbody>`](http://mhulse.github.io/html-starter-kit/#table-children)
+#### [`<tbody>`](http://mhulse.github.io/html-starter-kit/kit/#table-children)
 
 * [MDN](https://developer.mozilla.org/docs/web/html/element/tbody) | [W3C](http://dev.w3.org/html5/spec#the-tbody-element) | [WHATWG](http://whatwg.org/C#the-tbody-element)
 
-#### [`<thead>`](http://mhulse.github.io/html-starter-kit/#table-children)
+#### [`<thead>`](http://mhulse.github.io/html-starter-kit/kit/#table-children)
 
 * [MDN](https://developer.mozilla.org/docs/web/html/element/thead) | [W3C](http://dev.w3.org/html5/spec#the-thead-element) | [WHATWG](http://whatwg.org/C#the-thead-element)
 
-#### [`<tfoot>`](http://mhulse.github.io/html-starter-kit/#table-children)
+#### [`<tfoot>`](http://mhulse.github.io/html-starter-kit/kit/#table-children)
 
 * [MDN](https://developer.mozilla.org/docs/web/html/element/tfoot) | [W3C](http://dev.w3.org/html5/spec#the-tfoot-element) | [WHATWG](http://whatwg.org/C#the-tfoot-element)
 
-#### [`<tr>`](http://mhulse.github.io/html-starter-kit/#table-children)
+#### [`<tr>`](http://mhulse.github.io/html-starter-kit/kit/#table-children)
 
 * [MDN](https://developer.mozilla.org/docs/web/html/element/tr) | [W3C](http://dev.w3.org/html5/spec#the-tr-element) | [WHATWG](http://whatwg.org/C#the-tr-element)
 
-#### [`<td>`](http://mhulse.github.io/html-starter-kit/#table-children)
+#### [`<td>`](http://mhulse.github.io/html-starter-kit/kit/#table-children)
 
 * [MDN](https://developer.mozilla.org/docs/web/html/element/td) | [W3C](http://dev.w3.org/html5/spec#the-td-element) | [WHATWG](http://whatwg.org/C#the-td-element)
 
-#### [`<th>`](http://mhulse.github.io/html-starter-kit/#table-children)
+#### [`<th>`](http://mhulse.github.io/html-starter-kit/kit/#table-children)
 
 * [MDN](https://developer.mozilla.org/docs/web/html/element/th) | [W3C](http://dev.w3.org/html5/spec#the-th-element) | [WHATWG](http://whatwg.org/C#the-th-element)
 
 ### FORMS
 
-#### [`<form>`](http://mhulse.github.io/html-starter-kit/#form-children)
+#### [`<form>`](http://mhulse.github.io/html-starter-kit/kit/#form-children)
 
 * [Vanseo Design: How To Add Non-Textual Elements To A Baseline Grid](http://www.vanseodesign.com/web-design/baseline-grid-non-textual/)
 * [MDN](https://developer.mozilla.org/docs/web/html/element/form) | [W3C](http://dev.w3.org/html5/spec#the-form-element) | [WHATWG](http://whatwg.org/C#the-form-element)
 
-#### [`<fieldset>`](http://mhulse.github.io/html-starter-kit/#form-children)
+#### [`<fieldset>`](http://mhulse.github.io/html-starter-kit/kit/#form-children)
 
 * [MDN](https://developer.mozilla.org/docs/web/html/element/fieldset) | [W3C](http://dev.w3.org/html5/spec#the-fieldset-element) | [WHATWG](http://whatwg.org/C#the-fieldset-element)
 
-#### [`<legend>`](http://mhulse.github.io/html-starter-kit/#form-children)
+#### [`<legend>`](http://mhulse.github.io/html-starter-kit/kit/#form-children)
 
 * [MDN](https://developer.mozilla.org/docs/web/html/element/legend) | [W3C](http://dev.w3.org/html5/spec#the-legend-element) | [WHATWG](http://whatwg.org/C#the-legend-element)
 
-#### [`<label>`](http://mhulse.github.io/html-starter-kit/#form-children)
+#### [`<label>`](http://mhulse.github.io/html-starter-kit/kit/#form-children)
 
 * [MDN](https://developer.mozilla.org/docs/web/html/element/label) | [W3C](http://dev.w3.org/html5/spec#the-label-element) | [WHATWG](http://whatwg.org/C#the-label-element)
 
-#### [`<input>`](http://mhulse.github.io/html-starter-kit/#form-children)
+#### [`<input>`](http://mhulse.github.io/html-starter-kit/kit/#form-children)
 
 * [HTML5 Doctor: HTML5 forms input types](http://html5doctor.com/html5-forms-input-types/)
 * [MDN](https://developer.mozilla.org/docs/web/html/element/input) | [W3C](http://dev.w3.org/html5/spec#the-input-element) | [WHATWG](http://whatwg.org/C#the-input-element)
@@ -617,50 +617,50 @@ See: [Quotation Marks](http://www.grammarbook.com/punctuation/quotes.asp) | [Col
 * [W3C](http://dev.w3.org/html5/spec#week-state-(type=week))
 * [WHATWG](http://whatwg.org/C#week-state-(type=week))
 
-#### [`<button>`](http://mhulse.github.io/html-starter-kit/#form-children)
+#### [`<button>`](http://mhulse.github.io/html-starter-kit/kit/#form-children)
 
 * [MDN](https://developer.mozilla.org/docs/web/html/element/button) | [W3C](http://dev.w3.org/html5/spec#the-button-element) | [WHATWG](http://whatwg.org/C#the-button-element)
 
-#### [`<select>`](http://mhulse.github.io/html-starter-kit/#form-children)
+#### [`<select>`](http://mhulse.github.io/html-starter-kit/kit/#form-children)
 
 * [MDN](https://developer.mozilla.org/docs/web/html/element/select) | [W3C](http://dev.w3.org/html5/spec#the-select-element) | [WHATWG](http://whatwg.org/C#the-select-element)
 
-#### [`<datalist>`](http://mhulse.github.io/html-starter-kit/#form-children) <img width="16" align="absmiddle" src="https://cloud.githubusercontent.com/assets/218624/3490802/e3faace4-057c-11e4-856e-734cf921205f.png">
+#### [`<datalist>`](http://mhulse.github.io/html-starter-kit/kit/#form-children) <img width="16" align="absmiddle" src="https://cloud.githubusercontent.com/assets/218624/3490802/e3faace4-057c-11e4-856e-734cf921205f.png">
 
 * [Can I use...: Datalist element](http://caniuse.com/#feat=datalist)
 * [MDN](https://developer.mozilla.org/docs/web/html/element/datalist) | [W3C](http://dev.w3.org/html5/spec#the-datalist-element) | [WHATWG](http://whatwg.org/C#the-datalist-element)
 
-#### [`<optgroup>`](http://mhulse.github.io/html-starter-kit/#form-children)
+#### [`<optgroup>`](http://mhulse.github.io/html-starter-kit/kit/#form-children)
 
 * [HTML Dog: HTML Tag: optgroup](http://www.htmldog.com/reference/htmltags/optgroup/)
 * [MDN](https://developer.mozilla.org/docs/web/html/element/optgroup) | [W3C](http://dev.w3.org/html5/spec#the-optgroup-element) | [WHATWG](http://whatwg.org/C#the-optgroup-element)
 
-#### [`<option>`](http://mhulse.github.io/html-starter-kit/#form-children)
+#### [`<option>`](http://mhulse.github.io/html-starter-kit/kit/#form-children)
 
 * [MDN](https://developer.mozilla.org/docs/web/html/element/option) | [W3C](http://dev.w3.org/html5/spec#the-option-element) | [WHATWG](http://whatwg.org/C#the-option-element)
 
-#### [`<textarea>`](http://mhulse.github.io/html-starter-kit/#form-children)
+#### [`<textarea>`](http://mhulse.github.io/html-starter-kit/kit/#form-children)
 
 * [David Walsh: Customize Textarea Resizing with CSS](http://davidwalsh.name/textarea-resize)
 * [456 Berea Street: Styling multiple line text input controls (textarea elements) with CSS](http://www.456bereastreet.com/lab/styling-form-controls-revisited/text-input-multiple/)
 * [MDN](https://developer.mozilla.org/docs/web/html/element/textarea) | [W3C](http://dev.w3.org/html5/spec#the-textarea-element) | [WHATWG](http://whatwg.org/C#the-textarea-element)
 
-#### [`<keygen>`](http://mhulse.github.io/html-starter-kit/#form-children) <img width="16" align="absmiddle" src="https://cloud.githubusercontent.com/assets/218624/3490802/e3faace4-057c-11e4-856e-734cf921205f.png">
+#### [`<keygen>`](http://mhulse.github.io/html-starter-kit/kit/#form-children) <img width="16" align="absmiddle" src="https://cloud.githubusercontent.com/assets/218624/3490802/e3faace4-057c-11e4-856e-734cf921205f.png">
 
 * [MDN](https://developer.mozilla.org/docs/web/html/element/keygen) | [W3C](http://dev.w3.org/html5/spec#the-keygen-element) | [WHATWG](http://whatwg.org/C#the-keygen-element)
 
-#### [`<output>`](http://mhulse.github.io/html-starter-kit/#form-children) <img width="16" align="absmiddle" src="https://cloud.githubusercontent.com/assets/218624/3490802/e3faace4-057c-11e4-856e-734cf921205f.png">
+#### [`<output>`](http://mhulse.github.io/html-starter-kit/kit/#form-children) <img width="16" align="absmiddle" src="https://cloud.githubusercontent.com/assets/218624/3490802/e3faace4-057c-11e4-856e-734cf921205f.png">
 
 * [HTML5 Doctor: The output element](http://html5doctor.com/the-output-element/)
 * [MDN](https://developer.mozilla.org/docs/web/html/element/output) | [W3C](http://dev.w3.org/html5/spec#the-output-element) | [WHATWG](http://whatwg.org/C#the-output-element)
 
-#### [`<progress>`](http://mhulse.github.io/html-starter-kit/#form-children) <img width="16" align="absmiddle" src="https://cloud.githubusercontent.com/assets/218624/3490802/e3faace4-057c-11e4-856e-734cf921205f.png">
+#### [`<progress>`](http://mhulse.github.io/html-starter-kit/kit/#form-children) <img width="16" align="absmiddle" src="https://cloud.githubusercontent.com/assets/218624/3490802/e3faace4-057c-11e4-856e-734cf921205f.png">
 
 * [HTML5 Doctor: The progress element](http://html5doctor.com/the-progress-element/)
 * [Can I use...: Progress & Meter](http://caniuse.com/#feat=progressmeter)
 * [MDN](https://developer.mozilla.org/docs/web/html/element/progress) | [W3C](http://dev.w3.org/html5/spec#the-progress-element) | [WHATWG](http://whatwg.org/C#the-progress-element)
 
-#### [`<meter>`](http://mhulse.github.io/html-starter-kit/#form-children) <img width="16" align="absmiddle" src="https://cloud.githubusercontent.com/assets/218624/3490802/e3faace4-057c-11e4-856e-734cf921205f.png">
+#### [`<meter>`](http://mhulse.github.io/html-starter-kit/kit/#form-children) <img width="16" align="absmiddle" src="https://cloud.githubusercontent.com/assets/218624/3490802/e3faace4-057c-11e4-856e-734cf921205f.png">
 
 * [HTML5 Doctor: Measure up with the meter tag](http://html5doctor.com/measure-up-with-the-meter-tag/)
 * [Can I use...: Progress & Meter](http://caniuse.com/#feat=progressmeter)
