@@ -3,12 +3,12 @@
 # Install files:
 function install() {
 	
-	echo "Installing into “${1}” …"
+	echo "Installing into ${1} …"
 	
 	# Create installation folder:
 	mkdir -pv $1
 	
-	cd $1
+	cd $1 || exit
 	
 	# Remote repo zip file:
 	SOURCE_ZIP="https://github.com/mhulse/html-starter-kit/tarball/gh-pages"
@@ -29,9 +29,10 @@ function install() {
 # Check if installation directory meets our requirements:
 function empty() {
 	
-	if [ -d "$DIRECTORY" ] && [ "$(ls -A $1)" ]; then
+	# Use `ls -A` if you want to account for hidden files:
+	if [ -d "$1" ] && [ "$(ls $1)" ]; then
 		# If chosen directory exists, and it’s not empty:
-		echo "“$1” must be an empty directory."
+		echo "$1 must be an empty directory."
 		echo "Please try running this script again."
 	else
 		# Move on to the installation function:
@@ -77,4 +78,4 @@ exit 0
 
 # Done!
 # For more information about this script, see:
-# https://github.com/mhulse/html-starter-kit
+# https://github.com/mhulse/install-scripts
