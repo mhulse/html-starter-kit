@@ -6,23 +6,24 @@
 	<meta name="description" content="A variety of HTML(5) markup examples (plus a few extras).">
 	<style>
 		.kit-marker {
-			font-family: arial, sans-serif;
-			font-size: 1.4em;
-			font-weight: normal;
+			font: normal 1em/1.2 arial, sans-serif;
 			text-transform: none;
+			letter-spacing: .03em;
 			margin: 1em 0;
 			padding: 0;
 		}
-		.kit-marker div { overflow: hidden; }
+		.kit-marker div {
+			overflow: hidden;
+		}
 		.kit-marker a,
 		.kit-marker span {
-			letter-spacing: .03em;
-			margin-left: .05em;
-			padding: .8em .7em;
+			padding: 0.8em 1em;
 			float: left;
 		}
-		.kit-marker :first-child { margin-left: 0; }
-		.kit-marker a { text-decoration: none; }
+		.kit-marker a + a,
+		.kit-marker span + span {
+			margin-left: .05em;
+		}
 		.kit-marker a,
 		.kit-marker a:visited,
 		.kit-marker a:visited:hover,
@@ -31,18 +32,16 @@
 		.kit-marker a:hover,
 		.kit-marker a:active,
 		.kit-marker span {
+			text-decoration: none;
 			color: #fff;
 			background: #000;
 		}
 		.kit-subtle {
-			font-size: 1.2em;
-			font-family: monospace, serif;
-			font-weight: normal;
-			line-height: 1.3;
+			font: normal .8em/1.2 monospace, serif;
 			color: #000;
 			background: yellow;
 			margin: 1em 0;
-			padding: 0.5em 1em;
+			padding: 0.8em 1em;
 			display: inline-block;
 			white-space: pre-line
 		}
@@ -63,282 +62,152 @@
 			white-space: -hp-pre-wrap;
 			word-wrap: break-word;
 		}
-		.kit-container {
-			max-width: 1280px;
-			margin: 0 auto;
-			padding: 2em;
+		.kit-hr {
+			border: 0;
+			border-top: 5px solid #ddd;
+			height: 0;
+			margin: 4em 0;
+			padding: 0;
+			-webkit-box-sizing: content-box;
+			-moz-box-sizing: content-box;
+			-ms-box-sizing: content-box;
+			-o-box-sizing: content-box;
+			box-sizing: content-box;
 		}
 	</style>
 </head>
 <body>
 
-<div class="kit-container">
-
 <h6 id="h1-h6" class="kit-marker"><div><a href="#h1-h6"><code>h1</code> - <code>h6</code></a></div></h6>
 
-<h6 class="kit-subtle"><code>h1</code> (long words)</h6>
+<h6 class="kit-subtle"><code>h1</code></h6>
 
-<h1>Thequickbrownfox hxy jumpsoverthelazydog hxy</h1>
-<h1><a href="#">Thequickbrownfox hxy jumpsoverthelazydog hxy & link</a></h1>
+<h1><a href="#">The quick brown fox hxy jumps over the lazy dog hxy</a></h1>
+<h1 class="h1 sh">The quick brown fox hxy jumps over the lazy dog hxy</h1>
+<p>Li Europan lingues es membres del sam familie. Lor separat existentie es un myth. Por scientie, musica, sport etc, litot Europa usa li sam vocabular. Li lingues differe solmen in li grammatica, li pronunciation e li plu commun vocabules. Omnicos directe al desirabilite de un nov lingua franca: On refusa continuar payar custosi traductores.</p>
 
 <h6 class="kit-subtle"><code>h2</code></h6>
 
-<h2>The quick brown fox hxy jumps over the lazy dog hxy</h2>
-<h2><a href="#">The quick brown fox hxy jumps over the lazy dog hxy & link</a></h2>
+<h2><a href="#">The quick brown fox hxy jumps over the lazy dog hxy</a></h2>
+<h2 class="h2 sh">The quick brown fox hxy jumps over the lazy dog hxy</h2>
+<p>Li Europan lingues es membres del sam familie. Lor separat existentie es un myth. Por scientie, musica, sport etc, litot Europa usa li sam vocabular. Li lingues differe solmen in li grammatica, li pronunciation e li plu commun vocabules. Omnicos directe al desirabilite de un nov lingua franca: On refusa continuar payar custosi traductores.</p>
 
 <h6 class="kit-subtle"><code>h3</code></h6>
 
-<h3>The quick brown fox hxy jumps over the lazy dog hxy</h3>
-<h3><a href="#">The quick brown fox hxy jumps over the lazy dog hxy & link</a></h3>
+<h3><a href="#">The quick brown fox hxy jumps over the lazy dog hxy</a></h3>
+<h3 class="h3 sh">The quick brown fox hxy jumps over the lazy dog hxy</h3>
+<p>Li Europan lingues es membres del sam familie. Lor separat existentie es un myth. Por scientie, musica, sport etc, litot Europa usa li sam vocabular. Li lingues differe solmen in li grammatica, li pronunciation e li plu commun vocabules. Omnicos directe al desirabilite de un nov lingua franca: On refusa continuar payar custosi traductores.</p>
 
 <h6 class="kit-subtle"><code>h4</code></h6>
 
-<h4>The quick brown fox hxy jumps over the lazy dog hxy</h4>
-<h4><a href="#">The quick brown fox hxy jumps over the lazy dog hxy & link</a></h4>
+<h4><a href="#">The quick brown fox hxy jumps over the lazy dog hxy</a></h4>
+<h4 class="h4 sh">The quick brown fox hxy jumps over the lazy dog hxy</h4>
+<p>Li Europan lingues es membres del sam familie. Lor separat existentie es un myth. Por scientie, musica, sport etc, litot Europa usa li sam vocabular. Li lingues differe solmen in li grammatica, li pronunciation e li plu commun vocabules. Omnicos directe al desirabilite de un nov lingua franca: On refusa continuar payar custosi traductores.</p>
 
 <h6 class="kit-subtle"><code>h5</code></h6>
 
-<h5>The quick brown fox hxy jumps over the lazy dog hxy</h5>
-<h5><a href="#">The quick brown fox hxy jumps over the lazy dog hxy & link</a></h5>
+<h5><a href="#">The quick brown fox hxy jumps over the lazy dog hxy</a></h5>
+<h55 class="h5 sh">The quick brown fox hxy jumps over the lazy dog hxy</h5>
+<p>Li Europan lingues es membres del sam familie. Lor separat existentie es un myth. Por scientie, musica, sport etc, litot Europa usa li sam vocabular. Li lingues differe solmen in li grammatica, li pronunciation e li plu commun vocabules. Omnicos directe al desirabilite de un nov lingua franca: On refusa continuar payar custosi traductores.</p>
 
 <h6 class="kit-subtle"><code>h6</code></h6>
 
-<h6>The quick brown fox hxy jumps over the lazy dog hxy</h6>
-<h6><a href="#">The quick brown fox hxy jumps over the lazy dog hxy & link</a></h6>
-
-<hr>
-
-<h6 id="sh1-sh6" class="kit-marker"><div><a href="#sh1-sh6"><code>.sh1</code> - <code>.sh6</code></a></div></h6>
-
-<h6 class="kit-subtle"><code>h1</code> + <code>.sh1</code> (long words)</h6>
-
-<h1 class="sh1">Thequickbrownfox hxy jumpsoverthelazydog hxy</h1>
-<h1 class="sh1"><a href="#">Thequickbrownfox hxy jumpsoverthelazydog hxy & link</a></h1>
-
-<h6 class="kit-subtle"><code>h2</code> + <code>.sh2</code></h6>
-
-<h2 class="sh2">The quick brown fox hxy jumps over the lazy dog hxy</h2>
-<h2 class="sh2"><a href="#">The quick brown fox hxy jumps over the lazy dog hxy & link</a></h2>
-
-<h6 class="kit-subtle"><code>h3</code> + <code>.sh3</code></h6>
-
-<h3 class="sh3">The quick brown fox hxy jumps over the lazy dog hxy</h3>
-<h3 class="sh3"><a href="#">The quick brown fox hxy jumps over the lazy dog hxy & link</a></h3>
-
-<h6 class="kit-subtle"><code>h4</code> + <code>.sh4</code></h6>
-
-<h4 class="sh4">The quick brown fox hxy jumps over the lazy dog hxy</h4>
-<h4 class="sh4"><a href="#">The quick brown fox hxy jumps over the lazy dog hxy & link</a></h4>
-
-<h6 class="kit-subtle"><code>h5</code> + <code>.sh5</code></h6>
-
-<h5 class="sh5">The quick brown fox hxy jumps over the lazy dog hxy</h5>
-<h5 class="sh5"><a href="#">The quick brown fox hxy jumps over the lazy dog hxy & link</a></h5>
-
-<h6 class="kit-subtle"><code>h6</code> + <code>.sh6</code></h6>
-
-<h6 class="sh6">The quick brown fox hxy jumps over the lazy dog hxy</h6>
-<h6 class="sh6"><a href="#">The quick brown fox hxy jumps over the lazy dog hxy & link</a></h6>
-
-<hr>
-
-<h6 id="h1-h6-sh1-sh6-p" class="kit-marker"><div><a href="#h1-h6-sh1-sh6-p"><code>h1</code> - <code>h6</code> + <code>.sh1</code> - <code>.sh6</code> + <code>p</code></a></div></h6>
-
-<h6 class="kit-subtle"><code>.h1</code> + <code>.sh1</code> + <code>p</code></h6>
-
-<h1 class="h1"><a href="#">The quick brown fox hxy jumps over the lazy dog hxy & link</a></h1>
-<h2 class="sh1">The quick brown fox hxy jumps over the lazy dog hxy</h2>
+<h6><a href="#">The quick brown fox hxy jumps over the lazy dog hxy</a></h6>
+<h6 class="h6 sh">The quick brown fox hxy jumps over the lazy dog hxy</h6>
 <p>Li Europan lingues es membres del sam familie. Lor separat existentie es un myth. Por scientie, musica, sport etc, litot Europa usa li sam vocabular. Li lingues differe solmen in li grammatica, li pronunciation e li plu commun vocabules. Omnicos directe al desirabilite de un nov lingua franca: On refusa continuar payar custosi traductores.</p>
 
-<h6 class="kit-subtle"><code>.h2</code> + <code>.sh2</code> + <code>p</code></h6>
-
-<h1 class="h2"><a href="#">The quick brown fox hxy jumps over the lazy dog hxy & link</a></h1>
-<h2 class="sh2">The quick brown fox hxy jumps over the lazy dog hxy</h2>
-<p>Li Europan lingues es membres del sam familie. Lor separat existentie es un myth. Por scientie, musica, sport etc, litot Europa usa li sam vocabular. Li lingues differe solmen in li grammatica, li pronunciation e li plu commun vocabules. Omnicos directe al desirabilite de un nov lingua franca: On refusa continuar payar custosi traductores.</p>
-
-<h6 class="kit-subtle"><code>.h3</code> + <code>.sh3</code> + <code>p</code></h6>
-
-<h1 class="h3"><a href="#">The quick brown fox hxy jumps over the lazy dog hxy & link</a></h1>
-<h2 class="sh3">The quick brown fox hxy jumps over the lazy dog hxy</h2>
-<p>Li Europan lingues es membres del sam familie. Lor separat existentie es un myth. Por scientie, musica, sport etc, litot Europa usa li sam vocabular. Li lingues differe solmen in li grammatica, li pronunciation e li plu commun vocabules. Omnicos directe al desirabilite de un nov lingua franca: On refusa continuar payar custosi traductores.</p>
-
-<h6 class="kit-subtle"><code>.h4</code> + <code>.sh4</code> + <code>p</code></h6>
-
-<h1 class="h4"><a href="#">The quick brown fox hxy jumps over the lazy dog hxy & link</a></h1>
-<h2 class="sh4">The quick brown fox hxy jumps over the lazy dog hxy</h2>
-<p>Li Europan lingues es membres del sam familie. Lor separat existentie es un myth. Por scientie, musica, sport etc, litot Europa usa li sam vocabular. Li lingues differe solmen in li grammatica, li pronunciation e li plu commun vocabules. Omnicos directe al desirabilite de un nov lingua franca: On refusa continuar payar custosi traductores.</p>
-
-<h6 class="kit-subtle"><code>.h5</code> + <code>.sh5</code> + <code>p</code></h6>
-
-<h1 class="h5"><a href="#">The quick brown fox hxy jumps over the lazy dog hxy & link</a></h1>
-<h2 class="sh5">The quick brown fox hxy jumps over the lazy dog hxy</h2>
-<p>Li Europan lingues es membres del sam familie. Lor separat existentie es un myth. Por scientie, musica, sport etc, litot Europa usa li sam vocabular. Li lingues differe solmen in li grammatica, li pronunciation e li plu commun vocabules. Omnicos directe al desirabilite de un nov lingua franca: On refusa continuar payar custosi traductores.</p>
-
-<h6 class="kit-subtle"><code>.h6</code> + <code>.sh6</code> + <code>p</code></h6>
-
-<h1 class="h6"><a href="#">The quick brown fox hxy jumps over the lazy dog hxy & link</a></h1>
-<h2 class="sh6">The quick brown fox hxy jumps over the lazy dog hxy</h2>
-<p>Li Europan lingues es membres del sam familie. Lor separat existentie es un myth. Por scientie, musica, sport etc, litot Europa usa li sam vocabular. Li lingues differe solmen in li grammatica, li pronunciation e li plu commun vocabules. Omnicos directe al desirabilite de un nov lingua franca: On refusa continuar payar custosi traductores.</p>
-
-<hr>
+<hr class="kit-hr">
 
 <h6 id="address" class="kit-marker"><div><a href="#address"><code>address</code></a></div></h6>
 
-<address>
-	<a href="#">Jane Poe</a>,
-	<a href="#">Robert Roe</a>,
-	<a href="#">Mark Moe</a>,
-	<a href="#">Brett Boe</a>,
-	<a href="#">Carla Coe</a>,
-	<a href="#">Donna Doe</a>,
-	<a href="#">Juan Doe</a>,
-	<a href="#">Frank Foe</a>,
-	<a href="#">Grace Goe</a>,
-	<a href="#">Harry Hoe</a>,
-	<a href="#">Jackie Joe</a>,
-	<a href="#">Karren Koe</a>,
-	<a href="#">Larry Loe</a>,
-	<a href="#">Marta Moe</a>,
-	<a href="#">Norma Noe</a>,
-	<a href="#">Paula Poe</a>,
-	<a href="#">Quintin Qoe</a>,
-	<a href="#">Ralph Roe</a>,
-	<a href="#">Sammy Soe</a>,
-	<a href="#">Tommy Toe</a>,
-	<a href="#">Vince Voe</a>,
-	<a href="#">William Woe</a>,
-	<a href="#">Xerxes Xoe</a>,
-	<a href="#">Yvonne Yoe</a>,
-	<a href="#">Zachary Zoe</a>
-	and <a href="#">John Smith</a>.
-</address>
-
-<address>This document was written by: <a href="mailto:foo@example.com">Homer Simpson</a></address>
+<h6 class="kit-subtle"><code>vCard</code></h6>
 
 <address class="vcard">
-	<div class="fn org">Acme, Inc.</div>
+	<div class="fn org">Google Inc.</div>
 	<div class="adr">
-		<div class="street-address">12345, Foo Street</div>
-		<span class="locality">Eugene</span>, <span class="region">OR</span>&nbsp;&nbsp;<span class="postal-code">90210</span>
+		<div class="street-address">1600 Amphitheatre Parkway</div>
+		<div>
+			<span class="locality">Mountain View</span>,
+			<abbr class="region" title="California">CA</abbr>
+			&nbsp;&nbsp;
+			<span class="postal-code">94043</span>
+		</div>
+		<div class="country-name">United States</div>
+	</div>
+	<div class="tel">
+		<span class="type">Work</span>:
+		<a class="value" href="tel:16502530000">+1-650-253-0000</a>
+	</div>
+	<div class="tel">
+		<span class="type">Fax</span>:
+		<span class="value">+1-650-253-0001</span>
+	</div>
+	<div class="email">
+		<span class="type">Email</span>:
+		<span class="value">
+			<a href="mailto:help@google.com">
+				help@google.com
+			</a>
+		</span>
 	</div>
 </address>
 
+<h6 class="kit-subtle"><code>Microdata</code></h6>
+
 <address itemscope itemtype="http://data-vocabulary.org/Organization">
-	<span itemprop="name">Acme, Inc.</span>
-	Postal Address:
-	<span itemprop="address" itemscope itemtype="http://data-vocabulary.org/Address">
-		<span itemprop="street-address">PO Box 90210</span>,
-		<span itemprop="locality">Melbourne</span>,
-		<span itemprop="region">Victoria</span>,
-		<span itemprop="country-name">Australia</span>.
-	</span>
-	<span itemprop="geo" itemscope itemtype="http://www.data-vocabulary.org/Geo/">
-		Latitude: <span itemprop="latitude">37.49 S </span>
-		Longitude: <span itemprop="longitude">144.58 E</span>
-	</span>
-	Phone: <span itemprop="tel">+61 (0) 3 9023 0074</span>
-	<a href="#" itemprop="url">Foo | Funky tutorials, from beginner to advanced.</a>.
+	<div itemprop="name">Google Inc.</div>
+	<div itemprop="address" itemscope itemtype="http://data-vocabulary.org/Address">
+		<div itemprop="street-address">1600 Amphitheatre Parkway</div>
+		<div>
+			<span itemprop="locality">Mountain View</span>,
+			<abbr itemprop="region" title="California">CA</abbr>
+			&nbsp;&nbsp;
+			<span class="postal-code">94043</span>
+		</div>
+		<div itemprop="country-name">United States</div>
+	</div>
+	<div>
+		Work:
+		<a href="tel:16502530000" itemprop="telephone">
+			+1-650-253-0000
+		</a>
+	</div>
+	<div>
+		Fax:
+		<span itemprop="faxNumber">+1-650-253-0001</span>
+	</div>
+	<div>
+		<a href="mailto:help@google.com" itemprop="email">
+			help@google.com
+		</a>
+	</div>
+	<div itemprop="geo" itemscope itemtype="http://www.data-vocabulary.org/Geo/">
+		<div>
+			Latitude: <span itemprop="latitude">37.3861° N</span>
+			<meta itemprop="latitude" content="37.3861">
+		</div>
+		<div>
+			Longitude: <span itemprop="longitude">122.0839° W</span>
+			<meta itemprop="longitude" content="122.0839">
+		</div>
+	</div>
 </address>
 
-<hr>
+<hr class="kit-hr">
 
 <h6 id="p" class="kit-marker"><div><a href="#p"><code>p</code></a></div></h6>
 
-<p>Li lingues differe solmen in li grammatica, li pronunciation e li plu commun vocabules. Omnicos directe al desirabilite de un nov lingua franca: On refusa continuar payar custosi traductores. At solmen va esser necessi far uniform grammatica, pronunciation e plu sommun paroles. Ma quande lingues coalesce, li grammatica del resultant lingue es plu simplic e regulari quam ti del coalescent lingues. Li nov lingua franca va esser plu simplic e regulari quam li existent Europan lingues.</p>
-
-<p>Ma quande <a href="#">lingues coalesce</a>, li grammatica del <a href="#">resultant lingue</a> es plu simplic e <a href="#">regulari quam</a> ti del coalescent lingues. Li <a href="#">nov lingua</a> franca va esser plu <a href="#">simplic</a> e <a href="#">regulari</a> quam <a href="#">li</a> existent <a href="#">Europan lingues</a>.</p>
-
-<p>Li lingues differe solmen in li grammatica, li pronunciation e li plu commun vocabules.</p>
+<p>Li lingues differe solmen in <a href="#">li grammatica</a>, li pronunciation e li plu commun vocabules. Omnicos directe al desirabilite de un nov lingua franca: On refusa continuar payar custosi traductores. At solmen va esser necessi far uniform grammatica, pronunciation e plu sommun paroles. Ma quande lingues coalesce, li grammatica del resultant lingue es plu simplic e regulari quam ti del coalescent lingues. Li nov lingua franca va esser plu simplic e regulari quam li existent Europan lingues.</p>
 
 <p>Ma quande lingues coalesce, li grammatica del resultant lingue es plu simplic e regulari quam ti del coalescent lingues.</p>
 
-<p>It va esser tam simplic quam Occidental in fact, it va esser Occidental. A un Angleso it va semblar un simplificat Angles, quam un skeptic Cambridge amico dit me que Occidental es. Li Europan lingues es membres del sam familie.</p>
-
-<p>Lor <code>separat</code> existentie <code>es</code> un <code>myth</code>. Por <code>scientie</code>, musica, <code>sport</code> etc, <code>litot</code> Europa <code>usa</code> li <code>sam</code> vocabular. <code>Li</code> lingues <code>differe</code> solmen <code>in</code> li <code>grammatica</code>, li <code>pronunciation</code> e <code>li</code> plu <code>commun</code> vocabules.</p>
-
-<p>Ma quande lingues coalesce, li grammatica del resultant lingue es plu simplic e regulari quam ti del coalescent lingues.</p>
-
-<h6 class="kit-subtle">Article <code>.body</code></h6>
-
-<article itemscope itemtype="http://schema.org/Article">
-	
-	<div class="body" itemprop="articleBody">
-		
-		<p>Ma quande <a href="#">lingues coalesce</a>, li grammatica del <a href="#">resultant lingue</a> es plu simplic e <a href="#">regulari quam</a> ti del coalescent lingues. Li <a href="#">nov lingua</a> franca va esser plu <a href="#">simplic</a> e <a href="#">regulari</a> quam <a href="#">li</a> existent <a href="#">Europan lingues</a>.</p>
-		
-		<p>Li lingues differe solmen in li grammatica, li pronunciation e li plu commun vocabules.</p>
-		
-		<h1>The quick brown fox hxy <a href="#">jumps over the lazy dog hxy</a></h1>
-		
-		<p>Ma quande lingues coalesce, li grammatica del resultant lingue es plu simplic e regulari quam ti del coalescent lingues.</p>
-		
-		<h2>The quick brown fox hxy <a href="#">jumps over the lazy dog hxy</a></h2>
-		
-		<p>It va esser tam simplic quam Occidental in fact, it va esser Occidental. A un Angleso it va semblar un simplificat Angles, quam un skeptic Cambridge amico dit me que Occidental es. Li Europan lingues es membres del sam familie.</p>
-		
-		<h3>The quick brown fox hxy <a href="#">jumps over the lazy dog hxy</a></h3>
-		
-		<p>Por scientie, musica, sport etc, litot Europa usa li sam vocabular. Li lingues differe solmen in li grammatica, li pronunciation e li plu commun vocabules. Omnicos directe al desirabilite de un nov lingua franca: On refusa continuar payar custosi traductores. At solmen va esser necessi far uniform grammatica, pronunciation e plu sommun paroles.</p>
-		
-		<h4>The quick brown fox hxy <a href="#">jumps over the lazy dog hxy</a></h4>
-		
-		<p>A un Angleso it va semblar un simplificat Angles, quam un skeptic Cambridge amico dit me que Occidental es. Li Europan lingues es membres del sam familie. Lor separat existentie es un myth.</p>
-		
-		<h5>The quick brown fox hxy <a href="#">jumps over the lazy dog hxy</a></h5>
-		
-		<p>Li nov lingua franca va esser plu simplic e regulari quam li existent Europan lingues. It va esser tam simplic quam Occidental in fact, it va esser Occidental.</p>
-		
-		<h6>The quick brown fox hxy <a href="#">jumps over the lazy dog hxy</a></h6>
-		
-		<p>Ma quande lingues coalesce, li grammatica del resultant lingue es plu simplic e regulari quam ti del coalescent lingues.</p>
-		
-		<p>Lor <code>separat</code> existentie <code>es</code> un <code>myth</code>. Por <code>scientie</code>, musica, <code>sport</code> etc, <code>litot</code> Europa <code>usa</code> li <code>sam</code> vocabular. <code>Li</code> lingues <code>differe</code> solmen <code>in</code> li <code>grammatica</code>, li <code>pronunciation</code> e <code>li</code> plu <code>commun</code> vocabules.</p>
-		
-		<hr>
-		
-		<div class="hr"></div>
-		
-		<p>Ma quande lingues coalesce, li grammatica del resultant lingue es plu simplic e regulari quam ti del coalescent lingues.</p>
-		
-	</div> <!-- /.body -->
-	
-	<h6 class="kit-subtle">Social links</h6>
-	
-	<p>
-		<a title="Tweet this" href="https://twitter.com/intent/tweet?text=YOUR-TITLE&url=YOUR-URL&via=TWITTER-HANDLE" target="_blank" rel="nofollow">Tweet this</a>
-		<a title="Share on Facebook" href="http://www.facebook.com/sharer/sharer.php?u=YOUR-URL" target="_blank" rel="nofollow">Share on Facebook</a>
-		<a title="Plus on Google+" href="https://plus.google.com/share?url=YOUR-URL" target="_blank" rel="nofollow">Plus on Google+</a>
-		<a title="Share on LinkedIn" href="http://www.linkedin.com/shareArticle?mini=true&url=YOUR-URL&title=YOUR-TITLE&summary=YOUR-SUMMARY&source=YOUR-URL" target="_blank" rel="nofollow">Share on LinkedIn</a>
-		<a title="Pin on Pinterest" href="http://pinterest.com/pin/create/button/?url=YOUR-URL&description=YOUR-DESCRIPTION&media=YOUR-IMAGE-SRC" target="_blank" rel="nofollow">Pin on Pinterest</a>
-		<a title="Share on VK" href="https://vk.com/share.php?url=YOUR-URL&title=YOUR-TITLE&description=YOUR-DESCRIPTION&image=YOUR-IMAGE-SRC&noparse=true" target="_blank" rel="nofollow">Share on VK</a>
-		<a title="Share on Xing" href="https://www.xing-share.com/app/user?op=share;sc_p=xing-share;url=YOUR-URL" target="_blank" rel="nofollow">Share on Xing</a>
-		<a title="Share on Tumblr" href="http://www.tumblr.com/share?v=3&u=YOUR-URL&t=YOUR-TITLE" target="_blank" rel="nofollow">Share on Tumblr</a>
-		<a title="Send via e-mail" href="mailto:EMAIL_RECIPIENT?subject=EMAIL_SUBJECT&body=EMAIL_BODY" target="_blank" rel="nofollow">Send via e-mail</a>
-	</p>
-	
-	<h6 class="kit-subtle"><code>footer</code> “meta”</h6>
-	
-	<footer>
-		
-		<p>This entry was posted in <a href="#">Categoy Label</a> and tagged <a href="#">tag</a>, <a href="#">tag</a>, <a href="#">tag</a> on <a href="#">November 6, 2013</a>. Bookmark the <a href="#">permalink</a> or copy the short url: <a href="http://foo.com/1234">http://foo.com/1234</a></p>
-		
-		<ul>
-			<li>This entry was posted in <a href="#">Categoy Label</a> and tagged <a href="#">tag</a>, <a href="#">tag</a>, <a href="#">tag</a> on <a href="#"><time pubdate datetime="2013-12-26T14:33:45-08:00" itemprop="datePublished"><!--2:33 p.m., -->Nov. 6, 2013</time></a>.</li>
-			<li>Bookmark the <a href="#">permalink</a>.</li>
-			<li>Copy the short url: <a href="#">http://foo.com/1234</a></li>
-		</ul>
-		
-	</footer>
-	
-</article>
-
-<hr>
+<hr class="kit-hr">
 
 <h6 id="hr" class="kit-marker"><div><a href="#hr"><code>hr</code></a></div></h6>
 
 <h6 class="kit-subtle"><code>hr</code> + <code>.hr</code> + <code>.hr1</code> + <code>.hr2</code> + <code>.hr3</code> + <code>.hr4</code> + <code>.hr5</code> + <code>.hr6</code></h6>
 
-<hr>
+<hr class="kit-hr">
 
 <div class="hr"></div>
 
@@ -366,7 +235,7 @@
 
 <div class="hr6"></div>
 
-<hr>
+<hr class="kit-hr">
 
 <h6 id="pre" class="kit-marker"><div><a href="#pre"><code>pre</code></a></div></h6>
 
@@ -414,7 +283,7 @@ jdoe@demo:~$ _</samp>
 
 <div><script src="https://gist.github.com/mhulse/6003668.js?file=.bashrc"></script></div>
 
-<hr>
+<hr class="kit-hr">
 
 <h6 id="blockquote" class="kit-marker"><div><a href="#blockquote"><code>blockquote</code></a></div></h6>
 
@@ -464,7 +333,7 @@ jdoe@demo:~$ _</samp>
 	<figcaption><code>figcaption</code>: Using <code>&lt;small&gt;</code> around a <a href="#" title="Choose a License">Creative Commons license</a> link with <code>rel="license"</code>.</figcaption>
 </figure>
 
-<hr>
+<hr class="kit-hr">
 
 <h6 id="ol-li" class="kit-marker"><div><a href="#ol-li"><code>ol</code> + <code>li</code></a></div></h6>
 
@@ -522,7 +391,7 @@ jdoe@demo:~$ _</samp>
 	<li>Ma quande lingues coalesce, li grammatica del resultant lingue es plu simplic e regulari quam ti del coalescent lingues.</li>
 </ol>
 
-<hr>
+<hr class="kit-hr">
 
 <h6 id="ul-li" class="kit-marker"><div><a href="#ul-li"><code>ul</code> + <code>li</code></a></div></h6>
 
@@ -580,7 +449,7 @@ jdoe@demo:~$ _</samp>
 	<li>At solmen va esser necessi far uniform grammatica, pronunciation e plu sommun paroles.</li>
 </ul>
 
-<hr>
+<hr class="kit-hr">
 
 <h6 id="dl-dt-dd" class="kit-marker"><div><a href="#dl-dt-dd"><code>dl</code> + <code>dt</code> + <code>dd</code></a></div></h6>
 
@@ -628,7 +497,7 @@ jdoe@demo:~$ _</samp>
 		<dd>Nunc</dd>
 </dl>
 
-<hr>
+<hr class="kit-hr">
 
 <h6 id="figure" class="kit-marker"><div><a href="#figure-figcaption"><code>figure</code> + <code>figcaption</code></a></div></h6>
 
@@ -684,7 +553,7 @@ jdoe@demo:~$ _</samp>
 	<p>Li Europan lingues es membres del sam familie. Lor separat existentie es un myth. Por scientie, musica, sport etc, litot Europa usa li sam vocabular. Li lingues differe solmen in li grammatica, li pronunciation e li plu commun vocabules. Omnicos directe al desirabilite de un nov lingua franca: On refusa continuar payar custosi traductores.</p>
 </div>
 
-<hr>
+<hr class="kit-hr">
 
 <h6 id="a" class="kit-marker"><div><a href="#a"><code>a</code></a></div></h6>
 
@@ -692,7 +561,7 @@ jdoe@demo:~$ _</samp>
 
 <p>Li Europan <a href="#">lingues es membres</a> del sam familie.</p>
 
-<hr>
+<hr class="kit-hr">
 
 <h6 id="em-i" class="kit-marker"><div><a href="#em-i"><code>em</code> + <code>i</code></a></div></h6>
 
@@ -700,13 +569,13 @@ jdoe@demo:~$ _</samp>
 
 <p>You <em>hit me</em>. Look don't make me <i>participate in your stupid crap</i> if you don't like the way I do it. <em>You make me get out of bed</em>, you make me come over here. You make me make a phony phone call to Edward Rooney? The man could <i>squash my nuts</i> into oblivion. And-and-and then, and then, you <em>deliberately hurt my feelings</em>.</p>
 
-<hr>
+<hr class="kit-hr">
 
 <h6 id="strong-b" class="kit-marker"><div><a href="#strong-b"><code>strong</code> + <code>b</code></a></div></h6>
 
 <p>Hey <strong>batta</strong> batta <strong>batta</strong> hey batta <strong>batta</strong> batta SWING <strong>batta</strong>! He <b>can't hit</b> he <b>can't hit</b> he <b>can't hit</b> suuuuhwing <b>batta</b>!</p>
 
-<hr>
+<hr class="kit-hr">
 
 <h6 id="small" class="kit-marker"><div><a href="#small"><code>small</code></a></div></h6>
 
@@ -716,7 +585,7 @@ jdoe@demo:~$ _</samp>
 
 <p class="small">This is a paragraph with a class of <code>small</code>: Unique New York. The arsonist had oddly shaped feet. The human torch was denied a bank loan. How now brown cow. The skeleton ran out of shampoo in the shower.</p>
 
-<hr>
+<hr class="kit-hr">
 
 <h6 id="s" class="kit-marker"><div><a href="#s"><code>s</code></a></div></h6>
 
@@ -728,7 +597,7 @@ jdoe@demo:~$ _</samp>
 	<strong>Now down to 50% off</strong>
 </p>
 
-<hr>
+<hr class="kit-hr">
 
 <h6 id="cite" class="kit-marker"><div><a href="#cite"><code>cite</code></a></div></h6>
 
@@ -750,7 +619,7 @@ jdoe@demo:~$ _</samp>
 
 <p>Per <a href="#"> <cite>HTML Color Picker</cite></a>, <q cite="http://www.HTML-5.com/css/css-styles/#html-color-picker">In a browser that does not yet support the HTML <input type="range"/> for a slider bar control, [HTML slider bar] controls will appear as text input fields.</q></p>
 
-<hr>
+<hr class="kit-hr">
 
 <h6 id="q" class="kit-marker"><div><a href="#q"><code>q</code></a></div></h6>
 
@@ -768,7 +637,7 @@ jdoe@demo:~$ _</samp>
 
 <p><q>A <q>un <q>Angleso <q>it <q>va <q>semblar <q>un <q>simplificat <q>Angles, <q>quam <q>un <q>skeptic <q>Cambridge <q>amico <q>dit <q>me <q>que <q>Occidental <q>es. <q>Li <q>Europan <q>lingues <q>es <q>membres <q>del <q>sam <q>familie. <q>Lor <q>separat existentie</q> es</q> un</q> myth</q>. Por</q> scientie</q>, musica</q>, sport</q> etc</q>, litot</q> Europa</q> usa</q> li</q> sam</q> vocabular</q>. Li</q> lingues</q> differe</q> solmen</q> in</q> li</q> grammatica</q>, li</q> pronunciation</q> e</q> li</q> plu</q> commun</q> vocabules.</q></p>
 
-<hr>
+<hr class="kit-hr">
 
 <h6 id="dfn" class="kit-marker"><div><a href="#dfn"><code>dfn</code></a></div></h6>
 
@@ -801,7 +670,7 @@ jdoe@demo:~$ _</samp>
 		<dd>The World-Wide Web (WWW) is a system of interlinked hypertext documents accessed on <a href="#def-internet">the Internet</a>.</dd>
 </dl>
 
-<hr>
+<hr class="kit-hr">
 
 <h6 id="abbr" class="kit-marker"><div><a href="#abbr"><code>abbr</code></a></div></h6>
 
@@ -815,7 +684,7 @@ jdoe@demo:~$ _</samp>
 
 <p>I've packed in my job to become an astronaut on <abbr title="National Aeronautics and Space Administration's">NASA's</abbr> new space rocket!</p>
 
-<hr>
+<hr class="kit-hr">
 
 <h6 id="data" class="kit-marker"><div><a href="#data"><code>data</code></a></div></h6>
 
@@ -825,7 +694,7 @@ jdoe@demo:~$ _</samp>
 	<li><data value="8390492029">HTML5 For Stark Raving Mad Lunatics Who Couldn't Tie A Shoelace If They Tried</data></li>
 </ul>
 
-<hr>
+<hr class="kit-hr">
 
 <h6 id="time" class="kit-marker"><div><a href="#time"><code>time</code></a></div></h6>
 
@@ -843,7 +712,7 @@ jdoe@demo:~$ _</samp>
 
 <p><time datetime="2009-11-13T20:00Z">8pm on my birthday</time></p>
 
-<hr>
+<hr class="kit-hr">
 
 <h6 id="code" class="kit-marker"><div><a href="#code"><code>code</code></a></div></h6>
 
@@ -865,7 +734,7 @@ jdoe@demo:~$ _</samp>
 
 <p>This is an example which mentions code within a paragraph, namely the functions <code>wp_title()</code>, <code>wp_content()</code> and <code>wp_footer()</code>, which are very useful in WordPress.</p>
 
-<hr>
+<hr class="kit-hr">
 
 <h6 id="var" class="kit-marker"><div><a href="#var"><code>var</code></a></div></h6>
 
@@ -881,7 +750,7 @@ jdoe@demo:~$ _</samp>
 
 <p><p>Then he turned to the blackboard and picked up the chalk. After a few moment's thought, he wrote <var>E</var> = <var>m</var> <var>c</var><sup>2</sup>. The teacher looked pleased.</p></p>
 
-<hr>
+<hr class="kit-hr">
 
 <h6 id="samp" class="kit-marker"><div><a href="#samp"><code>samp</code></a></div></h6>
 
@@ -895,7 +764,7 @@ jdoe@demo:~$ _</samp>
 
 <p>The <samp>File</samp> menu is where you will find the important <samp>Load</samp> and <samp>Save</samp> commands</p>
 
-<hr>
+<hr class="kit-hr">
 
 <h6 id="kbd" class="kit-marker"><div><a href="#kbd"><code>kbd</code></a></div></h6>
 
@@ -919,7 +788,7 @@ jdoe@demo:~$ _</samp>
 
 <p><kbd><kbd>A</kbd> + <kbd>B</kbd> + <kbd>C</kbd> + <kbd>D</kbd> + <kbd>E</kbd> + <kbd>F</kbd> + <kbd>G</kbd> + <kbd>H</kbd> + <kbd>I</kbd> + <kbd>J</kbd> + <kbd>K</kbd> + <kbd>L</kbd> + <kbd>M</kbd> + <kbd>N</kbd> + <kbd>O</kbd> + <kbd>P</kbd> + <kbd>Q</kbd> + <kbd>R</kbd> + <kbd>S</kbd> + <kbd>T</kbd> + <kbd>U</kbd> + <kbd>V</kbd> + <kbd>W</kbd> + <kbd>X</kbd> + <kbd>Y</kbd> and <kbd>Z</kbd>!</kbd></p>
 
-<hr>
+<hr class="kit-hr">
 
 <h6 id="sub-sup" class="kit-marker"><div><a href="#sub-sup"><code>sub</code> + <code>sup</code></a></div></h6>
 
@@ -939,7 +808,7 @@ jdoe@demo:~$ _</samp>
 
 <p>Omnico<sup>s</sup> direct<sub>e</sub> a<sup>l</sup> desirabilit<sub>e</sub> d<sup>e</sup> u<sub>n</sub> n<sup>o</sup>v l<sub>i</sub>ngua fr<sup>a</sup>nca: O<sub>n</sub> ref<sup>u</sup>sa contin<sub>u</sub>ar pa<sup>y</sup>ar c<sub>u</sub>stosi <sup>t</sup>raductores.</p>
 
-<hr>
+<hr class="kit-hr">
 
 <h6 id="u" class="kit-marker"><div><a href="#u"><code>u</code></a></div></h6>
 
@@ -951,7 +820,7 @@ jdoe@demo:~$ _</samp>
 
 <p>Rand, Ayn. <u>Atlas Shrugged</u>. New York: Random House, 1957; New York: Plume, 1999.</p>
 
-<hr>
+<hr class="kit-hr">
 
 <h6 id="mark" class="kit-marker"><div><a href="#mark"><code>mark</code></a></div></h6>
 
@@ -969,7 +838,7 @@ jdoe@demo:~$ _</samp>
 
 <p>A showcase of sites using <mark>html5</mark> markup, with twin primary aims to help web designers and developers of how to implement <mark>html5</mark> into their sites now, ... <a href="#">Read more</a></p>
 
-<hr>
+<hr class="kit-hr">
 
 <h6 id="ruby-rp-rt" class="kit-marker"><div><a href="#ruby-rp-rt"><code>ruby</code> + <code>rp</code> + <code>rt</code></a></div></h6>
 
@@ -985,7 +854,7 @@ jdoe@demo:~$ _</samp>
 
 <p><ruby><strong>cromulent</strong> <rp>(</rp><rt>crôm-yü-lənt</rt><rp>)</rp></ruby></p>
 
-<hr>
+<hr class="kit-hr">
 
 <h6 id="bdi" class="kit-marker"><div><a href="#bdi"><code>bdi</code></a></div></h6>
 
@@ -993,7 +862,7 @@ jdoe@demo:~$ _</samp>
 
 <p>This arabic word <bdi>أحمد</bdi> is automatically displayed right-to-left.</p>
 
-<hr>
+<hr class="kit-hr">
 
 <h6 id="bdo" class="kit-marker"><div><a href="#bdo"><code>bdo</code></a></div></h6>
 
@@ -1001,25 +870,25 @@ jdoe@demo:~$ _</samp>
 
 <p><bdo dir="rtl">Don't cheat by reading this in a mirror!</bdo></p>
 
-<hr>
+<hr class="kit-hr">
 
 <h6 id="span" class="kit-marker"><div><a href="#span"><code>span</code></a></div></h6>
 
 <span>Li Europan lingues es membres del sam familie. Lor separat existentie es un myth. Por scientie, musica, sport etc, litot Europa usa li sam vocabular. Li lingues differe solmen in li grammatica, li pronunciation e li plu commun vocabules. Omnicos directe al desirabilite de un nov lingua franca: On refusa continuar payar custosi traductores.</span>
 
-<hr>
+<hr class="kit-hr">
 
 <h6 id="br" class="kit-marker"><div><a href="#br"><code>br</code></a></div></h6>
 
 <p><code>getElements<br>ByTagName()</code></p>
 
-<hr>
+<hr class="kit-hr">
 
 <h6 id="wbr" class="kit-marker"><div><a href="#wbr"><code>wbr</code></a></div></h6>
 
 <p><code>getElements<wbr>ByTagName()</code></p>
 
-<hr>
+<hr class="kit-hr">
 
 <h6 id="del-ins" class="kit-marker"><div><a href="#del-ins"><code>del</code> + <code>ins</code></a></div></h6>
 
@@ -1037,13 +906,13 @@ jdoe@demo:~$ _</samp>
 
 <p>The current capital of Maharashtra is <del>Bombay</del> <ins>Mumbai</ins></p>
 
-<hr>
+<hr class="kit-hr">
 
 <h6 id="img" class="kit-marker"><div><a href="#img"><code>img</code></a></div></h6>
 
 <img src="http://lorempixel.com/1000/500" width="500" alt="Lorem ipsum" tilte="Lorem ipsum">
 
-<hr>
+<hr class="kit-hr">
 
 <h6 id="iframe" class="kit-marker"><div><a href="#iframe"><code>iframe</code></a></div></h6>
 
@@ -1090,7 +959,7 @@ jdoe@demo:~$ _</samp>
 	<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
 </p>
 
-<hr>
+<hr class="kit-hr">
 
 <!-- ##### <embed> ##### -->
 
@@ -1106,7 +975,7 @@ jdoe@demo:~$ _</samp>
 	<p><a href="http://www.adobe.com/go/getflash"><img src="http://wwwimages.adobe.com/www.adobe.com/content/dam/Adobe/en/legal/logo/160x41_get_flashplayer.gif" alt="Get Adobe Flash player"/></a></p>
 </object>
 
-<hr>
+<hr class="kit-hr">
 
 <h6 id="video" class="kit-marker"><div><a href="#video"><code>video</code></a></div></h6>
 
@@ -1118,7 +987,7 @@ jdoe@demo:~$ _</samp>
 	</video>
 </figure>
 
-<hr>
+<hr class="kit-hr">
 
 <h6 id="audio" class="kit-marker"><div><a href="#audio"><code>audio</code></a></div></h6>
 
@@ -1129,7 +998,7 @@ jdoe@demo:~$ _</samp>
 	</audio>
 </figure>
 
-<hr>
+<hr class="kit-hr">
 
 <!-- ##### <source> ##### -->
 
@@ -1672,7 +1541,7 @@ jdoe@demo:~$ _</samp>
 	</tbody>
 </table>
 
-<hr>
+<hr class="kit-hr">
 
 <h6 id="form-children" class="kit-marker"><div><a href="#form-children"><code>form</code> + children</a></div></h6>
 
@@ -2114,8 +1983,6 @@ jdoe@demo:~$ _</samp>
 	</fieldset>
 	
 </form>
-
-</div>
 
 </body>
 </html>
