@@ -1,149 +1,175 @@
 <!doctype html>
 <html lang="en" dir="ltr">
 <head>
-	<meta charset="utf-8">
-	<title>HTML starter kit | v1.0.0</title>
-	<meta name="description" content="A variety of HTML(5) markup examples (plus a few extras).">
-	<style>
-		.kit-marker {
-			font: normal 1em/1.2 arial, sans-serif;
-			text-transform: none;
-			letter-spacing: .03em;
-			margin: 1em 0;
-			padding: 0;
-		}
-		.kit-marker div {
-			overflow: hidden;
-		}
-		.kit-marker a,
-		.kit-marker span {
-			padding: 0.8em 1em;
-			float: left;
-		}
-		.kit-marker a + a,
-		.kit-marker span + span {
-			margin-left: .05em;
-		}
-		.kit-marker a,
-		.kit-marker a:visited,
-		.kit-marker a:visited:hover,
-		.kit-marker a:focus,
-		.kit-marker a:focus:hover,
-		.kit-marker a:hover,
-		.kit-marker a:active,
-		.kit-marker span {
-			text-decoration: none;
-			color: #fff;
-			background: #000;
-		}
-		.kit-subtle {
-			font: normal .8em/1.2 monospace, serif;
-			color: #000;
-			background: yellow;
-			margin: 1em 0;
-			padding: 0.8em 1em;
-			display: inline-block;
-			white-space: pre-line
-		}
-		.kit-marker code,
-		.kit-subtle code {
-			font-size: inherit;
-			color: inherit;
-			font-family: monospace, serif;
-			font-weight: normal;
-			font-style: normal;
-			letter-spacing: normal;
-			white-space: pre;
-			white-space: pre-wrap;
-			white-space: pre-line;
-			white-space: -pre-wrap;
-			white-space: -o-pre-wrap;
-			white-space: -moz-pre-wrap;
-			white-space: -hp-pre-wrap;
-			word-wrap: break-word;
-		}
-		.kit-hr {
-			border: 0;
-			border-top: 5px solid #ddd;
-			height: 0;
-			margin: 4em 0;
-			padding: 0;
-			-webkit-box-sizing: content-box;
-			-moz-box-sizing: content-box;
-			-ms-box-sizing: content-box;
-			-o-box-sizing: content-box;
-			box-sizing: content-box;
-		}
-	</style>
+<meta charset="utf-8">
+<title>HTML starter kit | v1.0.0</title>
+<meta name="description" content="HTML(5) markup starter kit (plus a few extras).">
+<style>
+
+/*--------------------------------------------------------------------*/
+/* DEMO ONLY */
+
+body {
+    font-family: arial, sans-serif;
+}
+body > :first-child {
+    margin-top: 0 !important;
+}
+body > :last-child {
+    margin-bottom: 0 !important;
+}
+
+div[id] {
+    margin: 40px 0;
+}
+div[id] h3 {
+    font: normal 2em/1.2 arial, sans-serif;
+    margin: 0;
+}
+div[id] a,
+div[id] a:visited,
+div[id] a:visited:hover,
+div[id] a:focus,
+div[id] a:focus:hover,
+div[id] a:hover,
+div[id] a:active {
+    text-decoration: none;
+    color: red;
+}
+
+/*--------------------------------------------------------------------*/
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 20px 0;
+}
+
+h1, .h1 {}
+h2, .h2 {}
+h3, .h3 {}
+h4, .h4 {}
+h5, .h5 {}
+h6, .h6 {}
+
+h1 + h1, h1 + h2, h1 + h3, h1 + h4, h1 + h5, h1 + h6,
+h2 + h1, h2 + h2, h2 + h3, h2 + h4, h2 + h5, h2 + h6,
+h3 + h1, h3 + h2, h3 + h3, h3 + h4, h3 + h5, h3 + h6,
+h4 + h1, h4 + h2, h4 + h3, h4 + h4, h4 + h5, h4 + h6,
+h5 + h1, h5 + h2, h5 + h3, h5 + h4, h5 + h5, h5 + h6,
+h6 + h1, h6 + h2, h6 + h3, h6 + h4, h6 + h5, h6 + h6 {
+    margin-top: -10px;
+}
+
+h1 + p,
+h2 + p,
+h3 + p,
+h4 + p,
+h5 + p,
+h6 + p {
+    margin-top: -10px;
+}
+
+.sh {
+    font-weight: normal;
+}
+
+</style>
 </head>
 <body>
 
-<h6 id="h1-h6" class="kit-marker"><div><a href="#h1-h6"><code>h1</code> - <code>h6</code></a></div></h6>
+<div id="headings"><h3><a href="#headings">Headings</a></h3></div>
 
 <h1><a href="#">The quick brown fox hxy jumps over the lazy dog hxy</a></h1>
-<h1 class="h1 sh">The quick brown fox hxy jumps over the lazy dog hxy</h1>
+
+<h2><a href="#">The quick brown fox hxy jumps over the lazy dog hxy</a></h2>
+
+<h3><a href="#">The quick brown fox hxy jumps over the lazy dog hxy</a></h3>
+
+<h4><a href="#">The quick brown fox hxy jumps over the lazy dog hxy</a></h4>
+
+<h5><a href="#">The quick brown fox hxy jumps over the lazy dog hxy</a></h5>
+
+<h6><a href="#">The quick brown fox hxy jumps over the lazy dog hxy</a></h6>
+
+<div id="subheadings"><h3><a href="#subheadings">Subheadings</a></h3></div>
+
+<h1 class="sh"><a href="#">The quick brown fox hxy jumps over the lazy dog hxy</a></h1>
+
+<h2 class="sh"><a href="#">The quick brown fox hxy jumps over the lazy dog hxy</a></h2>
+
+<h3 class="sh"><a href="#">The quick brown fox hxy jumps over the lazy dog hxy</a></h3>
+
+<h4 class="sh"><a href="#">The quick brown fox hxy jumps over the lazy dog hxy</a></h4>
+
+<h5 class="sh"><a href="#">The quick brown fox hxy jumps over the lazy dog hxy</a></h5>
+
+<h6 class="sh"><a href="#">The quick brown fox hxy jumps over the lazy dog hxy</a></h6>
+
+<div id="excerpts"><h3><a href="#excerpts">Excerpts</a></h3></div>
+
+<h1><a href="#">The quick brown fox hxy jumps over the lazy dog hxy</a></h1>
+<h1 class="sh">The quick brown fox hxy jumps over the lazy dog hxy</h1>
 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 
 <h2><a href="#">The quick brown fox hxy jumps over the lazy dog hxy</a></h2>
-<h2 class="h2 sh">The quick brown fox hxy jumps over the lazy dog hxy</h2>
+<h2 class="sh">The quick brown fox hxy jumps over the lazy dog hxy</h2>
 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 
 <h3><a href="#">The quick brown fox hxy jumps over the lazy dog hxy</a></h3>
-<h3 class="h3 sh">The quick brown fox hxy jumps over the lazy dog hxy</h3>
+<h3 class="sh">The quick brown fox hxy jumps over the lazy dog hxy</h3>
 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 
 <h4><a href="#">The quick brown fox hxy jumps over the lazy dog hxy</a></h4>
-<h4 class="h4 sh">The quick brown fox hxy jumps over the lazy dog hxy</h4>
+<h4 class="sh">The quick brown fox hxy jumps over the lazy dog hxy</h4>
 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 
 <h5><a href="#">The quick brown fox hxy jumps over the lazy dog hxy</a></h5>
-<h55 class="h5 sh">The quick brown fox hxy jumps over the lazy dog hxy</h5>
+<h55 class="sh">The quick brown fox hxy jumps over the lazy dog hxy</h5>
 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 
 <h6><a href="#">The quick brown fox hxy jumps over the lazy dog hxy</a></h6>
-<h6 class="h6 sh">The quick brown fox hxy jumps over the lazy dog hxy</h6>
+<h6 class="sh">The quick brown fox hxy jumps over the lazy dog hxy</h6>
 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 
 <h6 id="address" class="kit-marker"><div><a href="#address"><code>address</code></a></div></h6>
 
 <address class="vcard" itemscope itemtype="http://data-vocabulary.org/Organization">
-	<div class="fn org" itemprop="name">Google Inc.</div>
-	<div class="adr" itemprop="address" itemscope itemtype="http://data-vocabulary.org/Address">
-		<div class="street-address" itemprop="street-address">1600 Amphitheatre Parkway</div>
-		<div>
-			<span class="locality" itemprop="locality">Mountain View</span>,
-			<abbr class="region" itemprop="region" title="California">CA</abbr>
-			&nbsp;&nbsp;
-			<span class="postal-code" itemprop="postal-code">94043</span>
-		</div>
-		<div class="country-name" itemprop="country-name">United States</div>
-	</div>
-	<div class="tel">
-		<span class="type">Work</span>:
-		<a href="tel:16502530000" class="value" itemprop="telephone">
-			+1-650-253-0000
-		</a>
-	</div>
-	<div class="tel">
-		<span class="type">Fax</span>:
-		<span class="value" itemprop="faxNumber">+1-650-253-0001</span>
-	</div>
-	<div class="email">
-		<span class="type">Email</span>:
-		<a href="mailto:help@google.com" class="value" itemprop="email">
-			help@google.com
-		</a>
-	</div>
-	<div itemprop="geo" itemscope itemtype="http://www.data-vocabulary.org/Geo/">
-		<div>
-			Latitude: <span itemprop="latitude">37.3861° N</span>
-			<meta itemprop="latitude" content="37.3861">
-		</div>
-		<div>
-			Longitude: <span itemprop="longitude">122.0839° W</span>
-			<meta itemprop="longitude" content="122.0839">
-		</div>
-	</div>
+    <div class="fn org" itemprop="name">Google Inc.</div>
+    <div class="adr" itemprop="address" itemscope itemtype="http://data-vocabulary.org/Address">
+        <div class="street-address" itemprop="street-address">1600 Amphitheatre Parkway</div>
+        <div>
+            <span class="locality" itemprop="locality">Mountain View</span>,
+            <abbr class="region" itemprop="region" title="California">CA</abbr>
+            &nbsp;&nbsp;
+            <span class="postal-code" itemprop="postal-code">94043</span>
+        </div>
+        <div class="country-name" itemprop="country-name">United States</div>
+    </div>
+    <div class="tel">
+        <span class="type">Work</span>:
+        <a href="tel:16502530000" class="value" itemprop="telephone">
+            +1-650-253-0000
+        </a>
+    </div>
+    <div class="tel">
+        <span class="type">Fax</span>:
+        <span class="value" itemprop="faxNumber">+1-650-253-0001</span>
+    </div>
+    <div class="email">
+        <span class="type">Email</span>:
+        <a href="mailto:help@google.com" class="value" itemprop="email">
+            help@google.com
+        </a>
+    </div>
+    <div itemprop="geo" itemscope itemtype="http://www.data-vocabulary.org/Geo/">
+        <div>
+            Latitude: <span itemprop="latitude">37.3861° N</span>
+            <meta itemprop="latitude" content="37.3861">
+        </div>
+        <div>
+            Longitude: <span itemprop="longitude">122.0839° W</span>
+            <meta itemprop="longitude" content="122.0839">
+        </div>
+    </div>
 </address>
 
 <h6 id="p" class="kit-marker"><div><a href="#p"><code>p</code></a></div></h6>
@@ -195,240 +221,240 @@ p q r s t u v w x y z { | } ~
 <h6 id="blockquote" class="kit-marker"><div><a href="#blockquote"><code>blockquote</code></a></div></h6>
 
 <blockquote>
-	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-	<footer>
-		<p>&mdash; Lorem ipsum dolor</p>
-	</footer>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    <footer>
+        <p>&mdash; Lorem ipsum dolor</p>
+    </footer>
 </blockquote>
 
 <h6 id="ol" class="kit-marker"><div><a href="#ol"><code>ol</code></a></div></h6>
 
 <ol>
-	<li>Dolore eu fugiat nulla</li>
-	<li>
-		Lorem ipsum dolor sit amet
-		<ul>
-			<li>Dolore eu fugiat nulla</li>
-			<li>
-				Lorem ipsum dolor sit amet
-				<ul>
-					<li>Dolore eu fugiat nulla</li>
-					<li>
-						Lorem ipsum dolor sit amet
-						<ul>
-							<li>Dolore eu fugiat nulla</li>
-							<li>
-								Lorem ipsum dolor sit amet
-								<ul>
-									<li>Dolore eu fugiat nulla</li>
-									<li>
-										Lorem ipsum dolor sit amet
-										<ul>
-											<li>Dolore eu fugiat nulla</li>
-										</ul>
-									</li>
-								</ul>
-							</li>
-						</ul>
-					</li>
-				</ul>
-			</li>
-		</ul>
-	</li>
-	<li><a href="#">The quick brown fox hxy jumps over the lazy dog hxy</a></li>
-	<li>Lorem ipsum dolor <u>sit amet</u></li>
-	<li>Ut <em>enim ad minim</em> veniam quis nostrud exercitation ullamco laboris</li>
-	<li>Excepteur <i>sint occaecat cupidatat</i> non proident</li>
-	<li>Sunt in culpa qui officia deserunt mollit <s>anim id est</s> laborum</li>
-	<li>
-		<p>Lorem ipsum <strong>dolor sit amet</strong>, consectetur adipiscing elit. Mauris non massa non libero blandit dictum. In viverra elit id felis placerat non suscipit magna blandit. Sed lacinia arcu a nisi vehicula at vehicula purus laoreet.</p>
-	</li>
-	<li>
-		<img width="250" src="http://lorempixel.com/500/500">
-	</li>
-	<li>Lorem ipsum dolor</li>
-	<li>
-		 Sunt in c<u>ulpa qui officia</u> deserunt
-		<ul>
-			<li>Duis <a href="#">aute irure dolor</a> in reprehenderit</li>
-			<li>
-				 Officia deserunt mollit anim id est laborum
-				<ol>
-					<li>
-						<p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
-					</li>
-					<li>Voluptate <s>velit esse cillum</s> dolore</li>
-				</ol>
-			</li>
-			<li>Sunt in culpa qui officia deserunt mollit anim</li>
-		</ul>
-	</li>
-	<li>Lorem ipsum dolor sit amet <img width="150" src="http://lorempixel.com/300/300"> consectetur <b>adipisicing elit</b></li>
-	<li>
-		The quick brown fox hxy jumps over the lazy dog hxy
-		<dl>
-			<dt>Duis aute irure</dt>
-				<dd><a href="#">Reprehenderit</a> in voluptate</dd>
-				<dd>Dolore eu fugiat</dd>
-			<dt>Sunt in culpa</dt>
-				<dd>Voluptate velit esse</dd>
-				<dd>Lorem ipsum dolor</dd>
-				<dd>Sed <s>lacinia arcu</s></dd>
-		</dl>
-	</li>
-	<li>Culpa qui <a href="#">officia deserunt</a></li>
+    <li>Dolore eu fugiat nulla</li>
+    <li>
+        Lorem ipsum dolor sit amet
+        <ul>
+            <li>Dolore eu fugiat nulla</li>
+            <li>
+                Lorem ipsum dolor sit amet
+                <ul>
+                    <li>Dolore eu fugiat nulla</li>
+                    <li>
+                        Lorem ipsum dolor sit amet
+                        <ul>
+                            <li>Dolore eu fugiat nulla</li>
+                            <li>
+                                Lorem ipsum dolor sit amet
+                                <ul>
+                                    <li>Dolore eu fugiat nulla</li>
+                                    <li>
+                                        Lorem ipsum dolor sit amet
+                                        <ul>
+                                            <li>Dolore eu fugiat nulla</li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+    </li>
+    <li><a href="#">The quick brown fox hxy jumps over the lazy dog hxy</a></li>
+    <li>Lorem ipsum dolor <u>sit amet</u></li>
+    <li>Ut <em>enim ad minim</em> veniam quis nostrud exercitation ullamco laboris</li>
+    <li>Excepteur <i>sint occaecat cupidatat</i> non proident</li>
+    <li>Sunt in culpa qui officia deserunt mollit <s>anim id est</s> laborum</li>
+    <li>
+        <p>Lorem ipsum <strong>dolor sit amet</strong>, consectetur adipiscing elit. Mauris non massa non libero blandit dictum. In viverra elit id felis placerat non suscipit magna blandit. Sed lacinia arcu a nisi vehicula at vehicula purus laoreet.</p>
+    </li>
+    <li>
+        <img width="250" src="http://lorempixel.com/500/500">
+    </li>
+    <li>Lorem ipsum dolor</li>
+    <li>
+         Sunt in c<u>ulpa qui officia</u> deserunt
+        <ul>
+            <li>Duis <a href="#">aute irure dolor</a> in reprehenderit</li>
+            <li>
+                 Officia deserunt mollit anim id est laborum
+                <ol>
+                    <li>
+                        <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                    </li>
+                    <li>Voluptate <s>velit esse cillum</s> dolore</li>
+                </ol>
+            </li>
+            <li>Sunt in culpa qui officia deserunt mollit anim</li>
+        </ul>
+    </li>
+    <li>Lorem ipsum dolor sit amet <img width="150" src="http://lorempixel.com/300/300"> consectetur <b>adipisicing elit</b></li>
+    <li>
+        The quick brown fox hxy jumps over the lazy dog hxy
+        <dl>
+            <dt>Duis aute irure</dt>
+                <dd><a href="#">Reprehenderit</a> in voluptate</dd>
+                <dd>Dolore eu fugiat</dd>
+            <dt>Sunt in culpa</dt>
+                <dd>Voluptate velit esse</dd>
+                <dd>Lorem ipsum dolor</dd>
+                <dd>Sed <s>lacinia arcu</s></dd>
+        </dl>
+    </li>
+    <li>Culpa qui <a href="#">officia deserunt</a></li>
 </ol>
 
 <h6 id="ul" class="kit-marker"><div><a href="#ul"><code>ul</code></a></div></h6>
 
 <ul>
-	<li>Dolore eu fugiat nulla</li>
-	<li>
-		Lorem ipsum dolor sit amet
-		<ul>
-			<li>Dolore eu fugiat nulla</li>
-			<li>
-				Lorem ipsum dolor sit amet
-				<ul>
-					<li>Dolore eu fugiat nulla</li>
-					<li>
-						Lorem ipsum dolor sit amet
-						<ul>
-							<li>Dolore eu fugiat nulla</li>
-							<li>
-								Lorem ipsum dolor sit amet
-								<ul>
-									<li>Dolore eu fugiat nulla</li>
-									<li>
-										Lorem ipsum dolor sit amet
-										<ul>
-											<li>Dolore eu fugiat nulla</li>
-										</ul>
-									</li>
-								</ul>
-							</li>
-						</ul>
-					</li>
-				</ul>
-			</li>
-		</ul>
-	</li>
-	<li><a href="#">The quick brown fox hxy jumps over the lazy dog hxy</a></li>
-	<li>Lorem ipsum dolor <u>sit amet</u></li>
-	<li>Ut <em>enim ad minim</em> veniam quis nostrud exercitation ullamco laboris</li>
-	<li>Excepteur <i>sint occaecat cupidatat</i> non proident</li>
-	<li>Sunt in culpa qui officia deserunt mollit <s>anim id est</s> laborum</li>
-	<li>
-		<p>Lorem ipsum <strong>dolor sit amet</strong>, consectetur adipiscing elit. Mauris non massa non libero blandit dictum. In viverra elit id felis placerat non suscipit magna blandit. Sed lacinia arcu a nisi vehicula at vehicula purus laoreet.</p>
-	</li>
-	<li>
-		<img width="250" src="http://lorempixel.com/500/500">
-	</li>
-	<li>Lorem ipsum dolor</li>
-	<li>
-		 Sunt in c<u>ulpa qui officia</u> deserunt
-		<ol>
-			<li>Duis <a href="#">aute irure dolor</a> in reprehenderit</li>
-			<li>
-				 Officia deserunt mollit anim id est laborum
-				<ul>
-					<li>
-						<p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
-					</li>
-					<li>Voluptate <s>velit esse cillum</s> dolore</li>
-				</ul>
-			</li>
-			<li>Sunt in culpa qui officia deserunt mollit anim</li>
-		</ol>
-	</li>
-	<li>Lorem ipsum dolor sit amet <img width="150" src="http://lorempixel.com/300/300"> consectetur <b>adipisicing elit</b></li>
-	<li>
-		The quick brown fox hxy jumps over the lazy dog hxy
-		<dl>
-			<dt>Duis aute irure</dt>
-				<dd><a href="#">Reprehenderit</a> in voluptate</dd>
-				<dd>Dolore eu fugiat</dd>
-			<dt>Sunt in culpa</dt>
-				<dd>Voluptate velit esse</dd>
-				<dd>Lorem ipsum dolor</dd>
-				<dd>Sed <s>lacinia arcu</s></dd>
-		</dl>
-	</li>
-	<li>Culpa qui <a href="#">officia deserunt</a></li>
+    <li>Dolore eu fugiat nulla</li>
+    <li>
+        Lorem ipsum dolor sit amet
+        <ul>
+            <li>Dolore eu fugiat nulla</li>
+            <li>
+                Lorem ipsum dolor sit amet
+                <ul>
+                    <li>Dolore eu fugiat nulla</li>
+                    <li>
+                        Lorem ipsum dolor sit amet
+                        <ul>
+                            <li>Dolore eu fugiat nulla</li>
+                            <li>
+                                Lorem ipsum dolor sit amet
+                                <ul>
+                                    <li>Dolore eu fugiat nulla</li>
+                                    <li>
+                                        Lorem ipsum dolor sit amet
+                                        <ul>
+                                            <li>Dolore eu fugiat nulla</li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+    </li>
+    <li><a href="#">The quick brown fox hxy jumps over the lazy dog hxy</a></li>
+    <li>Lorem ipsum dolor <u>sit amet</u></li>
+    <li>Ut <em>enim ad minim</em> veniam quis nostrud exercitation ullamco laboris</li>
+    <li>Excepteur <i>sint occaecat cupidatat</i> non proident</li>
+    <li>Sunt in culpa qui officia deserunt mollit <s>anim id est</s> laborum</li>
+    <li>
+        <p>Lorem ipsum <strong>dolor sit amet</strong>, consectetur adipiscing elit. Mauris non massa non libero blandit dictum. In viverra elit id felis placerat non suscipit magna blandit. Sed lacinia arcu a nisi vehicula at vehicula purus laoreet.</p>
+    </li>
+    <li>
+        <img width="250" src="http://lorempixel.com/500/500">
+    </li>
+    <li>Lorem ipsum dolor</li>
+    <li>
+         Sunt in c<u>ulpa qui officia</u> deserunt
+        <ol>
+            <li>Duis <a href="#">aute irure dolor</a> in reprehenderit</li>
+            <li>
+                 Officia deserunt mollit anim id est laborum
+                <ul>
+                    <li>
+                        <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                    </li>
+                    <li>Voluptate <s>velit esse cillum</s> dolore</li>
+                </ul>
+            </li>
+            <li>Sunt in culpa qui officia deserunt mollit anim</li>
+        </ol>
+    </li>
+    <li>Lorem ipsum dolor sit amet <img width="150" src="http://lorempixel.com/300/300"> consectetur <b>adipisicing elit</b></li>
+    <li>
+        The quick brown fox hxy jumps over the lazy dog hxy
+        <dl>
+            <dt>Duis aute irure</dt>
+                <dd><a href="#">Reprehenderit</a> in voluptate</dd>
+                <dd>Dolore eu fugiat</dd>
+            <dt>Sunt in culpa</dt>
+                <dd>Voluptate velit esse</dd>
+                <dd>Lorem ipsum dolor</dd>
+                <dd>Sed <s>lacinia arcu</s></dd>
+        </dl>
+    </li>
+    <li>Culpa qui <a href="#">officia deserunt</a></li>
 </ul>
 
 <h6 id="dl" class="kit-marker"><div><a href="#dl"><code>dl</code></a></div></h6>
 
 <dl>
-	<dt>Lorem ipsum dolor sit amet</dt>
-	<dd>
-		Excepteur sint occaecat cupidatat non proident
-		<dl>
-			<dt>Lorem ipsum dolor sit amet</dt>
-			<dd>
-				Excepteur sint occaecat cupidatat non proident
-				<dl>
-					<dt>Lorem ipsum dolor sit amet</dt>
-					<dd>
-						Excepteur sint occaecat cupidatat non proident
-						<dl>
-							<dt>Lorem ipsum dolor sit amet</dt>
-							<dd>
-								Excepteur sint occaecat cupidatat non proident
-								<dl>
-									<dt>Lorem ipsum dolor sit amet</dt>
-									<dd>
-										Excepteur sint occaecat cupidatat non proident
-										<dl>
-											<dt>Lorem ipsum dolor sit amet</dt>
-											<dd>Excepteur sint occaecat cupidatat non proident</dd>
-										</dl>
-									</dd>
-								</dl>
-							</dd>
-						</dl>
-					</dd>
-				</dl>
-			</dd>
-		</dl>
-	</dd>
-	<dt>The quick brown fox hxy jumps over the lazy dog hxy</dt>
-		<dd>Lorem ipsum dolor sit amet</dd>
-		<dd>Consectetur <s>adipisicing elit</s></dd>
-		<dd>
-			Sed do eiusmod tempor incididunt
-			<ul>
-				<li>Sed do eiusmod tempor incididunt ut labore</li>
-				<li>Sed do eiusmod tempor</li>
-			</ul>
-		</dd>
-	<dt>The quick brown fox hxy jumps over the lazy dog hxy</dt>
-		<dd>Incididunt ut <i>labore et dolore</i> magna aliqua</dd>
-		<dd>Incididunt ut labore et <img width="150" src="http://lorempixel.com/300/300"> dolore magna aliqua</dd>
-		<dd>Ut <u>enim ad</u> minim veniam</dd>
-		<dd>
-			Ut enim ad minim veniam
-			<ol>
-				<li>
-					<p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-				</li>
-				<li>Duis <u>aute irure</u> dolor</li>
-			</ol>
-		</dd>
-	<dt>The quick brown fox hxy jumps over the lazy dog hxy</dt>
-		<dd>In reprehenderit in voluptate velit esse</dd>
-		<dd>Cillum <a href="#">dolore eu fugiat</a> nulla pariatur</dd>
-		<dd>Excepteur sint occaecat cupidatat non proident</dd>
+    <dt>Lorem ipsum dolor sit amet</dt>
+    <dd>
+        Excepteur sint occaecat cupidatat non proident
+        <dl>
+            <dt>Lorem ipsum dolor sit amet</dt>
+            <dd>
+                Excepteur sint occaecat cupidatat non proident
+                <dl>
+                    <dt>Lorem ipsum dolor sit amet</dt>
+                    <dd>
+                        Excepteur sint occaecat cupidatat non proident
+                        <dl>
+                            <dt>Lorem ipsum dolor sit amet</dt>
+                            <dd>
+                                Excepteur sint occaecat cupidatat non proident
+                                <dl>
+                                    <dt>Lorem ipsum dolor sit amet</dt>
+                                    <dd>
+                                        Excepteur sint occaecat cupidatat non proident
+                                        <dl>
+                                            <dt>Lorem ipsum dolor sit amet</dt>
+                                            <dd>Excepteur sint occaecat cupidatat non proident</dd>
+                                        </dl>
+                                    </dd>
+                                </dl>
+                            </dd>
+                        </dl>
+                    </dd>
+                </dl>
+            </dd>
+        </dl>
+    </dd>
+    <dt>The quick brown fox hxy jumps over the lazy dog hxy</dt>
+        <dd>Lorem ipsum dolor sit amet</dd>
+        <dd>Consectetur <s>adipisicing elit</s></dd>
+        <dd>
+            Sed do eiusmod tempor incididunt
+            <ul>
+                <li>Sed do eiusmod tempor incididunt ut labore</li>
+                <li>Sed do eiusmod tempor</li>
+            </ul>
+        </dd>
+    <dt>The quick brown fox hxy jumps over the lazy dog hxy</dt>
+        <dd>Incididunt ut <i>labore et dolore</i> magna aliqua</dd>
+        <dd>Incididunt ut labore et <img width="150" src="http://lorempixel.com/300/300"> dolore magna aliqua</dd>
+        <dd>Ut <u>enim ad</u> minim veniam</dd>
+        <dd>
+            Ut enim ad minim veniam
+            <ol>
+                <li>
+                    <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                </li>
+                <li>Duis <u>aute irure</u> dolor</li>
+            </ol>
+        </dd>
+    <dt>The quick brown fox hxy jumps over the lazy dog hxy</dt>
+        <dd>In reprehenderit in voluptate velit esse</dd>
+        <dd>Cillum <a href="#">dolore eu fugiat</a> nulla pariatur</dd>
+        <dd>Excepteur sint occaecat cupidatat non proident</dd>
 </dl>
 
 <h6 id="figure" class="kit-marker"><div><a href="#figure"><code>figure</code></a></div></h6>
 
 <figure>
-	<a href="#"><img src="http://lorempixel.com/1200/600" width="600" alt="Li Europan lingues"></a>
-	<figcaption>
-		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-		<p>Ut enim ad minim veniam quis nostrud.</p>
-	</figcaption>
+    <a href="#"><img src="http://lorempixel.com/1200/600" width="600" alt="Li Europan lingues"></a>
+    <figcaption>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        <p>Ut enim ad minim veniam quis nostrud.</p>
+    </figcaption>
 </figure>
 
 <h6 id="small" class="kit-marker"><div><a href="#small"><code>small</code></a></div></h6>
@@ -454,9 +480,9 @@ p q r s t u v w x y z { | } ~
 <h6 id="data" class="kit-marker"><div><a href="#data"><code>data</code></a></div></h6>
 
 <ul>
-	<li><data value="1118012526">HTML5 For Dummies</data></li>
-	<li><data value="1615640843">HTML5 For Complete Idiots</data></li>
-	<li><data value="8390492029">HTML5 For Stark Raving Mad Lunatics Who Couldn't Tie A Shoelace If They Tried</data></li>
+    <li><data value="1118012526">HTML5 For Dummies</data></li>
+    <li><data value="1615640843">HTML5 For Complete Idiots</data></li>
+    <li><data value="8390492029">HTML5 For Stark Raving Mad Lunatics Who Couldn't Tie A Shoelace If They Tried</data></li>
 </ul>
 
 <h6 id="time" class="kit-marker"><div><a href="#time"><code>time</code></a></div></h6>
@@ -524,13 +550,13 @@ p q r s t u v w x y z { | } ~
 <h6 id="kbd" class="kit-marker"><div><a href="#kbd"><code>kbd</code></a></div></h6>
 
 <p>
-	<kbd>`</kbd><wbr><kbd>1</kbd><wbr><kbd>2</kbd><wbr><kbd>3</kbd><wbr><kbd>4</kbd><wbr><kbd>5</kbd><wbr><kbd>6</kbd><wbr><kbd>7</kbd><wbr><kbd>8</kbd><wbr><kbd>9</kbd><wbr><kbd>0</kbd><wbr><kbd>-</kbd><wbr><kbd>=</kbd><wbr><kbd>Bkspc</kbd>
-	<br>
-	<kbd>Tab</kbd><wbr><kbd>q</kbd><wbr><kbd>w</kbd><wbr><kbd>e</kbd><wbr><kbd>r</kbd><wbr><kbd>t</kbd><wbr><kbd>y</kbd><wbr><kbd>u</kbd><wbr><kbd>i</kbd><wbr><kbd>o</kbd><wbr><kbd>p</kbd><wbr><kbd>[</kbd><wbr><kbd>]</kbd><wbr><kbd>\</kbd>
-	<br>
-	<kbd>Caps</kbd><wbr><kbd>a</kbd><wbr><kbd>s</kbd><wbr><kbd>d</kbd><wbr><kbd>f</kbd><wbr><kbd>g</kbd><wbr><kbd>h</kbd><wbr><kbd>j</kbd><wbr><kbd>k</kbd><wbr><kbd>l</kbd><wbr><kbd>;</kbd><wbr><kbd>'</kbd><wbr><kbd>Enter</kbd>
-	<br>
-	<kbd>Shift</kbd><wbr><kbd>z</kbd><wbr><kbd>x</kbd><wbr><kbd>c</kbd><wbr><kbd>v</kbd><wbr><kbd>b</kbd><wbr><kbd>n</kbd><wbr><kbd>m</kbd><wbr><kbd>,</kbd><wbr><kbd>.</kbd><wbr><kbd>/</kbd><wbr><kbd>Shift</kbd>
+    <kbd>`</kbd><wbr><kbd>1</kbd><wbr><kbd>2</kbd><wbr><kbd>3</kbd><wbr><kbd>4</kbd><wbr><kbd>5</kbd><wbr><kbd>6</kbd><wbr><kbd>7</kbd><wbr><kbd>8</kbd><wbr><kbd>9</kbd><wbr><kbd>0</kbd><wbr><kbd>-</kbd><wbr><kbd>=</kbd><wbr><kbd>Bkspc</kbd>
+    <br>
+    <kbd>Tab</kbd><wbr><kbd>q</kbd><wbr><kbd>w</kbd><wbr><kbd>e</kbd><wbr><kbd>r</kbd><wbr><kbd>t</kbd><wbr><kbd>y</kbd><wbr><kbd>u</kbd><wbr><kbd>i</kbd><wbr><kbd>o</kbd><wbr><kbd>p</kbd><wbr><kbd>[</kbd><wbr><kbd>]</kbd><wbr><kbd>\</kbd>
+    <br>
+    <kbd>Caps</kbd><wbr><kbd>a</kbd><wbr><kbd>s</kbd><wbr><kbd>d</kbd><wbr><kbd>f</kbd><wbr><kbd>g</kbd><wbr><kbd>h</kbd><wbr><kbd>j</kbd><wbr><kbd>k</kbd><wbr><kbd>l</kbd><wbr><kbd>;</kbd><wbr><kbd>'</kbd><wbr><kbd>Enter</kbd>
+    <br>
+    <kbd>Shift</kbd><wbr><kbd>z</kbd><wbr><kbd>x</kbd><wbr><kbd>c</kbd><wbr><kbd>v</kbd><wbr><kbd>b</kbd><wbr><kbd>n</kbd><wbr><kbd>m</kbd><wbr><kbd>,</kbd><wbr><kbd>.</kbd><wbr><kbd>/</kbd><wbr><kbd>Shift</kbd>
 </p>
 
 <p>On a Windows box, refresh your browser cache by pressing <kbd>CTRL</kbd>+<kbd>F5</kbd>.</p>
@@ -650,44 +676,44 @@ p q r s t u v w x y z { | } ~
 <h6 class="kit-subtle">YouTube</h6>
 
 <figure>
-	<iframe width="560" height="315" src="//www.youtube.com/embed/videoseries?list=PLrEnWoR732-AKYdZyzAnuf-MnPiw7rT4Q" frameborder="0" allowfullscreen></iframe>
+    <iframe width="560" height="315" src="//www.youtube.com/embed/videoseries?list=PLrEnWoR732-AKYdZyzAnuf-MnPiw7rT4Q" frameborder="0" allowfullscreen></iframe>
 </figure>
 
 <h6 class="kit-subtle">Vimeo</h6>
 
 <figure>
-	<iframe width="500" height="281" src="http://player.vimeo.com/video/59777392" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+    <iframe width="500" height="281" src="http://player.vimeo.com/video/59777392" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 </figure>
 
 <h6 class="kit-subtle">Soundcloud</h6>
 
 <figure>
-	<iframe width="100%" height="166" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/119828644&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&visual=true" scrolling="no" frameborder="0" marginheight="0" marginwidth="0"></iframe>
+    <iframe width="100%" height="166" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/119828644&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&visual=true" scrolling="no" frameborder="0" marginheight="0" marginwidth="0"></iframe>
 </figure>
 
 <h6 class="kit-subtle">Google Maps</h6>
 
 <figure>
-	<iframe width="100%" height="500" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3168.6392855357303!2d-122.084058!3d37.42199999999999!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x6c296c66619367e0!2sGoogleplex!5e0!3m2!1sen!2sus!4v1404610929601" frameborder="0" style="border:0"></iframe>
-	<figcaption>
-		<p>The Googleplex is the corporate headquarters complex of Google, Inc., located at 1600 Amphitheatre Parkway in Mountain View, Santa Clara County, California, United States, near San Jose.</p>
-	</figcaption>
+    <iframe width="100%" height="500" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3168.6392855357303!2d-122.084058!3d37.42199999999999!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x6c296c66619367e0!2sGoogleplex!5e0!3m2!1sen!2sus!4v1404610929601" frameborder="0" style="border:0"></iframe>
+    <figcaption>
+        <p>The Googleplex is the corporate headquarters complex of Google, Inc., located at 1600 Amphitheatre Parkway in Mountain View, Santa Clara County, California, United States, near San Jose.</p>
+    </figcaption>
 </figure>
 
 <h6 class="kit-subtle">Twitter</h6>
 
 <p>
-	<a
-		class="twitter-timeline"
-		href="https://twitter.com/twitter"
-		data-widget-id="412449818275901440"
-		data-screen-name="twitter"
-		width="100%"
-		height="650px"
-	>
-		Tweets by @twitter
-	</a>
-	<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+    <a
+        class="twitter-timeline"
+        href="https://twitter.com/twitter"
+        data-widget-id="412449818275901440"
+        data-screen-name="twitter"
+        width="100%"
+        height="650px"
+    >
+        Tweets by @twitter
+    </a>
+    <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
 </p>
 
 <!-- ##### <embed> ##### -->
@@ -695,32 +721,32 @@ p q r s t u v w x y z { | } ~
 <h6 id="object-param" class="kit-marker"><div><a href="#object-param"><code>object</code> + <code>param</code></a></div></h6>
 
 <object type="application/x-shockwave-flash" data="media/flash.swf" width="793" height="170">
-	<param name="movie" value="media/flash.swf">
-	<param name="allowscriptaccess" value="always">
-	<param name="menu" value="false">
-	<param name="quality" value="high">
-	<param name="flashvars" value="">
-	<param name="base" value="">
-	<p><a href="http://www.adobe.com/go/getflash"><img src="http://wwwimages.adobe.com/www.adobe.com/content/dam/Adobe/en/legal/logo/160x41_get_flashplayer.gif" alt="Get Adobe Flash player"/></a></p>
+    <param name="movie" value="media/flash.swf">
+    <param name="allowscriptaccess" value="always">
+    <param name="menu" value="false">
+    <param name="quality" value="high">
+    <param name="flashvars" value="">
+    <param name="base" value="">
+    <p><a href="http://www.adobe.com/go/getflash"><img src="http://wwwimages.adobe.com/www.adobe.com/content/dam/Adobe/en/legal/logo/160x41_get_flashplayer.gif" alt="Get Adobe Flash player"/></a></p>
 </object>
 
 <h6 id="video" class="kit-marker"><div><a href="#video"><code>video</code></a></div></h6>
 
 <figure>
-	<video poster="media/video.png" width="640" height="360" preload="none" controls>
-		<source src="./media/video.webm" type="video/webm">
-		<source src="./media/video.ogv" type="video/ogg">
-		<source src="./media/video.mp4" type="video/mp4">
-	</video>
+    <video poster="media/video.png" width="640" height="360" preload="none" controls>
+        <source src="./media/video.webm" type="video/webm">
+        <source src="./media/video.ogv" type="video/ogg">
+        <source src="./media/video.mp4" type="video/mp4">
+    </video>
 </figure>
 
 <h6 id="audio" class="kit-marker"><div><a href="#audio"><code>audio</code></a></div></h6>
 
 <figure>
-	<audio preload="none" controls>
-		<source src="./media/audio.ogg" type="audio/ogg">
-		<source src="./media/audio.mp3" type="audio/mpeg">
-	</audio>
+    <audio preload="none" controls>
+        <source src="./media/audio.ogg" type="audio/ogg">
+        <source src="./media/audio.mp3" type="audio/mpeg">
+    </audio>
 </figure>
 
 <!-- ##### <source> ##### -->
@@ -740,970 +766,875 @@ p q r s t u v w x y z { | } ~
 <h6 id="table-children" class="kit-marker"><div><a href="#table-children"><code>table</code> + children</a></div></h6>
 
 <table>
-	<caption>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</caption>
-	<thead>
-		<tr>
-			<th scope="col">First hxy one</th>
-			<th scope="col">Second two</th>
-			<th scope="col">Third three</th>
-			<th scope="col">Fourth four</th>
-		</tr>
-	</thead>
-	<tfoot>
-		<tr>
-			<td colspan="2">Lorem ipsum dolor sit amet.</td>
-			<td>Footer content 2</td>
-			<td>Footer content 3</td>
-		</tr>
-	</tfoot>
-	<tbody>
-		<tr>
-			<th scope="row">Primary first</th>
-			<td>Secondary second</td>
-			<td>Tertiary third</td>
-			<td>Quaternary fourth</td>
-		</tr>
-		<tr>
-			<th scope="row">Primary first</th>
-			<td>Secondary second</td>
-			<td>Tertiary third</td>
-			<td>Quaternary fourth</td>
-		</tr>
-		<tr>
-			<th scope="row">Primary first</th>
-			<td>Secondary second</td>
-			<td>Tertiary third</td>
-			<td>Quaternary fourth</td>
-		</tr>
-	</tbody>
+    <caption>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</caption>
+    <thead>
+        <tr>
+            <th scope="col">First hxy one</th>
+            <th scope="col">Second two</th>
+            <th scope="col">Third three</th>
+            <th scope="col">Fourth four</th>
+        </tr>
+    </thead>
+    <tfoot>
+        <tr>
+            <td colspan="2">Lorem ipsum dolor sit amet.</td>
+            <td>Footer content 2</td>
+            <td>Footer content 3</td>
+        </tr>
+    </tfoot>
+    <tbody>
+        <tr>
+            <th scope="row">Primary first</th>
+            <td>Secondary second</td>
+            <td>Tertiary third</td>
+            <td>Quaternary fourth</td>
+        </tr>
+        <tr>
+            <th scope="row">Primary first</th>
+            <td>Secondary second</td>
+            <td>Tertiary third</td>
+            <td>Quaternary fourth</td>
+        </tr>
+        <tr>
+            <th scope="row">Primary first</th>
+            <td>Secondary second</td>
+            <td>Tertiary third</td>
+            <td>Quaternary fourth</td>
+        </tr>
+    </tbody>
 </table>
 
 <table>
-	<caption>The quick brown fox hxy jumps over the lazy dog hxy and the quick brown fox hxy jumps over the lazy dog hxy and the quick brown fox hxy jumps over the lazy dog hxy.</caption>
-	<thead>
-		<tr>
-			<th scope="col">Name</th>
-			<th scope="col">Email</th>
-			<th scope="col">Dept, Title</th>
-			<th scope="col">Phone</th>
-		</tr>
-	</thead>
-	<tbody>
-		<tr class="vcard">
-			<th scope="row" class="n" data-title="Name">
-				<b class="family-name">Smith</b>,
-				<b class="given-name">Laura</b>
-			</th>
-			<td data-title="Email">
-				<a class="email" href="mailto:laura.smith@domain.com">laura.smith@domain.com</a>
-			</td>
-			<td data-title="Dept, Title">
-				Biology, Director
-			</td>
-			<td class="tel" data-title="Phone">
-				<a href="tel:+1123456789">123-456-7892</a>
-			</td>
-		</tr>
-		<tr class="vcard">
-			<th scope="row" class="n" data-title="Name">
-				<b class="family-name">Johnson</b>,
-				<b class="given-name">Ron</b>
-			</th>
-			<td data-title="Email">
-				<a class="email" href="mailto:ron.johnson@domain.com">ron.johnson@domain.com</a>
-			</td>
-			<td data-title="Dept, Title">
-				Purchasing, Director
-			</td>
-			<td class="tel" data-title="Phone">
-				<a href="tel:+11234567891">123-456-7891</a>
-			</td>
-		</tr>
-		<tr class="vcard">
-			<th scope="row" class="n" data-title="Name">
-				<b class="family-name">Johnson</b>,
-				<b class="given-name">Billy</b>
-			</th>
-			<td data-title="Email">
-				<a class="email" href="mailto:laura.smith@domain.com">billy.johnson@domain.com</a>
-			</td>
-			<td data-title="Dept, Title">
-				Business, Director
-			</td>
-			<td class="tel" data-title="Phone">
-				<a href="tel:+1123456789">123-456-7893</a>
-			</td>
-		</tr>
-	</tbody>
+    <caption>The quick brown fox hxy jumps over the lazy dog hxy and the quick brown fox hxy jumps over the lazy dog hxy and the quick brown fox hxy jumps over the lazy dog hxy.</caption>
+    <thead>
+        <tr>
+            <th scope="col">Name</th>
+            <th scope="col">Email</th>
+            <th scope="col">Dept, Title</th>
+            <th scope="col">Phone</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr class="vcard">
+            <th scope="row" class="n" data-title="Name">
+                <b class="family-name">Smith</b>,
+                <b class="given-name">Laura</b>
+            </th>
+            <td data-title="Email">
+                <a class="email" href="mailto:laura.smith@domain.com">laura.smith@domain.com</a>
+            </td>
+            <td data-title="Dept, Title">
+                Biology, Director
+            </td>
+            <td class="tel" data-title="Phone">
+                <a href="tel:+1123456789">123-456-7892</a>
+            </td>
+        </tr>
+        <tr class="vcard">
+            <th scope="row" class="n" data-title="Name">
+                <b class="family-name">Johnson</b>,
+                <b class="given-name">Ron</b>
+            </th>
+            <td data-title="Email">
+                <a class="email" href="mailto:ron.johnson@domain.com">ron.johnson@domain.com</a>
+            </td>
+            <td data-title="Dept, Title">
+                Purchasing, Director
+            </td>
+            <td class="tel" data-title="Phone">
+                <a href="tel:+11234567891">123-456-7891</a>
+            </td>
+        </tr>
+        <tr class="vcard">
+            <th scope="row" class="n" data-title="Name">
+                <b class="family-name">Johnson</b>,
+                <b class="given-name">Billy</b>
+            </th>
+            <td data-title="Email">
+                <a class="email" href="mailto:laura.smith@domain.com">billy.johnson@domain.com</a>
+            </td>
+            <td data-title="Dept, Title">
+                Business, Director
+            </td>
+            <td class="tel" data-title="Phone">
+                <a href="tel:+1123456789">123-456-7893</a>
+            </td>
+        </tr>
+    </tbody>
 </table>
 
 <table>
-	<tr>
-		<th>Header 1</th>
-		<th>Header 2</th>
-		<th>Header 3</th>
-		<th>Header 4</th>
-		<th>Header 5</th>
-		<th>Header 6</th>
-		<th>Header 7</th>
-		<th>Header 8</th>
-	</tr>
-	<tr>
-		<td>row1_cell1</td>
-		<td>row1_cell2</td>
-		<td>row1_cell3</td>
-		<td>row1_cell4</td>
-		<td>row1_cell5</td>
-		<td>row1_cell6</td>
-		<td>row1_cell7</td>
-		<td>row1_cell8</td>
-	</tr>
-	<tr>
-		<td>row2_cell1</td>
-		<td>row2_cell2</td>
-		<td>row2_cell3</td>
-		<td>row2_cell4</td>
-		<td>row2_cell5</td>
-		<td>row2_cell6</td>
-		<td>row2_cell7</td>
-		<td>row2_cell8</td>
-	</tr>
-	<tr>
-		<td>row3_cell1</td>
-		<td>row3_cell2</td>
-		<td>row3_cell3</td>
-		<td>row3_cell4</td>
-		<td>row3_cell5</td>
-		<td>row3_cell6</td>
-		<td>row3_cell7</td>
-		<td>row3_cell8</td>
-	</tr>
-	<tr>
-		<td>row4_cell1</td>
-		<td>row4_cell2</td>
-		<td>row4_cell3</td>
-		<td>row4_cell4</td>
-		<td>row4_cell5</td>
-		<td>row4_cell6</td>
-		<td>row4_cell7</td>
-		<td>row4_cell8</td>
-	</tr>
-	<tr>
-		<td>row5_cell1</td>
-		<td>row5_cell2</td>
-		<td>row5_cell3</td>
-		<td>row5_cell4</td>
-		<td>row5_cell5</td>
-		<td>row5_cell6</td>
-		<td>row5_cell7</td>
-		<td>row5_cell8</td>
-	</tr>
+    <tr>
+        <th>Header 1</th>
+        <th>Header 2</th>
+        <th>Header 3</th>
+        <th>Header 4</th>
+        <th>Header 5</th>
+        <th>Header 6</th>
+        <th>Header 7</th>
+        <th>Header 8</th>
+    </tr>
+    <tr>
+        <td>row1_cell1</td>
+        <td>row1_cell2</td>
+        <td>row1_cell3</td>
+        <td>row1_cell4</td>
+        <td>row1_cell5</td>
+        <td>row1_cell6</td>
+        <td>row1_cell7</td>
+        <td>row1_cell8</td>
+    </tr>
+    <tr>
+        <td>row2_cell1</td>
+        <td>row2_cell2</td>
+        <td>row2_cell3</td>
+        <td>row2_cell4</td>
+        <td>row2_cell5</td>
+        <td>row2_cell6</td>
+        <td>row2_cell7</td>
+        <td>row2_cell8</td>
+    </tr>
+    <tr>
+        <td>row3_cell1</td>
+        <td>row3_cell2</td>
+        <td>row3_cell3</td>
+        <td>row3_cell4</td>
+        <td>row3_cell5</td>
+        <td>row3_cell6</td>
+        <td>row3_cell7</td>
+        <td>row3_cell8</td>
+    </tr>
+    <tr>
+        <td>row4_cell1</td>
+        <td>row4_cell2</td>
+        <td>row4_cell3</td>
+        <td>row4_cell4</td>
+        <td>row4_cell5</td>
+        <td>row4_cell6</td>
+        <td>row4_cell7</td>
+        <td>row4_cell8</td>
+    </tr>
+    <tr>
+        <td>row5_cell1</td>
+        <td>row5_cell2</td>
+        <td>row5_cell3</td>
+        <td>row5_cell4</td>
+        <td>row5_cell5</td>
+        <td>row5_cell6</td>
+        <td>row5_cell7</td>
+        <td>row5_cell8</td>
+    </tr>
 </table>
 
 <table summary="Provide a more detailed description of the table than is suitable for the caption element.">
-	<caption>The quick brown fox hxy jumps over the lazy dog hxy.</caption>
-	<thead>
-		<tr>
-			<th scope="col">Lorem</th>
-			<th scope="col">Ipsum</th>
-			<th scope="col">Dolor</th>
-			<th scope="col">Sit</th>
-			<th scope="col">Amet</th>
-			<th scope="col">Consectetur</th>
-		</tr>
-	</thead>
-	<tfoot>
-		<tr>
-			<th scope="col" colspan="6">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</th>
-		</tr>
-	</tfoot>
-	<tbody>
-		<tr>
-			<td scope="row">Lorem ipsum</td>
-			<td>Foo</td>
-			<td>Bar</td>
-			<td>Baz</td>
-			<td>Bar</td>
-			<td>Foo</td>
-		</tr>
-		<tr>
-			<td scope="row">Lorem ipsum</td>
-			<td>Foo</td>
-			<td>Bar</td>
-			<td>Baz</td>
-			<td>Bar</td>
-			<td>Foo</td>
-		</tr>
-		<tr>
-			<th scope="col" colspan="6">Lorem ipsum dolor sit amet.</th>
-		</tr>
-		<tr>
-			<td scope="row">Lorem ipsum</td>
-			<td>Foo</td>
-			<td>Bar</td>
-			<td>Baz</td>
-			<td>Bar</td>
-			<td>Foo</td>
-		</tr>
-		<tr>
-			<td scope="row">Lorem ipsum</td>
-			<td>Foo</td>
-			<td>Bar</td>
-			<td>Baz</td>
-			<td>Bar</td>
-			<td>Foo</td>
-		</tr>
-		<tr>
-			<td scope="row">Lorem ipsum</td>
-			<td>Foo</td>
-			<td>Bar</td>
-			<td>Baz</td>
-			<td>Bar</td>
-			<td>Foo</td>
-		</tr>
-		<tr>
-			<th scope="col" colspan="6">Lorem ipsum dolor sit amet.</th>
-		</tr>
-		<tr>
-			<td scope="row">Lorem ipsum</td>
-			<td>Foo</td>
-			<td>Bar</td>
-			<td>Baz</td>
-			<td>Bar</td>
-			<td>Foo</td>
-		</tr>
-	</tbody>
+    <caption>The quick brown fox hxy jumps over the lazy dog hxy.</caption>
+    <thead>
+        <tr>
+            <th scope="col">Lorem</th>
+            <th scope="col">Ipsum</th>
+            <th scope="col">Dolor</th>
+            <th scope="col">Sit</th>
+            <th scope="col">Amet</th>
+            <th scope="col">Consectetur</th>
+        </tr>
+    </thead>
+    <tfoot>
+        <tr>
+            <th scope="col" colspan="6">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</th>
+        </tr>
+    </tfoot>
+    <tbody>
+        <tr>
+            <td scope="row">Lorem ipsum</td>
+            <td>Foo</td>
+            <td>Bar</td>
+            <td>Baz</td>
+            <td>Bar</td>
+            <td>Foo</td>
+        </tr>
+        <tr>
+            <td scope="row">Lorem ipsum</td>
+            <td>Foo</td>
+            <td>Bar</td>
+            <td>Baz</td>
+            <td>Bar</td>
+            <td>Foo</td>
+        </tr>
+        <tr>
+            <th scope="col" colspan="6">Lorem ipsum dolor sit amet.</th>
+        </tr>
+        <tr>
+            <td scope="row">Lorem ipsum</td>
+            <td>Foo</td>
+            <td>Bar</td>
+            <td>Baz</td>
+            <td>Bar</td>
+            <td>Foo</td>
+        </tr>
+        <tr>
+            <td scope="row">Lorem ipsum</td>
+            <td>Foo</td>
+            <td>Bar</td>
+            <td>Baz</td>
+            <td>Bar</td>
+            <td>Foo</td>
+        </tr>
+        <tr>
+            <td scope="row">Lorem ipsum</td>
+            <td>Foo</td>
+            <td>Bar</td>
+            <td>Baz</td>
+            <td>Bar</td>
+            <td>Foo</td>
+        </tr>
+        <tr>
+            <th scope="col" colspan="6">Lorem ipsum dolor sit amet.</th>
+        </tr>
+        <tr>
+            <td scope="row">Lorem ipsum</td>
+            <td>Foo</td>
+            <td>Bar</td>
+            <td>Baz</td>
+            <td>Bar</td>
+            <td>Foo</td>
+        </tr>
+    </tbody>
 </table>
 
 <p>Simple <code>table</code>:</p>
 
 <table>
-	<tr>
-		<td>John</td>
-		<td>Doe</td>
-	</tr>
-	<tr>
-		<td>Jane</td>
-		<td>Doe</td>
-	</tr>
+    <tr>
+        <td>John</td>
+        <td>Doe</td>
+    </tr>
+    <tr>
+        <td>Jane</td>
+        <td>Doe</td>
+    </tr>
 </table>
 
 <p>Simple <code>table</code> with header:</p>
 
 <table>
-	<tr>
-		<th>First name</th>
-		<th>Last name</th>
-	</tr>
-	<tr>
-		<td>John</td>
-		<td>Doe</td>
-	</tr>
-	<tr>
-		<td>Jane</td>
-		<td>Doe</td>
-	</tr>
+    <tr>
+        <th>First name</th>
+        <th>Last name</th>
+    </tr>
+    <tr>
+        <td>John</td>
+        <td>Doe</td>
+    </tr>
+    <tr>
+        <td>Jane</td>
+        <td>Doe</td>
+    </tr>
 </table>
 
 <p>A <code>table</code> with <code>thead</code>, <code>tfoot</code>, and <code>tbody</code></p>
 
 <table>
-	<thead>
-		<tr>
-			<th>Header content 1</th>
-			<th>Header content 2</th>
-		</tr>
-	</thead>
-	<tfoot>
-		<tr>
-			<td>Footer content 1</td>
-			<td>Footer content 2</td>
-		</tr>
-	</tfoot>
-	<tbody>
-		<tr>
-			<td>Body content 1</td>
-			<td>Body content 2</td>
-		</tr>
-	</tbody>
+    <thead>
+        <tr>
+            <th>Header content 1</th>
+            <th>Header content 2</th>
+        </tr>
+    </thead>
+    <tfoot>
+        <tr>
+            <td>Footer content 1</td>
+            <td>Footer content 2</td>
+        </tr>
+    </tfoot>
+    <tbody>
+        <tr>
+            <td>Body content 1</td>
+            <td>Body content 2</td>
+        </tr>
+    </tbody>
 </table>
 
 <p>A <code>table</code> with <code>colgroup</code>:</p>
 
 <table>
-	<colgroup span="4"></colgroup>
-	<tr>
-		<th>Countries</th>
-		<th>Capitals</th>
-		<th>Population</th>
-		<th>Language</th>
-	</tr>
-	<tr>
-		<td>USA</td>
-		<td>Washington D.C.</td>
-		<td>309 million</td>
-		<td>English</td>
-	</tr>
-	<tr>
-		<td>Sweden</td>
-		<td>Stockholm</td>
-		<td>9 million</td>
-		<td>Swedish</td>
-	</tr>
+    <colgroup span="4"></colgroup>
+    <tr>
+        <th>Countries</th>
+        <th>Capitals</th>
+        <th>Population</th>
+        <th>Language</th>
+    </tr>
+    <tr>
+        <td>USA</td>
+        <td>Washington D.C.</td>
+        <td>309 million</td>
+        <td>English</td>
+    </tr>
+    <tr>
+        <td>Sweden</td>
+        <td>Stockholm</td>
+        <td>9 million</td>
+        <td>Swedish</td>
+    </tr>
 </table>
 
 <p>A <code>table</code> with <code>colgroup</code> and <code>col</code>:</p>
 
 <table>
-	<colgroup>
-		<col>
-		<col span="2">
-	</colgroup>
-	<tr>
-		<th>Lime</th>
-		<th>Lemon</th>
-		<th>Orange</th>
-	</tr>
-	<tr>
-		<td>Green</td>
-		<td>Yellow</td>
-		<td>Orange</td>
-	</tr>
+    <colgroup>
+        <col>
+        <col span="2">
+    </colgroup>
+    <tr>
+        <th>Lime</th>
+        <th>Lemon</th>
+        <th>Orange</th>
+    </tr>
+    <tr>
+        <td>Green</td>
+        <td>Yellow</td>
+        <td>Orange</td>
+    </tr>
 </table>
 
 <table>
-	<tbody>
-		<tr>
-			<th></th>
-			<th colspan="3">Chrome</th>
-			<th>Firefox</th>
-			<th colspan="3">Safari</th>
-			<th>Opera</th>
-			<th>IE</th>
-		</tr>
-		<tr>
-			<th></th>
-			<th>9-11</th>
-			<th>15</th>
-			<th>20-23</th>
-			<th>4-17</th>
-			<th>3.1 </th>
-			<th>5</th>
-			<th>5.1</th>
-			<th>11</th>
-			<th>10</th>
-		</tr>
-		<tr>
-			<th></th>
-			<th>Win 7</th>
-			<th>Win 7</th>
-			<th>Win 7</th>
-			<th>Win 7</th>
-			<th>Win XP<br/>& OS X</th>
-			<th>Win XP<br/>& OS X</th>
-			<th>Win 7</th>
-			<th>Win 7</th>
-			<th>Win 8</th>
-		</tr>
-		<tr>
-			<td>background-color</td>
-			<td>U</td>
-			<td>S</td>
-			<td>S</td>
-			<td>S</td>
-			<td>U</td>
-			<td>S</td>
-			<td>U</td>
-			<td>U</td>
-			<td>S</td>
-		</tr>
-		<tr>
-			<td>border</td>
-			<td>U</td>
-			<td>S</td>
-			<td>S</td>
-			<td>S</td>
-			<td>U</td>
-			<td>S</td>
-			<td>U</td>
-			<td>U</td>
-			<td>S</td>
-		</tr>
-		<tr>
-			<td>color</td>
-			<td>S</td>
-			<td>S</td>
-			<td>S</td>
-			<td>S</td>
-			<td>U</td>
-			<td>S</td>
-			<td>S</td>
-			<td>U</td>
-			<td>S</td>
-		</tr>
-		<tr>
-			<td>font-size</td>
-			<td>S</td>
-			<td>S</td>
-			<td>S</td>
-			<td>S</td>
-			<td>U</td>
-			<td>S</td>
-			<td>S</td>
-			<td>U</td>
-			<td>S</td>
-		</tr>
-		<tr>
-			<td>font-style</td>
-			<td>S</td>
-			<td>S</td>
-			<td>S</td>
-			<td>S</td>
-			<td>U</td>
-			<td>S</td>
-			<td>S</td>
-			<td>U</td>
-			<td>S</td>
-		</tr>
-		<tr>
-			<td>font-weight</td>
-			<td>S</td>
-			<td>S</td>
-			<td>S</td>
-			<td>S</td>
-			<td>U</td>
-			<td>S</td>
-			<td>S</td>
-			<td>U</td>
-			<td>S</td>
-		</tr>
-		<tr>
-			<td>letter-spacing</td>
-			<td>S</td>
-			<td>S</td>
-			<td>S</td>
-			<td>S</td>
-			<td>U</td>
-			<td>S</td>
-			<td>S</td>
-			<td>U</td>
-			<td>S</td>
-		</tr>
-		<tr>
-			<td>line-height</td>
-			<td>U</td>
-			<td>U</td>
-			<td>S</td>
-			<td>U</td>
-			<td>U</td>
-			<td>U</td>
-			<td>U</td>
-			<td>U</td>
-			<td>S</td>
-		</tr>
-		<tr>
-			<td>padding top/bottom</td>
-			<td>U</td>
-			<td>S</td>
-			<td>S</td>
-			<td>S</td>
-			<td>U</td>
-			<td>S</td>
-			<td>U</td>
-			<td>U</td>
-			<td>S</td>
-		</tr>
-		<tr>
-			<td>padding left/right</td>
-			<td>U</td>
-			<td>U</td>
-			<td>U</td>
-			<td>S</td>
-			<td>U</td>
-			<td>U</td>
-			<td>U</td>
-			<td>U</td>
-			<td>S</td>
-		</tr>
-		<tr>
-			<td>text-align</td>
-			<td>U</td>
-			<td>S</td>
-			<td>S</td>
-			<td>S</td>
-			<td>U</td>
-			<td>U</td>
-			<td>U</td>
-			<td>U</td>
-			<td>S</td>
-		</tr>
-		<tr>
-			<td>text-decoration</td>
-			<td>U</td>
-			<td>S</td>
-			<td>S</td>
-			<td>S</td>
-			<td>U</td>
-			<td>S</td>
-			<td>U</td>
-			<td>U</td>
-			<td>S</td>
-		</tr>
-		<tr>
-			<td>text-transform</td>
-			<td>U</td>
-			<td>S</td>
-			<td>S</td>
-			<td>S</td>
-			<td>U</td>
-			<td>S</td>
-			<td>U</td>
-			<td>U</td>
-			<td>S</td>
-		</tr>
-	</tbody>
+    <tbody>
+        <tr>
+            <th></th>
+            <th colspan="3">Chrome</th>
+            <th>Firefox</th>
+            <th colspan="3">Safari</th>
+            <th>Opera</th>
+            <th>IE</th>
+        </tr>
+        <tr>
+            <th></th>
+            <th>9-11</th>
+            <th>15</th>
+            <th>20-23</th>
+            <th>4-17</th>
+            <th>3.1 </th>
+            <th>5</th>
+            <th>5.1</th>
+            <th>11</th>
+            <th>10</th>
+        </tr>
+        <tr>
+            <th></th>
+            <th>Win 7</th>
+            <th>Win 7</th>
+            <th>Win 7</th>
+            <th>Win 7</th>
+            <th>Win XP<br/>& OS X</th>
+            <th>Win XP<br/>& OS X</th>
+            <th>Win 7</th>
+            <th>Win 7</th>
+            <th>Win 8</th>
+        </tr>
+        <tr>
+            <td>background-color</td>
+            <td>U</td>
+            <td>S</td>
+            <td>S</td>
+            <td>S</td>
+            <td>U</td>
+            <td>S</td>
+            <td>U</td>
+            <td>U</td>
+            <td>S</td>
+        </tr>
+        <tr>
+            <td>border</td>
+            <td>U</td>
+            <td>S</td>
+            <td>S</td>
+            <td>S</td>
+            <td>U</td>
+            <td>S</td>
+            <td>U</td>
+            <td>U</td>
+            <td>S</td>
+        </tr>
+        <tr>
+            <td>color</td>
+            <td>S</td>
+            <td>S</td>
+            <td>S</td>
+            <td>S</td>
+            <td>U</td>
+            <td>S</td>
+            <td>S</td>
+            <td>U</td>
+            <td>S</td>
+        </tr>
+        <tr>
+            <td>font-size</td>
+            <td>S</td>
+            <td>S</td>
+            <td>S</td>
+            <td>S</td>
+            <td>U</td>
+            <td>S</td>
+            <td>S</td>
+            <td>U</td>
+            <td>S</td>
+        </tr>
+        <tr>
+            <td>font-style</td>
+            <td>S</td>
+            <td>S</td>
+            <td>S</td>
+            <td>S</td>
+            <td>U</td>
+            <td>S</td>
+            <td>S</td>
+            <td>U</td>
+            <td>S</td>
+        </tr>
+        <tr>
+            <td>font-weight</td>
+            <td>S</td>
+            <td>S</td>
+            <td>S</td>
+            <td>S</td>
+            <td>U</td>
+            <td>S</td>
+            <td>S</td>
+            <td>U</td>
+            <td>S</td>
+        </tr>
+        <tr>
+            <td>letter-spacing</td>
+            <td>S</td>
+            <td>S</td>
+            <td>S</td>
+            <td>S</td>
+            <td>U</td>
+            <td>S</td>
+            <td>S</td>
+            <td>U</td>
+            <td>S</td>
+        </tr>
+        <tr>
+            <td>line-height</td>
+            <td>U</td>
+            <td>U</td>
+            <td>S</td>
+            <td>U</td>
+            <td>U</td>
+            <td>U</td>
+            <td>U</td>
+            <td>U</td>
+            <td>S</td>
+        </tr>
+        <tr>
+            <td>padding top/bottom</td>
+            <td>U</td>
+            <td>S</td>
+            <td>S</td>
+            <td>S</td>
+            <td>U</td>
+            <td>S</td>
+            <td>U</td>
+            <td>U</td>
+            <td>S</td>
+        </tr>
+        <tr>
+            <td>padding left/right</td>
+            <td>U</td>
+            <td>U</td>
+            <td>U</td>
+            <td>S</td>
+            <td>U</td>
+            <td>U</td>
+            <td>U</td>
+            <td>U</td>
+            <td>S</td>
+        </tr>
+        <tr>
+            <td>text-align</td>
+            <td>U</td>
+            <td>S</td>
+            <td>S</td>
+            <td>S</td>
+            <td>U</td>
+            <td>U</td>
+            <td>U</td>
+            <td>U</td>
+            <td>S</td>
+        </tr>
+        <tr>
+            <td>text-decoration</td>
+            <td>U</td>
+            <td>S</td>
+            <td>S</td>
+            <td>S</td>
+            <td>U</td>
+            <td>S</td>
+            <td>U</td>
+            <td>U</td>
+            <td>S</td>
+        </tr>
+        <tr>
+            <td>text-transform</td>
+            <td>U</td>
+            <td>S</td>
+            <td>S</td>
+            <td>S</td>
+            <td>U</td>
+            <td>S</td>
+            <td>U</td>
+            <td>U</td>
+            <td>S</td>
+        </tr>
+    </tbody>
 </table>
 
 <h6 id="form-children" class="kit-marker"><div><a href="#form-children"><code>form</code> + children</a></div></h6>
 
 <form class="form" method="get" action="http://www.google.com/search" role="search">
-	
-	<input type="hidden" name="sitesearch" value="github.com">
-	
-	<label>
-		<span class="off">Search:</span>
-		<input type="search" name="q" placeholder="Search …" autocomplete="on">
-	</label>
-	
-</form>
+            <input type="hidden" name="sitesearch" value="github.com">
+            <label>
+        <span class="off">Search:</span>
+        <input type="search" name="q" placeholder="Search …" autocomplete="on">
+    </label>
+        </form>
 
 <form class="form" id="fm" name="fm" action="" method="post">
-	
-	<input type="hidden" name="fm_hidden" value="hidden">
-	
-	<fieldset>
-		
-		<legend>The quick brown fox hxy The quick brown fox hxy The quick brown fox hxy The quick brown fox hxy The quick brown fox hxy The quick brown fox hxy The quick brown fox hxy The quick brown fox hxy</legend>
-		
-		<p><code>&lt;fieldset&gt;</code> & <code>&lt;legend&gt;</code> elements only &#8593;</p>
-		
-	</fieldset>
-	
-	<fieldset>
-		
-		<legend>The quick brown fox hxy The quick brown fox hxy</legend>
-		
-		<p><code>&lt;input&gt;</code> element types:</p>
-		
-		<div>
-			<label for="fm_input-button">Button</label>
-			<input type="button" id="fm_input-button" name="input-button" value="button" onclick="return false;">
-		</div>
-		
-		<div>
-			<input type="checkbox" id="fm_input-checkbox-1" name="input-checkbox[]" value="checkbox">&nbsp;<label for="fm_input-checkbox-1">Checkbox</label>
-			<input type="checkbox" id="fm_input-checkbox-2" name="input-checkbox[]" value="checkbox">&nbsp;<label for="fm_input-checkbox-2">Checkbox</label>
-			<input type="checkbox" id="fm_input-checkbox-3" name="input-checkbox[]" value="checkbox">&nbsp;<label for="fm_input-checkbox-3">Checkbox</label>
-			<input type="checkbox" id="fm_input-checkbox-4" name="input-checkbox[]" value="checkbox">&nbsp;<label for="fm_input-checkbox-4">Checkbox</label>
-			<input type="checkbox" id="fm_input-checkbox-5" name="input-checkbox[]" value="checkbox">&nbsp;<label for="fm_input-checkbox-5">Checkbox</label>
-		</div>
-		
-		<div>
-			<label><input type="checkbox" name="fm_checkbox[]" value="checkbox"> Checkbox</label>
-			<label><input type="checkbox" name="fm_checkbox[]" value="checkbox"> Checkbox</label>
-			<label><input type="checkbox" name="fm_checkbox[]" value="checkbox"> Checkbox</label>
-			<label><input type="checkbox" name="fm_checkbox[]" value="checkbox"> Checkbox</label>
-			<label><input type="checkbox" name="fm_checkbox[]" value="checkbox"> Checkbox</label>
-		</div>
-		
-		<div>
-			<label for="fm_input-color">Color</label>
-			<input type="color" id="fm_input-color" name="input-color">
-		</div>
-		
-		<div>
-			<label for="fm_input-date">Date</label>
-			<input type="date" id="fm_input-date" name="input-date">
-		</div>
-		
-		<div>
-			<label for="fm_input-datetime">Datetime</label>
-			<input type="datetime" id="fm_input-datetime" name="input-datetime">
-		</div>
-		
-		<div>
-			<label for="fm_input-datetime-local">Datetime-local</label>
-			<input type="datetime-local" id="fm_input-datetime-local" name="input-datetime-local">
-		</div>
-		
-		<div>
-			<label for="fm_input-email">Email</label>
-			<input type="email" id="fm_input-email" name="input-email">
-		</div>
-		
-		<div>
-			<label for="fm_input-file">File</label>
-			<input type="file" id="fm_input-file" name="input-file">
-		</div>
-		
-		<div>
-			<label>File: <input type="file" name="fm_file" placeholder="Choose file …"></label>
-		</div>
-		
-		<div>
-			<label for="fm_input-hidden">Hidden</label>
-			<input type="hidden" id="fm_input-hidden" name="input-hidden" value="hidden">
-		</div>
-		
-		<div>
-			<label for="fm_input-image">Image</label>
-			<input type="image" id="fm_input-image" name="input-image" src="http://lorempixel.com/100/16" alt="Example image input type." width="100" height="16">
-		</div>
-		
-		<div>
-			<label for="fm_input-month">Month</label>
-			<input type="month" id="fm_input-month" name="input-month">
-		</div>
-		
-		<div>
-			<label for="fm_input-number">Number</label>
-			<input type="number" id="fm_input-number" name="input-number" min="5" max="18" step="0.5" value="9">
-		</div>
-		
-		<div>
-			<label for="fm_input-password">Password</label>
-			<input type="password" id="fm_input-password" name="input-password">
-		</div>
-		
-		<div>
-			<label>Password: <input type="password" name="fm_password" placeholder="Enter password …"></label>
-		</div>
-		
-		<div>
-			<input type="radio" id="fm_input-radio-1" name="input-radio" value="radio">&nbsp;<label for="fm_input-radio-1">Radio</label>
-			<input type="radio" id="fm_input-radio-2" name="input-radio" value="radio">&nbsp;<label for="fm_input-radio-2">Radio</label>
-			<input type="radio" id="fm_input-radio-3" name="input-radio" value="radio">&nbsp;<label for="fm_input-radio-3">Radio</label>
-			<input type="radio" id="fm_input-radio-4" name="input-radio" value="radio">&nbsp;<label for="fm_input-radio-4">Radio</label>
-			<input type="radio" id="fm_input-radio-5" name="input-radio" value="radio">&nbsp;<label for="fm_input-radio-5">Radio</label>
-		</div>
-		
-		<div>
-			<label><input type="radio" name="fm_radio" value="radio">&nbsp;Radio</label>
-			<label><input type="radio" name="fm_radio" value="radio">&nbsp;Radio</label>
-			<label><input type="radio" name="fm_radio" value="radio">&nbsp;Radio</label>
-			<label><input type="radio" name="fm_radio" value="radio">&nbsp;Radio</label>
-			<label><input type="radio" name="fm_radio" value="radio">&nbsp;Radio</label>
-		</div>
-		
-		<div>
-			<label for="fm_input-range">Range</label>
-			<input type="range" id="fm_input-range" name="input-range" min="1" max="100" value="0">
-		</div>
-		
-		<div>
-			<label for="fm_input-reset">Reset</label>
-			<input type="reset" id="fm_input-reset" name="input-reset" value="Reset">
-		</div>
-		
-		<div>
-			<label for="fm_input-search">Search</label>
-			<input type="search" id="fm_input-search" name="input-search" placeholder="Search &hellip;">
-		</div>
-		
-		<div>
-			<label for="fm_input-submit">Submit</label>
-			<input type="submit" id="fm_input-submit" name="input-submit" value="Submit">
-		</div>
-		
-		<div>
-			<label for="fm_input-tel">Tel</label>
-			<input type="tel" id="fm_input-tel" name="input-tel" pattern="\(\d\d\d\) ?\d\d\d-\d\d\d\d" title="Phone Number (Format: (###) ###-####)" placeholder="(###) ###-####">
-		</div>
-		
-		<div>
-			<label for="fm_input-default">Default</label>
-			<input id="fm_input-default" name="input-default">
-		</div>
-		
-		<div>
-			<label for="fm_input-text-1">Text</label>
-			<input type="text" id="fm_input-text-1" name="input-text-1">
-		</div>
-		
-		<div>
-			<label for="fm_input-text-1">Text</label>
-			<input type="text" id="fm_input-text-1" name="input-text-1" disabled>
-		</div>
-		
-		<div>
-			<label for="fm_input-text-1">Text</label>
-			<input type="text" id="fm_input-text-1" name="input-text-1" readonly>
-		</div>
-		
-		<div>
-			<label>Text: <input type="text" name="fm_text-1" placeholder="Text …"></label>
-		</div>
-		
-		<div>
-			<label>Text: <input type="text" name="fm_text-2" placeholder="Text …" disabled></label>
-		</div>
-		
-		<div>
-			<label>Text: <input type="text" name="fm_text-3" placeholder="Text …" value="Read only …" readonly></label>
-		</div>
-		
-		<div>
-			<label for="fm_input-time">Time</label>
-			<input type="time" id="fm_input-time" name="input-time">
-		</div>
-		
-		<div>
-			<label for="fm_input-url">URL</label>
-			<input type="url" id="fm_input-url" name="input-url">
-		</div>
-		
-		<div>
-			<label for="fm_input-week">Week</label>
-			<input type="week" id="fm_input-week" name="input-week">
-		</div>
-		
-	</fieldset>
-	
-	<fieldset>
-		
-		<legend>The quick brown fox hxy The quick brown fox hxy</legend>
-		
-		<p><code>&lt;textarea&gt;</code> element:</p>
-		
-		<div>
-			<label for="fm_input-textarea-1">Text area:</label>
-			<textarea id="fm_input-textarea-1" name="textarea-1"></textarea>
-		</div>
-		
-		<div>
-			<label for="fm_input-textarea-2">Text area:</label>
-			<textarea id="fm_input-textarea-2" name="textarea-2" disabled></textarea>
-		</div>
-		
-		<div>
-			<label for="fm_input-textarea-2">Text area:</label>
-			<textarea id="fm_input-textarea-2" name="textarea-2" readonly></textarea>
-		</div>
-		
-		<div>
-			<label>Text area: <textarea name="fm_textarea-1"></textarea></label>
-		</div>
-		
-		<div>
-			<label>Text area: <textarea name="fm_textarea-2" disabled></textarea></label>
-		</div>
-		
-		<div>
-			<label>Text area: <textarea name="fm_textarea-3" readonly>Read only …</textarea></label>
-		</div>
-		
-	</fieldset>
-	
-	<fieldset>
-		
-		<legend>The quick brown fox hxy The quick brown fox hxy</legend>
-		
-		<p><code>&lt;select&gt;</code></p>
-		
-		<div>
-			<label for="fm_select-1">Select</label>
-			<select id="fm_select-1" name="select-1">
-				<option value="value1">Value 1</option>
-				<option value="value2" selected>Value 2</option>
-				<option value="value3">Value 3</option>
-			</select>
-		</div>
-		
-		<div>
-			<label for="fm_select-2">Select</label>
-			<select id="fm_select-2" name="select-2">
-				<optgroup label="Group 1">
-					<option>Option 1.1</option>
-				</optgroup>
-				<optgroup label="Group 2">
-					<option>Option 2.1</option>
-					<option>Option 2.2</option>
-				</optgroup>
-				<optgroup label="Group 3" disabled>
-					<option>Option 3.1</option>
-					<option>Option 3.2</option>
-					<option>Option 3.3</option>
-				</optgroup>
-			</select>
-		</div>
-		
-		<div>
-			<label for="fm_select-3">Select</label>
-			<select id="fm_select-3" name="select-3">
-				<optgroup label="Cats">
-					<option>Tiger</option>
-					<option>Leopard</option>
-					<option>Lynx</option>
-				</optgroup>
-				<optgroup label="Dogs">
-					<option>Grey Wolf</option>
-					<option>Red Fox</option>
-					<option>Fennec</option>
-				</optgroup>
-			</select>
-		</div>
-		
-		<div>
-			<label for="fm_select-4">Select</label>
-			<select id="fm_select-4" name="select-4">
-				<option value ="sydney">Sydney</option>
-				<option value ="melbourne">Melbourne</option>
-				<option value ="cromwell" selected>Cromwell</option>
-				<option value ="queenstown">Queenstown</option>
-			</select>
-		</div>
-		
-		<div>
-			<label for="fm_select-5">Select</label>
-			<select id="fm_select-5" name="select-5">
-				<optgroup label="PortMaster 3">
-					<option label="3.7.1" value="pm3_3.7.1">PortMaster 3 with ComOS 3.7.1</option>
-					<option label="3.7" value="pm3_3.7">PortMaster 3 with ComOS 3.7</option>
-					<option label="3.5" value="pm3_3.5">PortMaster 3 with ComOS 3.5</option>
-				</optgroup>
-				<optgroup label="PortMaster 2">
-					<option label="3.7" value="pm2_3.7">PortMaster 2 with ComOS 3.7</option>
-					<option label="3.5" value="pm2_3.5">PortMaster 2 with ComOS 3.5</option>
-				</optgroup>
-				<optgroup label="IRX">
-					<option label="3.7R" value="IRX_3.7R">IRX with ComOS 3.7R</option>
-					<option label="3.5R" value="IRX_3.5R">IRX with ComOS 3.5R</option>
-				</optgroup>
-			</select>
-		</div>
-		
-		<div>
-			<label>
-				Select:
-				<select name="fm_select">
-					<optgroup label="Group 1">
-						<option value="Option 1.1">Option 1.1</option>
-					</optgroup>
-					<optgroup label="Group 2">
-						<option value="Option 2.1">Option 2.1</option>
-						<option value="Option 2.2">Option 2.2</option>
-					</optgroup>
-					<optgroup label="Group 3" disabled>
-						<option value="Option 3.1">Option 3.1</option>
-						<option value="Option 3.2">Option 3.2</option>
-						<option value="Option 3.3">Option 3.3</option>
-					</optgroup>
-				</select>
-			</label>
-		</div>
-		
-	</fieldset>
-	
-	<fieldset>
-		
-		<legend>The quick brown fox hxy The quick brown fox hxy</legend>
-		
-		<p><code>&lt;button&gt;</code> element:</p>
-		
-		<div>
-			<button type="button" name="button-button">Button</button>
-		</div>
-		
-		<div>
-			<button type="reset" name="button-reset">Reset</button>
-		</div>
-		
-		<div>
-			<button type="submit" name="button-submit">Submit</button>
-		</div>
-		
-	</fieldset>
-	
-	<fieldset>
-		
-		<legend>The quick brown fox hxy The quick brown fox hxy</legend>
-		
-		<p><code>&lt;datalist&gt;</code> element:</p>
-		
-		<div>
-			<label for="fm_datalist-1">Select your preferred code editor</label>
-			<input type="text" id="fm_datalist-1" name="datalist-1" list="fm_ide" placeholder="Type editor name &hellip;">
-			<datalist id="fm_ide">
-				<option value="Brackets">
-				<option value="Coda">
-				<option value="Dreamweaver">
-				<option value="Espresso">
-				<option value="jEdit">
-				<option value="Komodo Edit">
-				<option value="Notepad++">
-				<option value="Sublime Text 2">
-				<option value="Taco HTML Edit">
-				<option value="Textmate">
-				<option value="Text Pad">
-				<option value="TextWrangler">
-				<option value="Visual Studio">
-				<option value="VIM">
-				<option value="XCode">
-			</datalist>
-		</div>
-		
-		<div>
-			<label for="fm_datalist-2">Choose a browser</label>
-			<input type="text" id="fm_datalist-2" name="datalist-2" list="fm_browsers" placeholder="Type browser name &hellip;">
-			<datalist id="fm_browsers">
-				<option value="Chrome">
-				<option value="Firefox">
-				<option value="Internet Explorer">
-				<option value="Opera">
-				<option value="Safari">
-			</datalist>
-		</div>
-		
-	</fieldset>
-	
-	<fieldset>
-		
-		<legend>The quick brown fox hxy The quick brown fox hxy</legend>
-		
-		<p><code>meter</code> element:</p>
-		
-		<p><meter value="0.5">Moderate activity,</meter> Usenet, 618 subscribers</p>
-		<p><meter value="0.25">Low activity,</meter> Usenet, 22 subscribers</p>
-		
-	</fieldset>
-	
-	<fieldset>
-		
-		<legend>The quick brown fox hxy The quick brown fox hxy</legend>
-		
-		<p><code>progress</code> element:</p>
-		
-		<progress></progress>
-		
-	</fieldset>
-	
-</form>
+            <input type="hidden" name="fm_hidden" value="hidden">
+            <fieldset>
+                    <legend>The quick brown fox hxy The quick brown fox hxy The quick brown fox hxy The quick brown fox hxy The quick brown fox hxy The quick brown fox hxy The quick brown fox hxy The quick brown fox hxy</legend>
+                    <p><code>&lt;fieldset&gt;</code> & <code>&lt;legend&gt;</code> elements only &#8593;</p>
+                </fieldset>
+            <fieldset>
+                    <legend>The quick brown fox hxy The quick brown fox hxy</legend>
+                    <p><code>&lt;input&gt;</code> element types:</p>
+                    <div>
+            <label for="fm_input-button">Button</label>
+            <input type="button" id="fm_input-button" name="input-button" value="button" onclick="return false;">
+        </div>
+                    <div>
+            <input type="checkbox" id="fm_input-checkbox-1" name="input-checkbox[]" value="checkbox">&nbsp;<label for="fm_input-checkbox-1">Checkbox</label>
+            <input type="checkbox" id="fm_input-checkbox-2" name="input-checkbox[]" value="checkbox">&nbsp;<label for="fm_input-checkbox-2">Checkbox</label>
+            <input type="checkbox" id="fm_input-checkbox-3" name="input-checkbox[]" value="checkbox">&nbsp;<label for="fm_input-checkbox-3">Checkbox</label>
+            <input type="checkbox" id="fm_input-checkbox-4" name="input-checkbox[]" value="checkbox">&nbsp;<label for="fm_input-checkbox-4">Checkbox</label>
+            <input type="checkbox" id="fm_input-checkbox-5" name="input-checkbox[]" value="checkbox">&nbsp;<label for="fm_input-checkbox-5">Checkbox</label>
+        </div>
+                    <div>
+            <label><input type="checkbox" name="fm_checkbox[]" value="checkbox"> Checkbox</label>
+            <label><input type="checkbox" name="fm_checkbox[]" value="checkbox"> Checkbox</label>
+            <label><input type="checkbox" name="fm_checkbox[]" value="checkbox"> Checkbox</label>
+            <label><input type="checkbox" name="fm_checkbox[]" value="checkbox"> Checkbox</label>
+            <label><input type="checkbox" name="fm_checkbox[]" value="checkbox"> Checkbox</label>
+        </div>
+                    <div>
+            <label for="fm_input-color">Color</label>
+            <input type="color" id="fm_input-color" name="input-color">
+        </div>
+                    <div>
+            <label for="fm_input-date">Date</label>
+            <input type="date" id="fm_input-date" name="input-date">
+        </div>
+                    <div>
+            <label for="fm_input-datetime">Datetime</label>
+            <input type="datetime" id="fm_input-datetime" name="input-datetime">
+        </div>
+                    <div>
+            <label for="fm_input-datetime-local">Datetime-local</label>
+            <input type="datetime-local" id="fm_input-datetime-local" name="input-datetime-local">
+        </div>
+                    <div>
+            <label for="fm_input-email">Email</label>
+            <input type="email" id="fm_input-email" name="input-email">
+        </div>
+                    <div>
+            <label for="fm_input-file">File</label>
+            <input type="file" id="fm_input-file" name="input-file">
+        </div>
+                    <div>
+            <label>File: <input type="file" name="fm_file" placeholder="Choose file …"></label>
+        </div>
+                    <div>
+            <label for="fm_input-hidden">Hidden</label>
+            <input type="hidden" id="fm_input-hidden" name="input-hidden" value="hidden">
+        </div>
+                    <div>
+            <label for="fm_input-image">Image</label>
+            <input type="image" id="fm_input-image" name="input-image" src="http://lorempixel.com/100/16" alt="Example image input type." width="100" height="16">
+        </div>
+                    <div>
+            <label for="fm_input-month">Month</label>
+            <input type="month" id="fm_input-month" name="input-month">
+        </div>
+                    <div>
+            <label for="fm_input-number">Number</label>
+            <input type="number" id="fm_input-number" name="input-number" min="5" max="18" step="0.5" value="9">
+        </div>
+                    <div>
+            <label for="fm_input-password">Password</label>
+            <input type="password" id="fm_input-password" name="input-password">
+        </div>
+                    <div>
+            <label>Password: <input type="password" name="fm_password" placeholder="Enter password …"></label>
+        </div>
+                    <div>
+            <input type="radio" id="fm_input-radio-1" name="input-radio" value="radio">&nbsp;<label for="fm_input-radio-1">Radio</label>
+            <input type="radio" id="fm_input-radio-2" name="input-radio" value="radio">&nbsp;<label for="fm_input-radio-2">Radio</label>
+            <input type="radio" id="fm_input-radio-3" name="input-radio" value="radio">&nbsp;<label for="fm_input-radio-3">Radio</label>
+            <input type="radio" id="fm_input-radio-4" name="input-radio" value="radio">&nbsp;<label for="fm_input-radio-4">Radio</label>
+            <input type="radio" id="fm_input-radio-5" name="input-radio" value="radio">&nbsp;<label for="fm_input-radio-5">Radio</label>
+        </div>
+                    <div>
+            <label><input type="radio" name="fm_radio" value="radio">&nbsp;Radio</label>
+            <label><input type="radio" name="fm_radio" value="radio">&nbsp;Radio</label>
+            <label><input type="radio" name="fm_radio" value="radio">&nbsp;Radio</label>
+            <label><input type="radio" name="fm_radio" value="radio">&nbsp;Radio</label>
+            <label><input type="radio" name="fm_radio" value="radio">&nbsp;Radio</label>
+        </div>
+                    <div>
+            <label for="fm_input-range">Range</label>
+            <input type="range" id="fm_input-range" name="input-range" min="1" max="100" value="0">
+        </div>
+                    <div>
+            <label for="fm_input-reset">Reset</label>
+            <input type="reset" id="fm_input-reset" name="input-reset" value="Reset">
+        </div>
+                    <div>
+            <label for="fm_input-search">Search</label>
+            <input type="search" id="fm_input-search" name="input-search" placeholder="Search &hellip;">
+        </div>
+                    <div>
+            <label for="fm_input-submit">Submit</label>
+            <input type="submit" id="fm_input-submit" name="input-submit" value="Submit">
+        </div>
+                    <div>
+            <label for="fm_input-tel">Tel</label>
+            <input type="tel" id="fm_input-tel" name="input-tel" pattern="\(\d\d\d\) ?\d\d\d-\d\d\d\d" title="Phone Number (Format: (###) ###-####)" placeholder="(###) ###-####">
+        </div>
+                    <div>
+            <label for="fm_input-default">Default</label>
+            <input id="fm_input-default" name="input-default">
+        </div>
+                    <div>
+            <label for="fm_input-text-1">Text</label>
+            <input type="text" id="fm_input-text-1" name="input-text-1">
+        </div>
+                    <div>
+            <label for="fm_input-text-1">Text</label>
+            <input type="text" id="fm_input-text-1" name="input-text-1" disabled>
+        </div>
+                    <div>
+            <label for="fm_input-text-1">Text</label>
+            <input type="text" id="fm_input-text-1" name="input-text-1" readonly>
+        </div>
+                    <div>
+            <label>Text: <input type="text" name="fm_text-1" placeholder="Text …"></label>
+        </div>
+                    <div>
+            <label>Text: <input type="text" name="fm_text-2" placeholder="Text …" disabled></label>
+        </div>
+                    <div>
+            <label>Text: <input type="text" name="fm_text-3" placeholder="Text …" value="Read only …" readonly></label>
+        </div>
+                    <div>
+            <label for="fm_input-time">Time</label>
+            <input type="time" id="fm_input-time" name="input-time">
+        </div>
+                    <div>
+            <label for="fm_input-url">URL</label>
+            <input type="url" id="fm_input-url" name="input-url">
+        </div>
+                    <div>
+            <label for="fm_input-week">Week</label>
+            <input type="week" id="fm_input-week" name="input-week">
+        </div>
+                </fieldset>
+            <fieldset>
+                    <legend>The quick brown fox hxy The quick brown fox hxy</legend>
+                    <p><code>&lt;textarea&gt;</code> element:</p>
+                    <div>
+            <label for="fm_input-textarea-1">Text area:</label>
+            <textarea id="fm_input-textarea-1" name="textarea-1"></textarea>
+        </div>
+                    <div>
+            <label for="fm_input-textarea-2">Text area:</label>
+            <textarea id="fm_input-textarea-2" name="textarea-2" disabled></textarea>
+        </div>
+                    <div>
+            <label for="fm_input-textarea-2">Text area:</label>
+            <textarea id="fm_input-textarea-2" name="textarea-2" readonly></textarea>
+        </div>
+                    <div>
+            <label>Text area: <textarea name="fm_textarea-1"></textarea></label>
+        </div>
+                    <div>
+            <label>Text area: <textarea name="fm_textarea-2" disabled></textarea></label>
+        </div>
+                    <div>
+            <label>Text area: <textarea name="fm_textarea-3" readonly>Read only …</textarea></label>
+        </div>
+                </fieldset>
+            <fieldset>
+                    <legend>The quick brown fox hxy The quick brown fox hxy</legend>
+                    <p><code>&lt;select&gt;</code></p>
+                    <div>
+            <label for="fm_select-1">Select</label>
+            <select id="fm_select-1" name="select-1">
+                <option value="value1">Value 1</option>
+                <option value="value2" selected>Value 2</option>
+                <option value="value3">Value 3</option>
+            </select>
+        </div>
+                    <div>
+            <label for="fm_select-2">Select</label>
+            <select id="fm_select-2" name="select-2">
+                <optgroup label="Group 1">
+                    <option>Option 1.1</option>
+                </optgroup>
+                <optgroup label="Group 2">
+                    <option>Option 2.1</option>
+                    <option>Option 2.2</option>
+                </optgroup>
+                <optgroup label="Group 3" disabled>
+                    <option>Option 3.1</option>
+                    <option>Option 3.2</option>
+                    <option>Option 3.3</option>
+                </optgroup>
+            </select>
+        </div>
+                    <div>
+            <label for="fm_select-3">Select</label>
+            <select id="fm_select-3" name="select-3">
+                <optgroup label="Cats">
+                    <option>Tiger</option>
+                    <option>Leopard</option>
+                    <option>Lynx</option>
+                </optgroup>
+                <optgroup label="Dogs">
+                    <option>Grey Wolf</option>
+                    <option>Red Fox</option>
+                    <option>Fennec</option>
+                </optgroup>
+            </select>
+        </div>
+                    <div>
+            <label for="fm_select-4">Select</label>
+            <select id="fm_select-4" name="select-4">
+                <option value ="sydney">Sydney</option>
+                <option value ="melbourne">Melbourne</option>
+                <option value ="cromwell" selected>Cromwell</option>
+                <option value ="queenstown">Queenstown</option>
+            </select>
+        </div>
+                    <div>
+            <label for="fm_select-5">Select</label>
+            <select id="fm_select-5" name="select-5">
+                <optgroup label="PortMaster 3">
+                    <option label="3.7.1" value="pm3_3.7.1">PortMaster 3 with ComOS 3.7.1</option>
+                    <option label="3.7" value="pm3_3.7">PortMaster 3 with ComOS 3.7</option>
+                    <option label="3.5" value="pm3_3.5">PortMaster 3 with ComOS 3.5</option>
+                </optgroup>
+                <optgroup label="PortMaster 2">
+                    <option label="3.7" value="pm2_3.7">PortMaster 2 with ComOS 3.7</option>
+                    <option label="3.5" value="pm2_3.5">PortMaster 2 with ComOS 3.5</option>
+                </optgroup>
+                <optgroup label="IRX">
+                    <option label="3.7R" value="IRX_3.7R">IRX with ComOS 3.7R</option>
+                    <option label="3.5R" value="IRX_3.5R">IRX with ComOS 3.5R</option>
+                </optgroup>
+            </select>
+        </div>
+                    <div>
+            <label>
+                Select:
+                <select name="fm_select">
+                    <optgroup label="Group 1">
+                        <option value="Option 1.1">Option 1.1</option>
+                    </optgroup>
+                    <optgroup label="Group 2">
+                        <option value="Option 2.1">Option 2.1</option>
+                        <option value="Option 2.2">Option 2.2</option>
+                    </optgroup>
+                    <optgroup label="Group 3" disabled>
+                        <option value="Option 3.1">Option 3.1</option>
+                        <option value="Option 3.2">Option 3.2</option>
+                        <option value="Option 3.3">Option 3.3</option>
+                    </optgroup>
+                </select>
+            </label>
+        </div>
+                </fieldset>
+            <fieldset>
+                    <legend>The quick brown fox hxy The quick brown fox hxy</legend>
+                    <p><code>&lt;button&gt;</code> element:</p>
+                    <div>
+            <button type="button" name="button-button">Button</button>
+        </div>
+                    <div>
+            <button type="reset" name="button-reset">Reset</button>
+        </div>
+                    <div>
+            <button type="submit" name="button-submit">Submit</button>
+        </div>
+                </fieldset>
+            <fieldset>
+                    <legend>The quick brown fox hxy The quick brown fox hxy</legend>
+                    <p><code>&lt;datalist&gt;</code> element:</p>
+                    <div>
+            <label for="fm_datalist-1">Select your preferred code editor</label>
+            <input type="text" id="fm_datalist-1" name="datalist-1" list="fm_ide" placeholder="Type editor name &hellip;">
+            <datalist id="fm_ide">
+                <option value="Brackets">
+                <option value="Coda">
+                <option value="Dreamweaver">
+                <option value="Espresso">
+                <option value="jEdit">
+                <option value="Komodo Edit">
+                <option value="Notepad++">
+                <option value="Sublime Text 2">
+                <option value="Taco HTML Edit">
+                <option value="Textmate">
+                <option value="Text Pad">
+                <option value="TextWrangler">
+                <option value="Visual Studio">
+                <option value="VIM">
+                <option value="XCode">
+            </datalist>
+        </div>
+                    <div>
+            <label for="fm_datalist-2">Choose a browser</label>
+            <input type="text" id="fm_datalist-2" name="datalist-2" list="fm_browsers" placeholder="Type browser name &hellip;">
+            <datalist id="fm_browsers">
+                <option value="Chrome">
+                <option value="Firefox">
+                <option value="Internet Explorer">
+                <option value="Opera">
+                <option value="Safari">
+            </datalist>
+        </div>
+                </fieldset>
+            <fieldset>
+                    <legend>The quick brown fox hxy The quick brown fox hxy</legend>
+                    <p><code>meter</code> element:</p>
+                    <p><meter value="0.5">Moderate activity,</meter> Usenet, 618 subscribers</p>
+        <p><meter value="0.25">Low activity,</meter> Usenet, 22 subscribers</p>
+                </fieldset>
+            <fieldset>
+                    <legend>The quick brown fox hxy The quick brown fox hxy</legend>
+                    <p><code>progress</code> element:</p>
+                    <progress></progress>
+                </fieldset>
+        </form>
 
 <form onsubmit="return false" oninput="o.value = parseInt(a.value) + parseInt(b.value)">
-	
-	<fieldset>
-		
-		<legend>The quick brown fox hxy The quick brown fox hxy</legend>
-		
-		<p><code>&lt;output&gt;</code> element:</p>
-		
-		<div>
-			<input type="number" id="a" name="a" step="any"> + <input type="number" id="b" name="b" step="any"> = <output for="a b" name="o"></output>
-		</div>
-		
-	</fieldset>
-	
-</form>
+            <fieldset>
+                    <legend>The quick brown fox hxy The quick brown fox hxy</legend>
+                    <p><code>&lt;output&gt;</code> element:</p>
+                    <div>
+            <input type="number" id="a" name="a" step="any"> + <input type="number" id="b" name="b" step="any"> = <output for="a b" name="o"></output>
+        </div>
+                </fieldset>
+        </form>
 
 </body>
 </html>
