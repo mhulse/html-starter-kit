@@ -9,6 +9,42 @@
 /*--------------------------------------------------------------------*/
 /* DEMO ONLY */
 
+/*
+
+Conversions based on `16px` browser default size:
+
+ `6px` = `37.5%`
+ `7px` = `43.8%`
+ `8px` = `50.0%`
+ `9px` = `56.3%`
+`10px` = `62.5%`
+`11px` = `68.8%`
+`12px` = `75.0%`
+`13px` = `81.3%`
+`14px` = `87.5%`
+`15px` = `93.8%`
+`16px` = `100.0%`
+
+*/
+
+html {
+    font-size: 62.5%; /* Root font size of `10px`. */
+}
+@media (min-width: 48em) { /* ≥ 480px */
+    html {
+        font-size: 75.0%; /* `12px` */
+    }
+}
+@media screen and (min-width: 120em) { /* ≥ 1920px */
+    html {
+        font-size: 87.5%; /* `14px` */
+    }
+}
+body {
+    /* `16px` base font size: */
+    font: 400 1.6rem/1.4 Roboto, Arial, sans-serif; /* Use `em` if you want the property to scale according to its font size and `rem` for everything else. */
+    /* Weights: 100 thin, 300 light, 400 normal, 500 medium, 700 bold, 900 ultra-bold */
+}
 body {
     font-family: arial, sans-serif;
 }
